@@ -14,9 +14,12 @@ namespace WordsWithinWords
 
         public WordList WordListEnglish => this.WordList.FirstOrDefault(e => e.Language == Language.English);
         public WordLists()
-        {            
+        {
+
+            var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+
          //   WordList.Add(new WordList("C:\\temp\\Words\\WordsWithinWords\\WordsWithinWords\\norsk.txt", Language.Norwegian));
-            WordList.Add(new WordList("C:\\temp\\Words\\WordsWithinWords\\WordsWithinWords\\words_alpha.txt", Language.English));
+            WordList.Add(new WordList(Path.Combine(baseDir,"words_alpha.txt"), Language.English));
        }
     }
 
