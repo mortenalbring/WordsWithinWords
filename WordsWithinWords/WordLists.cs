@@ -10,17 +10,37 @@ namespace WordsWithinWords
 {
     public class WordLists
     {
+        public HashSet<string> TotalHashSet { get; set; }
+
         public List<WordList> WordList = new List<WordList>();
 
         public WordList WordListEnglish => this.WordList.FirstOrDefault(e => e.Language == Language.English);
         public WordLists()
         {
 
+
+            
+
             var baseDir = AppDomain.CurrentDomain.BaseDirectory;
 
          //   WordList.Add(new WordList("C:\\temp\\Words\\WordsWithinWords\\WordsWithinWords\\norsk.txt", Language.Norwegian));
             WordList.Add(new WordList(Path.Combine(baseDir,"words_alpha.txt"), Language.English));
-       }
+            WordList.Add(new WordList(Path.Combine(baseDir, "norsk.txt"), Language.Norwegian));
+
+            var totalHs = new HashSet<string>();
+            foreach(var wl in WordList)
+            {
+                foreach(var hs in wl.WordSet)
+                {
+                    if (!totalHs.Contains(hs))
+                    {
+                        totalHs.Add(hs);
+                    }
+                }
+            }
+
+            TotalHashSet = totalHs;
+        }
     }
 
     public class WordList

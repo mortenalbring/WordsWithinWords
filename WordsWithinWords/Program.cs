@@ -17,6 +17,10 @@ namespace WordsWithinWords
          
             var wordLists = new WordLists();
 
+
+            var analyser2 = new Analyser(wordLists, AnalysisType.WordsWithinWordsRecursive);
+            analyser2.Start();
+
             foreach (var w in wordLists.WordList)
             {
                 var analyser = new Analyser(w, AnalysisType.WordsWithinWordsRecursive);

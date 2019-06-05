@@ -19,9 +19,19 @@ namespace WordsWithinWords
 
         private List<WordWithinWord> _wordWithinWords = new List<WordWithinWord>();
         
-        
+        private WordLists WordLists { get; set; }
 
+        public Analyser(WordLists wordLists, AnalysisType analysisType)
+        {
+            AnalysisType = analysisType;
 
+            OutputPath = "all" + analysisType + ".txt";
+
+            WordSet = wordLists.TotalHashSet;
+
+            WordLists = wordLists;
+
+        }
 
         public Analyser(WordList wordList, AnalysisType analysisType)
         {
@@ -80,7 +90,7 @@ namespace WordsWithinWords
 
                 //  FindWordsWithAllWords(word);
                 //FindWordsSwapped(word, hs, bestWordsDictionary);
-                //   FindWordsAlphabetical(word, hs, bestWordsDictionary);
+                   //FindWordsAlphabetical(word, hs, bestWordsDictionary);
 
                 Progress.OutputTimeRemaining(index, WordSet.Count, sw);
             }
@@ -117,8 +127,7 @@ namespace WordsWithinWords
         private void DoRecursiveWords(Stopwatch sw)
         {
 
-            WordNodesAndEdges.Build(this._wordWithinWords);
-
+          
 
             var wdict = new Dictionary<string, WordWithinWord>();
             foreach (var w in this._wordWithinWords)
@@ -148,6 +157,9 @@ namespace WordsWithinWords
                 Progress.OutputTimeRemaining(i, wdict.Count, sw);
             }
 
+
+            WordNodesAndEdges.Build(this._wordWithinWords,this.WordLists);
+
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
 
             foreach (var word in wdepthList)
@@ -157,14 +169,9 @@ namespace WordsWithinWords
                 Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
             }
 
-         
 
-            foreach (var w in wdepthList)
-            {
-                Console.WriteLine(w.Output);
-                Console.WriteLine(w.WordsWithinWordsRecursive.Count);
-                Console.WriteLine(w.Depth);
-            }
+
+            Console.WriteLine("Done");
         }
 
         private static List<string> GetWordChain(WordWithinWord mostDeepWord)

@@ -14,12 +14,12 @@ namespace WordsWithinWords
     public class WordNodesAndEdges
     {
 
-        public static void Build(List<WordWithinWord> wordWithinWords)
+        public static void Build(List<WordWithinWord> wordWithinWords, WordLists wordLists)
         {
             var sw = new Stopwatch();
             sw.Start();
             var edges = new List<WordEdge>();
-            wordWithinWords = wordWithinWords.OrderByDescending(e => e.Depth).Take(1000).ToList();
+            wordWithinWords = wordWithinWords.OrderByDescending(e => e.Depth).Take(200).ToList();
 
             var nodeDict = new Dictionary<string,WordNode>();
             for (var i = 0; i < wordWithinWords.Count; i++)
@@ -28,14 +28,23 @@ namespace WordsWithinWords
               
                 var node = GetNode(nodeDict, word.Word);
 
-                foreach (var subWord in word.WordsWithinWord)
+                foreach (var subWord in word.WordsWithinWord.Distinct())
                 {
                     var subnode = GetNode(nodeDict, subWord);
+                    if (subnode.ID == 645)
+                    {
+                        var zz = 42;
+                    }
+                   
                     var edge = new WordEdge();
                     edge.StartNode = node.ID;
                     edge.EndNode = subnode.ID;
 
-                    var exists = edges.Any(e => e.StartNode == edge.StartNode && e.EndNode == edge.EndNode);
+                    var exists = edges.Any(e => (e.StartNode == edge.StartNode && e.EndNode == edge.EndNode));
+                    if (exists)
+                    {
+                        var zz = 42;
+                    }
                     if (!exists)
                     {
                         edges.Add(edge);
@@ -53,7 +62,24 @@ namespace WordsWithinWords
             foreach (var node in nodeDict)
             {
                 index++;
-                var str = "{ ID: " + node.Value.ID + ", Name:\"" + node.Value.Name + "\"}, \n";
+
+                var languages = new List<Language>();
+                languages.Add(Language.English);
+
+                if (wordLists != null)
+                {
+                    languages = new List<Language>();
+                    foreach (var wl in wordLists.WordList)
+                    {
+                        if (wl.WordSet.Contains(node.Key))
+                        {
+                            languages.Add(wl.Language);
+                        }
+                    }
+                    
+                }
+
+                var str = "{ ID: " + node.Value.ID + ", Name:\"" + node.Value.Name + "\", Languages: \"" + string.Join(",", languages) + "\"}, \n";
                 File.AppendAllText(outputFile, str);                
                 Progress.OutputTimeRemaining(index, nodeDict.Count, sw,"Writing nodes");
             }
