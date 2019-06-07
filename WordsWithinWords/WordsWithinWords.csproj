@@ -54,7 +54,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Progress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WordLists.cs" />
+    <Compile Include="Dictionaries.cs" />
     <Compile Include="WordNodes.cs" />
     <Compile Include="WordsWithinWords.cs" />
     <Compile Include="WordWithinWord.cs" />
@@ -63,10 +63,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dictionaries\dansk.txt" />
+    <Content Include="Dictionaries\deutsch.txt" />
+    <Content Include="Dictionaries\francais.txt" />
     <Content Include="Dictionaries\norsk.txt" />
+    <Content Include="Dictionaries\swiss.txt" />
     <Content Include="words.txt" />
     <Content Include="Dictionaries\words_alpha.txt" />
     <Content Include="words_scrabble.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Output\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,14 +6,19 @@ using System.Text;
 
 namespace WordsWithinWords
 {
-    public class WordLists
+    public class Dictionaries
     {
         public HashSet<string> TotalHashSet { get; set; }
 
         public List<WordList> WordList = new List<WordList>();
 
         public WordList WordListEnglish => this.WordList.FirstOrDefault(e => e.Language == Language.English);
-        public WordLists()
+
+        public string ProjectDirectory { get; set; }
+
+        public string OutputDirectory { get; set; }
+
+        public Dictionaries()
         {
 
             string workingDirectory = Environment.CurrentDirectory;
@@ -23,8 +28,15 @@ namespace WordsWithinWords
             // This will get the current PROJECT directory
             string baseDir = Directory.GetParent(workingDirectory).Parent.FullName;
 
+            ProjectDirectory = baseDir;
+
+            OutputDirectory = Path.Combine(ProjectDirectory, "Output");
+
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english.txt"), Language.English));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "norsk.txt"), Language.Norwegian));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "dansk.txt"), Language.Danish));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "deutsch.txt"), Language.German));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "swiss.txt"), Language.Swiss));
 
             var totalHs = new HashSet<string>();
             foreach (var wl in WordList)
@@ -69,6 +81,9 @@ namespace WordsWithinWords
     {
         English,
         Norwegian,
+        Danish,
+        German,
+        Swiss,
         CombineAll
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,10 @@ namespace WordsWithinWords
 {
     public class AnalyserWordWithinWord : Analyser, IAnalyser
     {
-        public AnalyserWordWithinWord(WordLists wordLists, Language language) : base(wordLists, AnalysisType.WordsWithinWords, language)
+        private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
+
+
+        public AnalyserWordWithinWord(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.WordsWithinWords, language)
         {
             
         }

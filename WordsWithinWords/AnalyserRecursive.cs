@@ -9,15 +9,16 @@ namespace WordsWithinWords
 {
     public class AnalyserRecursive : Analyser, IAnalyser
     {
-        public AnalyserRecursive(WordLists wordLists, Language language) : base(wordLists, AnalysisType.WordsWithinWordsRecursive, language)
+        private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
+
+        public AnalyserRecursive(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.WordsWithinWordsRecursive, language)
         {
 
         }
 
         public new void Start()
         {
-            var sw = new Stopwatch();
-            sw.Start();
+            Sw.Start();
 
 
             var index = 0;
@@ -31,14 +32,14 @@ namespace WordsWithinWords
 
                 var wwr = new WordWithinWord(word, WordSet);
                 this.WordWithinWords.Add(wwr);
-                Progress.OutputTimeRemaining(index, WordSet.Count, sw);
+                Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
             }
 
 
-            sw.Stop();
-            sw.Restart();
+            Sw.Stop();
+            Sw.Restart();
 
-            DoRecursiveWords(sw);
+            DoRecursiveWords();
 
 
             Console.WriteLine($"Writing output {OutputPath}");
@@ -58,10 +59,8 @@ namespace WordsWithinWords
             Console.WriteLine($"Done writing output {OutputPath}");
         }
 
-        private void DoRecursiveWords(Stopwatch sw)
+        private void DoRecursiveWords()
         {
-
-
 
             var wdict = new Dictionary<string, WordWithinWord>();
             foreach (var w in this.WordWithinWords)
@@ -88,17 +87,19 @@ namespace WordsWithinWords
 
                 i++;
 
-                Progress.OutputTimeRemaining(i, wdict.Count, sw);
+                Progress.OutputTimeRemaining(i, wdict.Count, Sw);
             }
 
 
-            WordNodesAndEdges.Build(this.WordWithinWords, this.WordLists);
+            WordNodesAndEdges.Build(this.WordWithinWords, this.Dictionaries);
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
 
             foreach (var word in wdepthList)
             {
                 var wordChain = word.GetWordChain();
+
+                    //todo write to file
 
                 Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
             }

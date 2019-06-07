@@ -6,7 +6,7 @@ namespace WordsWithinWords
 {
     public class AnalyserSwapper : Analyser, IAnalyser
     {
-        public AnalyserSwapper(WordLists wordLists, Language language) : base(wordLists, AnalysisType.SwappedLetters, language)
+        public AnalyserSwapper(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.SwappedLetters, language)
         {
             
         }

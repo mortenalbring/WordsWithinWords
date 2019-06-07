@@ -6,7 +6,7 @@ namespace WordsWithinWords
 {
     public class AnalyserAlphabetical : Analyser, IAnalyser
     {
-        public AnalyserAlphabetical(WordLists wordLists, Language language) : base(wordLists, AnalysisType.Alphabetical, language)
+        public AnalyserAlphabetical(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.Alphabetical, language)
         {
             
         }

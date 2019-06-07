@@ -8,28 +8,25 @@ namespace WordsWithinWords
 
     public class WordNodesAndEdges
     {
-        public static void Build(List<WordWithinWord> wordWithinWords, WordLists wordLists)
+        public static void Build(List<WordWithinWord> wordWithinWords, Dictionaries dictionaries)
         {
             var sw = new Stopwatch();
             sw.Start();
             var edges = new List<WordEdge>();
             wordWithinWords = wordWithinWords.OrderByDescending(e => e.Depth).Take(200).ToList();
 
-            var nodeDict = new Dictionary<string,WordNode>();
+            var nodeDict = new Dictionary<string, WordNode>();
             for (var i = 0; i < wordWithinWords.Count; i++)
             {
                 var word = wordWithinWords[i];
-              
+
                 var node = GetNode(nodeDict, word.Word);
 
                 foreach (var subWord in word.WordsWithinWord.Distinct())
                 {
                     var subnode = GetNode(nodeDict, subWord);
-                    if (subnode.ID == 645)
-                    {
-                        var zz = 42;
-                    }
-                   
+
+
                     var edge = new WordEdge();
                     edge.StartNode = node.ID;
                     edge.EndNode = subnode.ID;
@@ -48,41 +45,37 @@ namespace WordsWithinWords
             }
 
 
-            var outputFile = "outputjson.txt";
+            var outputFilename = "outputjson.txt";
 
-            File.WriteAllText(outputFile,"nodes:[");
-           
+            var outputFile = Path.Combine(dictionaries.OutputDirectory, outputFilename);
+
+            File.WriteAllText(outputFile, "nodes:[");
+
             var index = 0;
             foreach (var node in nodeDict)
             {
                 index++;
 
                 var languages = new List<Language>();
-                languages.Add(Language.English);
 
-                if (wordLists != null)
+                foreach (var wl in dictionaries.WordList)
                 {
-                    languages = new List<Language>();
-                    foreach (var wl in wordLists.WordList)
+                    if (wl.WordSet.Contains(node.Key))
                     {
-                        if (wl.WordSet.Contains(node.Key))
-                        {
-                            languages.Add(wl.Language);
-                        }
+                        languages.Add(wl.Language);
                     }
-                    
                 }
 
                 var str = "{ ID: " + node.Value.ID + ", Name:\"" + node.Value.Name + "\", Languages: \"" + string.Join(",", languages) + "\"}, \n";
-                File.AppendAllText(outputFile, str);                
-                Progress.OutputTimeRemaining(index, nodeDict.Count, sw,"Writing nodes");
+                File.AppendAllText(outputFile, str);
+                Progress.OutputTimeRemaining(index, nodeDict.Count, sw, "Writing nodes");
             }
 
             index = 0;
             File.AppendAllText(outputFile, "],\n");
             sw.Restart();
 
-            File.AppendAllText(outputFile,"edges:[");
+            File.AppendAllText(outputFile, "edges:[");
             foreach (var edge in edges)
             {
                 index++;
@@ -92,9 +85,6 @@ namespace WordsWithinWords
 
             }
             File.AppendAllText(outputFile, "],\n");
-
-
-
         }
 
         private static WordNode GetNode(Dictionary<string, WordNode> nodeDict, string word)
