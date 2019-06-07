@@ -45,7 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Analyser.cs" />
+    <Compile Include="AnalyserAlphabetical.cs" />
+    <Compile Include="AnalyserRecursive.cs" />
+    <Compile Include="AnalyserSwapper.cs" />
+    <Compile Include="AnalyserWordWithinWord.cs" />
     <Compile Include="AnalysisType.cs" />
+    <Compile Include="IAnalyser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Progress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,9 +63,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="norsk.txt" />
+    <Content Include="Dictionaries\norsk.txt" />
     <Content Include="words.txt" />
-    <Content Include="words_alpha.txt" />
+    <Content Include="Dictionaries\words_alpha.txt" />
     <Content Include="words_scrabble.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace WordsWithinWords
 {
@@ -18,19 +16,20 @@ namespace WordsWithinWords
         public WordLists()
         {
 
+            string workingDirectory = Environment.CurrentDirectory;
+            // or: Directory.GetCurrentDirectory() gives the same result
 
-            
 
-            var baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            // This will get the current PROJECT directory
+            string baseDir = Directory.GetParent(workingDirectory).Parent.FullName;
 
-         //   WordList.Add(new WordList("C:\\temp\\Words\\WordsWithinWords\\WordsWithinWords\\norsk.txt", Language.Norwegian));
-            WordList.Add(new WordList(Path.Combine(baseDir,"words_alpha.txt"), Language.English));
-            WordList.Add(new WordList(Path.Combine(baseDir, "norsk.txt"), Language.Norwegian));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english.txt"), Language.English));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "norsk.txt"), Language.Norwegian));
 
             var totalHs = new HashSet<string>();
-            foreach(var wl in WordList)
+            foreach (var wl in WordList)
             {
-                foreach(var hs in wl.WordSet)
+                foreach (var hs in wl.WordSet)
                 {
                     if (!totalHs.Contains(hs))
                     {
@@ -45,8 +44,8 @@ namespace WordsWithinWords
 
     public class WordList
     {
-        public string InputPath { get; set; }        
-        public Language Language { get; set; }       
+        public string InputPath { get; set; }
+        public Language Language { get; set; }
 
         public HashSet<string> WordSet { get; set; }
 
@@ -69,6 +68,7 @@ namespace WordsWithinWords
     public enum Language
     {
         English,
-        Norwegian
+        Norwegian,
+        CombineAll
     }
 }
