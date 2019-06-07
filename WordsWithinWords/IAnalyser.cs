@@ -1,6 +1,6 @@
 ﻿namespace WordsWithinWords
 {
-    public interface IAnalyser 
+    public interface IAnalyser
     {
         void Start();
     }

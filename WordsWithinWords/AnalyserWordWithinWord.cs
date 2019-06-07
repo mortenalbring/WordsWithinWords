@@ -8,39 +8,34 @@ namespace WordsWithinWords
 {
     public class AnalyserWordWithinWord : Analyser, IAnalyser
     {
-        private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
-
-
         public AnalyserWordWithinWord(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.WordsWithinWords, language)
         {
-            
         }
+
+        private List<WordWithinWord> _wordWithinWords = new List<WordWithinWord>();
 
         public void Start()
         {
             foreach (var word in WordSet)
             {
-                var ww = new WordWithinWord(word,WordSet);
-                this.WordWithinWords.Add(ww);
-
+                var ww = new WordWithinWord(word, WordSet);
+                _wordWithinWords.Add(ww);
             }
 
             Console.WriteLine($"Writing output {OutputPath}");
 
             File.WriteAllText(OutputPath, "");
-            this.WordWithinWords = this.WordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
+            _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
 
-            foreach (var word in this.WordWithinWords)
+            foreach (var word in _wordWithinWords)
             {
                 if (word.HasAll)
                 {
                     File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
                 }
-
             }
 
             Console.WriteLine($"Done writing output {OutputPath}");
-
         }
     }
 }

@@ -8,25 +8,10 @@ namespace WordsWithinWords
 {
     public class Dictionaries
     {
-        public HashSet<string> TotalHashSet { get; set; }
-
-        public List<WordList> WordList = new List<WordList>();
-
-        public WordList WordListEnglish => this.WordList.FirstOrDefault(e => e.Language == Language.English);
-
-        public string ProjectDirectory { get; set; }
-
-        public string OutputDirectory { get; set; }
-
         public Dictionaries()
         {
-
-            string workingDirectory = Environment.CurrentDirectory;
-            // or: Directory.GetCurrentDirectory() gives the same result
-
-
-            // This will get the current PROJECT directory
-            string baseDir = Directory.GetParent(workingDirectory).Parent.FullName;
+            var workingDirectory = Environment.CurrentDirectory;
+            var baseDir = Directory.GetParent(workingDirectory).Parent.FullName;
 
             ProjectDirectory = baseDir;
 
@@ -52,15 +37,19 @@ namespace WordsWithinWords
 
             TotalHashSet = totalHs;
         }
+
+        public string OutputDirectory { get; set; }
+
+        public string ProjectDirectory { get; set; }
+        public HashSet<string> TotalHashSet { get; set; }
+
+        public WordList WordListEnglish => WordList.FirstOrDefault(e => e.Language == Language.English);
+
+        public List<WordList> WordList = new List<WordList>();
     }
 
     public class WordList
     {
-        public string InputPath { get; set; }
-        public Language Language { get; set; }
-
-        public HashSet<string> WordSet { get; set; }
-
         public WordList(string inputPath, Language language)
         {
             InputPath = inputPath;
@@ -73,8 +62,12 @@ namespace WordsWithinWords
             {
                 WordSet.Add(w.ToLower());
             }
-
         }
+
+        public string InputPath { get; set; }
+        public Language Language { get; set; }
+
+        public HashSet<string> WordSet { get; set; }
     }
 
     public enum Language

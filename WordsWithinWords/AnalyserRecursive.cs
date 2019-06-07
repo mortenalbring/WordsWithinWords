@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -9,14 +8,13 @@ namespace WordsWithinWords
 {
     public class AnalyserRecursive : Analyser, IAnalyser
     {
-        private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
-
         public AnalyserRecursive(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.WordsWithinWordsRecursive, language)
         {
-
         }
 
-        public new void Start()
+        private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
+
+        public void Start()
         {
             Sw.Start();
 
@@ -31,7 +29,7 @@ namespace WordsWithinWords
                 }
 
                 var wwr = new WordWithinWord(word, WordSet);
-                this.WordWithinWords.Add(wwr);
+                WordWithinWords.Add(wwr);
                 Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
             }
 
@@ -45,15 +43,14 @@ namespace WordsWithinWords
             Console.WriteLine($"Writing output {OutputPath}");
 
             File.WriteAllText(OutputPath, "");
-            this.WordWithinWords = this.WordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
+            WordWithinWords = WordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
 
-            foreach (var word in this.WordWithinWords)
+            foreach (var word in WordWithinWords)
             {
                 if (word.HasAll)
                 {
                     File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
                 }
-
             }
 
             Console.WriteLine($"Done writing output {OutputPath}");
@@ -61,9 +58,8 @@ namespace WordsWithinWords
 
         private void DoRecursiveWords()
         {
-
             var wdict = new Dictionary<string, WordWithinWord>();
-            foreach (var w in this.WordWithinWords)
+            foreach (var w in WordWithinWords)
             {
                 if (w.HasAny)
                 {
@@ -91,7 +87,7 @@ namespace WordsWithinWords
             }
 
 
-            WordNodesAndEdges.Build(this.WordWithinWords, this.Dictionaries);
+            WordNodesAndEdges.Build(WordWithinWords, Dictionaries);
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
 
@@ -99,17 +95,13 @@ namespace WordsWithinWords
             {
                 var wordChain = word.GetWordChain();
 
-                    //todo write to file
+                //todo write to file
 
                 Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
             }
 
 
-
             Console.WriteLine("Done");
         }
-
-
-
     }
 }

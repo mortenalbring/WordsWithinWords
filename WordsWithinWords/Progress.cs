@@ -3,13 +3,12 @@ using System.Diagnostics;
 
 namespace WordsWithinWords
 {
-    class Progress
+    internal class Progress
     {
-
         public static void OutputTimeRemaining(int index, int max, Stopwatch sw, string message = null)
         {
             var stepsRemaining = max - index;
-            var percentageDone = Math.Round(((float)index / max) * 100, 2);
+            var percentageDone = Math.Round((float)index / max * 100, 2);
 
             var timePerStep = (float)sw.ElapsedMilliseconds / index;
 
@@ -21,7 +20,5 @@ namespace WordsWithinWords
                 Console.WriteLine($"{percentageDone} %  - {timeRemainingMins} mins remaining \t {message}");
             }
         }
-
-
     }
 }

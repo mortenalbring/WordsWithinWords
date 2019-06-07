@@ -5,21 +5,8 @@ using System.Linq;
 
 namespace WordsWithinWords
 {
-    public class Analyser 
+    public class Analyser
     {
-        protected string OutputPath { get; }
-
-        private AnalysisType AnalysisType { get; set; }
-
-        protected HashSet<string> WordSet { get; set; }
-
-        
-        protected Dictionaries Dictionaries { get; set; }
-
-        private Language Language { get; set; }
-
-        protected Stopwatch Sw = new Stopwatch();
-
         protected Analyser(Dictionaries dictionaries, AnalysisType analysisType, Language language)
         {
             Dictionaries = dictionaries;
@@ -40,6 +27,18 @@ namespace WordsWithinWords
             }
         }
 
+        private AnalysisType AnalysisType { get; }
+
+
+        protected Dictionaries Dictionaries { get; set; }
+
+        private Language Language { get; }
+        protected string OutputPath { get; }
+
+        protected HashSet<string> WordSet { get; set; }
+
+        protected Stopwatch Sw = new Stopwatch();
+
         public static IAnalyser GetAnalyser(Dictionaries wordLists, AnalysisType analysisType, Language language)
         {
             switch (analysisType)
@@ -56,6 +55,5 @@ namespace WordsWithinWords
 
             return null;
         }
-
     }
 }

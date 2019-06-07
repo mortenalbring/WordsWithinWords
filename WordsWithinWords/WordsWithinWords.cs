@@ -1,6 +1,6 @@
 ﻿namespace WordsWithinWords
 {
-    class WordsWithinWords
+    internal class WordsWithinWords
     {
     }
 }

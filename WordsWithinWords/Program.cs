@@ -2,24 +2,26 @@
 
 namespace WordsWithinWords
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
             //GetAllRearrangedStrings("test");
 
 
             var wordLists = new Dictionaries();
 
-            var analyser3 = Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWords, Language.CombineAll);
-            analyser3.Start();
-
             
+
+            foreach (var l in wordLists.WordList)
+            {
+                var analyser3 = Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWords, l.Language);
+                analyser3.Start();
+
+            }
+
+            Console.WriteLine("All done");
             Console.ReadLine();
-
         }
-
-      
     }
 }

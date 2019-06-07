@@ -5,7 +5,6 @@ using System.Linq;
 
 namespace WordsWithinWords
 {
-
     public class WordNodesAndEdges
     {
         public static void Build(List<WordWithinWord> wordWithinWords, Dictionaries dictionaries)
@@ -26,21 +25,16 @@ namespace WordsWithinWords
                 {
                     var subnode = GetNode(nodeDict, subWord);
 
+                    var edge = new WordEdge { StartNode = node.ID, EndNode = subnode.ID };
 
-                    var edge = new WordEdge();
-                    edge.StartNode = node.ID;
-                    edge.EndNode = subnode.ID;
+                    var exists = edges.Any(e => e.StartNode == edge.StartNode && e.EndNode == edge.EndNode);
 
-                    var exists = edges.Any(e => (e.StartNode == edge.StartNode && e.EndNode == edge.EndNode));
-                    if (exists)
-                    {
-                        var zz = 42;
-                    }
                     if (!exists)
                     {
                         edges.Add(edge);
                     }
                 }
+
                 Progress.OutputTimeRemaining(i, wordWithinWords.Count, sw, "Making nodes and edges");
             }
 
@@ -82,8 +76,8 @@ namespace WordsWithinWords
                 var str = "{StartNode:" + edge.StartNode + ",EndNode:" + edge.EndNode + "}, \n";
                 File.AppendAllText(outputFile, str);
                 Progress.OutputTimeRemaining(index, nodeDict.Count, sw, "Writing edges");
-
             }
+
             File.AppendAllText(outputFile, "],\n");
         }
 
@@ -96,15 +90,14 @@ namespace WordsWithinWords
             }
             else
             {
-                node = new WordNode();
-                node.ID = nodeDict.Count + 1;
-                node.Name = word;
+                node = new WordNode { ID = nodeDict.Count + 1, Name = word };
                 nodeDict.Add(word, node);
             }
 
             return node;
         }
     }
+
     public class WordNode
     {
         public int ID { get; set; }
@@ -114,7 +107,7 @@ namespace WordsWithinWords
     public class WordEdge
 
     {
-        public int StartNode;
         public int EndNode;
+        public int StartNode;
     }
 }

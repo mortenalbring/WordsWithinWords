@@ -1,0 +1,219 @@
+﻿xviii	viii,xiii,xvii,xvii,xvii
+viii	iii,vii,vii,vii
+xiii	iii,xii,xii,xii
+xvii	vii,xii,xvi,xvi
+ais	is,as,ai
+ase	se,ae,as
+aud	ud,ad,au
+ave	ve,ae,av
+der	er,dr,de
+dok	ok,dk,do
+dur	ur,dr,du
+dør	ør,dr,dø
+far	ar,fr,fa
+får	år,fr,få
+had	ad,hd,ha
+har	ar,hr,ha
+hat	at,ht,ha
+iii	ii,ii,ii
+kom	om,km,ko
+kop	op,kp,ko
+kro	ro,ko,kr
+kør	ør,kr,kø
+ohm	hm,om,oh
+par	ar,pr,pa
+pas	as,ps,pa
+pis	is,ps,pi
+pst	st,pt,ps
+rom	om,rm,ro
+set	et,st,se
+stå	tå,så,st
+thi	hi,ti,th
+tid	id,td,ti
+vii	ii,vi,vi
+vis	is,vs,vi
+ac	c,a
+ad	d,a
+ae	e,a
+af	f,a
+ah	h,a
+ai	i,a
+ak	k,a
+al	l,a
+an	n,a
+ar	r,a
+as	s,a
+at	t,a
+au	u,a
+av	v,a
+bh	h,b
+bi	i,b
+bl	l,b
+bo	o,b
+bt	t,b
+by	y,b
+ca	a,c
+cl	l,c
+cm	m,c
+co	o,c
+da	a,d
+db	b,d
+de	e,d
+dk	k,d
+do	o,d
+dr	r,d
+du	u,d
+dø	ø,d
+då	å,d
+ed	d,e
+ef	f,e
+eg	g,e
+ej	j,e
+el	l,e
+en	n,e
+ep	p,e
+er	r,e
+es	s,e
+et	t,e
+ex	x,e
+fa	a,f
+ff	f,f
+fl	l,f
+fn	n,f
+fr	r,f
+fx	x,f
+fy	y,f
+fæ	æ,f
+få	å,f
+gl	l,g
+gø	ø,g
+gå	å,g
+ha	a,h
+hd	d,h
+hi	i,h
+hk	k,h
+hm	m,h
+ho	o,h
+hr	r,h
+ht	t,h
+ib	b,i
+id	d,i
+if	f,i
+ih	h,i
+ii	i,i
+in	n,i
+is	s,i
+iv	v,i
+ix	x,i
+ja	a,j
+jo	o,j
+kg	g,k
+km	m,k
+ko	o,k
+kp	p,k
+kr	r,k
+kø	ø,k
+la	a,l
+le	e,l
+li	i,l
+lo	o,l
+lp	p,l
+lå	å,l
+mf	f,m
+mi	i,m
+mm	m,m
+mv	v,m
+må	å,m
+nb	b,n
+ni	i,n
+nu	u,n
+nv	v,n
+ny	y,n
+nå	å,n
+od	d,o
+og	g,o
+oh	h,o
+ok	k,o
+ol	l,o
+om	m,o
+op	p,o
+os	s,o
+pa	a,p
+pc	c,p
+pd	d,p
+ph	h,p
+pi	i,p
+pr	r,p
+ps	s,p
+pt	t,p
+på	å,p
+rm	m,r
+ro	o,r
+ru	u,r
+ry	y,r
+rå	å,r
+se	e,s
+sf	f,s
+so	o,s
+st	t,s
+su	u,s
+sv	v,s
+sy	y,s
+sø	ø,s
+så	å,s
+tb	b,t
+td	d,t
+te	e,t
+tf	f,t
+th	h,t
+ti	i,t
+to	o,t
+tv	v,t
+tå	å,t
+ud	d,u
+uf	f,u
+ug	g,u
+uh	h,u
+up	p,u
+ur	r,u
+ve	e,v
+vi	i,v
+vs	s,v
+wc	c,w
+xv	v,x
+xx	x,x
+åh	h,å
+år	r,å
+øl	l,ø
+ør	r,ø
+æg	g,æ
+ær	r,æ
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+å	
+ø	
+æ	

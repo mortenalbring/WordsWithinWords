@@ -8,22 +8,20 @@ namespace WordsWithinWords
     {
         public AnalyserSwapper(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.SwappedLetters, language)
         {
-            
         }
 
         public void Start()
         {
             Sw.Restart();
-            var bestWords = new Dictionary<string,List<string>>();
+            var bestWords = new Dictionary<string, List<string>>();
 
             var index = 0;
-            foreach (string word in WordSet)
+            foreach (var word in WordSet)
             {
                 index++;
-                FindWordsSwapped(word,WordSet,bestWords);
+                FindWordsSwapped(word, WordSet, bestWords);
 
                 Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
-
             }
 
             bestWords = bestWords.OrderByDescending(e => e.Key.Length).ToDictionary(e => e.Key, e => e.Value);
@@ -36,7 +34,6 @@ namespace WordsWithinWords
                     Console.Write(ww + ",");
                 }
             }
-            
         }
 
         private static void FindWordsSwapped(string word, HashSet<string> hs, Dictionary<string, List<string>> bestWordsDictionary)
@@ -60,7 +57,6 @@ namespace WordsWithinWords
             {
                 bestWordsDictionary.Add(word, wordList);
             }
-
         }
 
         private static List<string> GetAllRearrangedStrings(string word)
@@ -69,9 +65,9 @@ namespace WordsWithinWords
 
             var chars = word.ToList();
 
-            for (int i = 0; i < chars.Count; i++)
+            for (var i = 0; i < chars.Count; i++)
             {
-                for (int j = 0; j < chars.Count; j++)
+                for (var j = 0; j < chars.Count; j++)
                 {
                     if (i == j)
                     {
@@ -91,7 +87,7 @@ namespace WordsWithinWords
         {
             var newWord = "";
 
-            for (int i = 0; i < word.Length; i++)
+            for (var i = 0; i < word.Length; i++)
             {
                 var wordchar = word[i];
                 if (i == from)
@@ -106,8 +102,8 @@ namespace WordsWithinWords
 
                 newWord = newWord + wordchar;
             }
+
             return newWord;
         }
-
     }
 }

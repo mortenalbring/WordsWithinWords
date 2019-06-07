@@ -3,24 +3,26 @@ using System.Linq;
 
 namespace WordsWithinWords
 {
-
-   
-
-   public class WordWithinWord
+    public class WordWithinWord
     {
-        public string Word { get; set; }
+        public WordWithinWord(string word, HashSet<string> wordSet)
+        {
+            Word = word;
+            for (var i = 0; i < word.Length; i++)
+            {
+                var newWord = word.Remove(i, 1);
+                var exists = wordSet.Contains(newWord);
 
-        public List<string> WordsWithinWord = new List<string>();
-
-        public List<WordWithinWord> WordsWithinWordsRecursive = new List<WordWithinWord>();
-
-        public List<string> NotWords = new List<string>();
-
-        public Dictionary<string,WordWithinWord> WordDictionary = new Dictionary<string, WordWithinWord>();
-
-        public bool HasAny => WordsWithinWord.Any();
-
-        public bool HasAll => WordsWithinWord.Any() && !NotWords.Any();
+                if (exists)
+                {
+                    WordsWithinWord.Add(newWord);
+                }
+                else
+                {
+                    NotWords.Add(newWord);
+                }
+            }
+        }
 
         public int Depth
         {
@@ -31,6 +33,7 @@ namespace WordsWithinWords
                 {
                     return 0;
                 }
+
                 // We've either got items (which would give us a depth of 1) or
                 // items and groups, so find the maximum depth of any subgroups,
                 // and add 1.
@@ -40,6 +43,21 @@ namespace WordsWithinWords
                            .Max() + 1;
             }
         }
+
+        public bool HasAll => WordsWithinWord.Any() && !NotWords.Any();
+
+        public bool HasAny => WordsWithinWord.Any();
+
+        public string Output => Word + "\t" + string.Join(",", WordsWithinWord) + "\n";
+        public string Word { get; set; }
+
+        public List<string> NotWords = new List<string>();
+
+        public Dictionary<string, WordWithinWord> WordDictionary = new Dictionary<string, WordWithinWord>();
+
+        public List<string> WordsWithinWord = new List<string>();
+
+        public List<WordWithinWord> WordsWithinWordsRecursive = new List<WordWithinWord>();
 
         public List<string> GetWordChain()
         {
@@ -66,30 +84,5 @@ namespace WordsWithinWords
 
             return deepWords;
         }
-
-        public WordWithinWord(string word,HashSet<string> wordSet)
-        {
-            Word = word;
-            for (var i = 0; i < word.Length; i++)
-            {
-                var newWord = word.Remove(i, 1);
-                var exists = wordSet.Contains(newWord);
-
-                if (exists)
-                {
-                    WordsWithinWord.Add(newWord);
-                }
-                else
-                {
-                    NotWords.Add(newWord);
-                }              
-            }            
-        }        
-
-        public string Output => Word + "\t" + string.Join(",", WordsWithinWord) + "\n";
-
-
-
-
     }
 }

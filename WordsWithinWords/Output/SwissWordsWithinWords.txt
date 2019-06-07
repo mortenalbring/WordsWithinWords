@@ -1,0 +1,181 @@
+﻿aals	als,als,aas,aal
+bart	art,brt,bat,bar
+air	ir,ar,ai
+ard	rd,ad,ar
+ans	ns,as,an
+aus	us,as,au
+bai	ai,bi,ba
+cad	ad,cd,ca
+eis	is,es,ei
+gab	ab,gb,ga
+har	ar,hr,ha
+her	er,hr,he
+iii	ii,ii,ii
+ins	ns,is,in
+kgb	gb,kb,kg
+mad	ad,md,ma
+nil	il,nl,ni
+pur	ur,pr,pu
+sas	as,ss,sa
+ssd	sd,sd,ss
+sto	to,so,st
+sah	ah,sh,sa
+ums	ms,us,um
+uns	ns,us,un
+vii	ii,vi,vi
+ag	g,a
+ai	i,a
+ar	r,a
+as	s,a
+ab	b,a
+ad	d,a
+ah	h,a
+am	m,a
+an	n,a
+au	u,a
+ba	a,b
+bö	ö,b
+bp	p,b
+bi	i,b
+bz	z,b
+co	o,c
+ca	a,c
+cd	d,c
+cl	l,c
+cm	m,c
+db	b,d
+da	a,d
+de	e,d
+dm	m,d
+du	u,d
+eg	g,e
+eh	h,e
+ei	i,e
+er	r,e
+es	s,e
+et	t,e
+ex	x,e
+fa	a,f
+fe	e,f
+fg	g,f
+fm	m,f
+fr	r,f
+ft	t,f
+fu	u,f
+ga	a,g
+gb	b,g
+gi	i,g
+hr	r,h
+ha	a,h
+he	e,h
+hl	l,h
+ho	o,h
+ic	c,i
+ig	g,i
+iq	q,i
+ir	r,i
+is	s,i
+iv	v,i
+ii	i,i
+il	l,i
+im	m,i
+in	n,i
+ix	x,i
+ja	a,j
+je	e,j
+kb	b,k
+kp	p,k
+kw	w,k
+kz	z,k
+kg	g,k
+kj	j,k
+km	m,k
+kn	n,k
+la	a,l
+lh	h,l
+ma	a,m
+md	d,m
+mo	o,m
+mr	r,m
+ms	s,m
+mt	t,m
+mb	b,m
+mc	c,m
+mm	m,m
+mx	x,m
+nd	d,n
+ni	i,n
+nl	l,n
+no	o,n
+ns	s,n
+na	a,n
+nu	u,n
+on	n,o
+oh	h,o
+ok	k,o
+öl	l,ö
+pc	c,p
+pf	f,p
+ph	h,p
+pi	i,p
+po	o,p
+pr	r,p
+pu	u,p
+pö	ö,p
+pp	p,p
+ql	l,q
+qm	m,q
+rd	d,r
+sa	a,s
+sb	b,s
+sd	d,s
+sh	h,s
+ss	s,s
+so	o,s
+st	t,s
+tk	k,t
+to	o,t
+tu	u,t
+un	n,u
+ur	r,u
+us	s,u
+um	m,u
+vw	w,v
+vi	i,v
+vt	t,v
+wc	c,w
+wm	m,w
+wo	o,w
+xi	i,x
+zb	b,z
+zk	k,z
+zu	u,z
+a	
+ä	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+ö	
+p	
+q	
+r	
+s	
+t	
+u	
+ü	
+v	
+w	
+x	
+y	
+z	

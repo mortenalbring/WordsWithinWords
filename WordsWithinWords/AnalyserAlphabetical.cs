@@ -8,7 +8,6 @@ namespace WordsWithinWords
     {
         public AnalyserAlphabetical(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.Alphabetical, language)
         {
-            
         }
 
         public void Start()
@@ -28,7 +27,6 @@ namespace WordsWithinWords
                 {
                     bestWords.Add(word);
                 }
-
             }
 
             Console.WriteLine($"There are {bestWords.Count} with all letters in alphabetical order");
@@ -39,8 +37,6 @@ namespace WordsWithinWords
             {
                 Console.WriteLine(t);
             }
-
-
         }
     }
 }
