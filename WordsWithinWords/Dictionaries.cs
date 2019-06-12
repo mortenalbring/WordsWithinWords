@@ -22,6 +22,7 @@ namespace WordsWithinWords
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "dansk.txt"), Language.Danish));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "deutsch.txt"), Language.German));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "swiss.txt"), Language.Swiss));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "francais.txt"), Language.French));
 
             var totalHs = new HashSet<string>();
             foreach (var wl in WordList)
@@ -77,6 +78,7 @@ namespace WordsWithinWords
         Danish,
         German,
         Swiss,
+        French,
         CombineAll
     }
 }

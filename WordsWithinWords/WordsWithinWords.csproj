@@ -65,11 +65,11 @@
   <ItemGroup>
     <Content Include="Dictionaries\dansk.txt" />
     <Content Include="Dictionaries\deutsch.txt" />
+    <Content Include="Dictionaries\english.txt" />
     <Content Include="Dictionaries\francais.txt" />
     <Content Include="Dictionaries\norsk.txt" />
     <Content Include="Dictionaries\swiss.txt" />
     <Content Include="words.txt" />
-    <Content Include="Dictionaries\words_alpha.txt" />
     <Content Include="words_scrabble.txt" />
   </ItemGroup>
   <ItemGroup>
