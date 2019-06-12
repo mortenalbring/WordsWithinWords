@@ -35,16 +35,28 @@ namespace WordsWithinWords
                     }
                 }
             }
-
             TotalHashSet = totalHs;
+
+            var totalHs2 = new HashSet<Word>();
+            foreach (var wl in WordList)
+            {
+                foreach (var hs in wl.WordSet2)
+                {
+                    if (totalHs2.Contains(hs))
+                    {
+                        //do something?
+                    }
+
+                }
+            }
+
         }
 
         public string OutputDirectory { get; set; }
 
         public string ProjectDirectory { get; set; }
         public HashSet<string> TotalHashSet { get; set; }
-
-        public WordList WordListEnglish => WordList.FirstOrDefault(e => e.Language == Language.English);
+        public HashSet<Word> TotalHashSet2 { get; set; }
 
         public List<WordList> WordList = new List<WordList>();
     }
@@ -59,8 +71,14 @@ namespace WordsWithinWords
             var allWords = File.ReadAllLines(InputPath, Encoding.GetEncoding(1252));
 
             WordSet = new HashSet<string>();
+            WordSet2 = new HashSet<Word>();
             foreach (var w in allWords)
             {
+                var text = w.ToLower();
+                var word = new Word();
+                word.Languages.Add(language);
+                word.Text = text;
+                WordSet2.Add(word);
                 WordSet.Add(w.ToLower());
             }
         }
@@ -69,6 +87,23 @@ namespace WordsWithinWords
         public Language Language { get; set; }
 
         public HashSet<string> WordSet { get; set; }
+        public HashSet<Word> WordSet2 { get; set; }
+    }
+
+    public class Word
+    {
+        public string Text { get; set; }
+        public List<Language> Languages = new List<Language>();
+
+        public override int GetHashCode()
+        {
+            return this.Text.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return this.Text.Equals(((Word)obj).Text);
+        }
     }
 
     public enum Language
