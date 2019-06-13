@@ -55,6 +55,7 @@
     <Compile Include="Progress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dictionaries.cs" />
+    <Compile Include="WordList.cs" />
     <Compile Include="WordNodes.cs" />
     <Compile Include="WordsWithinWords.cs" />
     <Compile Include="WordWithinWord.cs" />
