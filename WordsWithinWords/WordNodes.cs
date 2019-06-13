@@ -50,15 +50,7 @@ namespace WordsWithinWords
             {
                 index++;
 
-                var languages = new List<Language>();
-
-                foreach (var wl in dictionaries.WordList)
-                {
-                    if (wl.WordSet.Contains(node.Key))
-                    {
-                        languages.Add(wl.Language);
-                    }
-                }
+                var languages = dictionaries.FindLanguages(node.Key);              
 
                 var str = "{ ID: " + node.Value.ID + ", Name:\"" + node.Value.Name + "\", Languages: \"" + string.Join(",", languages) + "\"}, \n";
                 File.AppendAllText(outputFile, str);

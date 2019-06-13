@@ -1,0 +1,136 @@
+﻿paires	aires,pires,pares,paies,pairs,paire
+raides	aides,rides,rades,raies,raids,raide
+baise	aise,bise,base,baie,bais
+bouts	outs,buts,bots,bous,bout
+paire	aire,pire,pare,paie,pair
+raide	aide,ride,rade,raie,raid
+bais	ais,bis,bas,bai
+foui	oui,fui,foi,fou
+gais	ais,gis,gas,gai
+lais	ais,lis,las,lai
+mail	ail,mil,mal,mai
+mais	ais,mis,mas,mai
+peut	eut,put,pet,peu
+rais	ais,ris,ras,rai
+eus	us,es,eu
+eut	ut,et,eu
+leu	eu,lu,le
+mai	ai,mi,ma
+mil	il,ml,mi
+mme	me,me,mm
+net	et,nt,ne
+vau	au,vu,va
+ab	b,a
+ad	d,a
+ah	h,a
+ai	i,a
+an	n,a
+as	s,a
+au	u,a
+bi	i,b
+bu	u,b
+ca	a,c
+ce	e,c
+cf	f,c
+ci	i,c
+cu	u,c
+de	e,d
+dé	é,d
+do	o,d
+du	u,d
+eh	h,e
+en	n,e
+es	s,e
+et	t,e
+eu	u,e
+ex	x,e
+fa	a,f
+fi	i,f
+go	o,g
+id	d,i
+if	f,i
+il	l,i
+in	n,i
+je	e,j
+kg	g,k
+la	a,l
+là	à,l
+le	e,l
+lé	é,l
+lu	u,l
+ma	a,m
+me	e,m
+mg	g,m
+mi	i,m
+ml	l,m
+mm	m,m
+mo	o,m
+ne	e,n
+né	é,n
+ni	i,n
+nt	t,n
+nu	u,n
+oc	c,o
+oh	h,o
+on	n,o
+or	r,o
+os	s,o
+pi	i,p
+pu	u,p
+qu	u,q
+ré	é,r
+ri	i,r
+ru	u,r
+sa	a,s
+se	e,s
+si	i,s
+su	u,s
+ta	a,t
+te	e,t
+té	é,t
+tu	u,t
+un	n,u
+up	p,u
+us	s,u
+ut	t,u
+va	a,v
+vu	u,v
+xi	i,x
+xv	v,x
+xx	x,x
+yo	o,y
+çà	à,ç
+ès	s,è
+a	
+b	
+c	
+d	
+e	
+f	
+g	
+h	
+i	
+j	
+k	
+l	
+m	
+n	
+o	
+p	
+q	
+r	
+s	
+t	
+u	
+v	
+w	
+x	
+y	
+z	
+é	
+ç	
+à	
+â	
+è	
+ê	
+ô	
