@@ -64,8 +64,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dictionaries\english-collins-scrabble.txt" />
     <Content Include="Dictionaries\dansk.txt" />
     <Content Include="Dictionaries\deutsch.txt" />
+    <Content Include="Dictionaries\english-sowpods.txt" />
     <Content Include="Dictionaries\english.txt" />
     <Content Include="Dictionaries\francais.txt" />
     <Content Include="Dictionaries\norsk.txt" />

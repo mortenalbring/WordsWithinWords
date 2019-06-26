@@ -19,7 +19,7 @@ namespace WordsWithinWords
             //    analyser3.Start();
             //}
 
-            var analyser4 = Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWordsRecursive, Language.French);
+            var analyser4 = Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWords, Language.English);
 
             analyser4.Start();
 

@@ -22,10 +22,25 @@ namespace WordsWithinWords
                 _wordWithinWords.Add(ww);
             }
 
+            var boats = _wordWithinWords.Where(e => e.Word == "boats").ToList();
+
             Console.WriteLine($"Writing output {OutputPath}");
 
             File.WriteAllText(OutputPath, "");
             _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
+
+            var totalWordsWith = _wordWithinWords.Count(e => e.WordsWithinWord.Count > 0);
+            var totalWordsWithout = _wordWithinWords.Count(e => e.WordsWithinWord.Count == 0);
+            var totalWord = WordSet.Count;
+
+            var percentageWith = ((float)totalWordsWith / totalWord) * 100;
+            var percentageWithout = ((float)totalWordsWithout / totalWord) * 100;
+
+            var total = percentageWith + percentageWithout;
+
+
+            Console.WriteLine($"{totalWordsWith} total words with words {percentageWith} %");
+            Console.WriteLine($"{totalWordsWithout} total words without words {percentageWithout} %");
 
             foreach (var word in _wordWithinWords)
             {
