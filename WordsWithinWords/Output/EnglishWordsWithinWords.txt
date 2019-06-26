@@ -1,4 +1,7 @@
-﻿6	dearns	earns,darns,derns,deans,dears,dearn
+﻿267753 total words in dictionary
+129677 total words with words 48.43158 %
+138076 total words without words 51.56842 %
+6	dearns	earns,darns,derns,deans,dears,dearn
 6	heards	eards,hards,herds,heads,hears,heard
 6	spared	pared,sared,spred,spaed,spard,spare
 6	yeards	eards,yards,yerds,yeads,years,yeard

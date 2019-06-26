@@ -1,177 +1,180 @@
-﻿aals	als,als,aas,aal
-bart	art,brt,bat,bar
-air	ir,ar,ai
-ard	rd,ad,ar
-ans	ns,as,an
-aus	us,as,au
-bai	ai,bi,ba
-cad	ad,cd,ca
-eis	is,es,ei
-gab	ab,gb,ga
-har	ar,hr,ha
-her	er,hr,he
-iii	ii,ii,ii
-ins	ns,is,in
-kgb	gb,kb,kg
-nil	il,nl,ni
-pur	ur,pr,pu
-sas	as,ss,sa
-ssd	sd,sd,ss
-sah	ah,sh,sa
-ums	ms,us,um
-uns	ns,us,un
-vii	ii,vi,vi
-ag	g,a
-ai	i,a
-ar	r,a
-as	s,a
-ab	b,a
-ad	d,a
-ah	h,a
-am	m,a
-an	n,a
-au	u,a
-ba	a,b
-bö	ö,b
-bp	p,b
-bi	i,b
-bz	z,b
-co	o,c
-ca	a,c
-cd	d,c
-cl	l,c
-cm	m,c
-db	b,d
-da	a,d
-de	e,d
-dm	m,d
-du	u,d
-eg	g,e
-eh	h,e
-ei	i,e
-er	r,e
-es	s,e
-et	t,e
-ex	x,e
-fa	a,f
-fe	e,f
-fg	g,f
-fm	m,f
-fr	r,f
-ft	t,f
-ga	a,g
-gb	b,g
-gi	i,g
-hr	r,h
-ha	a,h
-he	e,h
-hl	l,h
-ho	o,h
-ic	c,i
-ig	g,i
-iq	q,i
-ir	r,i
-is	s,i
-iv	v,i
-ii	i,i
-il	l,i
-im	m,i
-in	n,i
-ix	x,i
-ja	a,j
-je	e,j
-kb	b,k
-kp	p,k
-kw	w,k
-kz	z,k
-kg	g,k
-kj	j,k
-km	m,k
-kn	n,k
-la	a,l
-lh	h,l
-md	d,m
-mo	o,m
-mr	r,m
-ms	s,m
-mt	t,m
-mb	b,m
-mc	c,m
-mm	m,m
-mx	x,m
-nd	d,n
-ni	i,n
-nl	l,n
-no	o,n
-ns	s,n
-na	a,n
-nu	u,n
-on	n,o
-oh	h,o
-ok	k,o
-öl	l,ö
-pc	c,p
-pf	f,p
-ph	h,p
-pi	i,p
-po	o,p
-pr	r,p
-pu	u,p
-pö	ö,p
-pp	p,p
-ql	l,q
-qm	m,q
-rd	d,r
-sa	a,s
-sb	b,s
-sd	d,s
-sh	h,s
-ss	s,s
-so	o,s
-st	t,s
-tk	k,t
-to	o,t
-tu	u,t
-un	n,u
-ur	r,u
-us	s,u
-um	m,u
-vw	w,v
-vi	i,v
-vt	t,v
-wc	c,w
-wm	m,w
-wo	o,w
-xi	i,x
-zb	b,z
-zk	k,z
-zu	u,z
-a	
-ä	
-b	
-c	
-d	
-e	
-f	
-g	
-h	
-i	
-j	
-k	
-l	
-m	
-n	
-o	
-ö	
-p	
-q	
-r	
-s	
-t	
-u	
-ü	
-v	
-w	
-x	
-y	
-z	
+﻿165995 total words in dictionary
+84181 total words with words 50.71297 %
+81814 total words without words 49.28703 %
+4	bart	art,brt,bat,bar
+3	aals	als,aas,aal
+3	air	ir,ar,ai
+3	ard	rd,ad,ar
+3	ans	ns,as,an
+3	aus	us,as,au
+3	bai	ai,bi,ba
+3	cad	ad,cd,ca
+3	eis	is,es,ei
+3	gab	ab,gb,ga
+3	har	ar,hr,ha
+3	her	er,hr,he
+3	ins	ns,is,in
+3	kgb	gb,kb,kg
+3	nil	il,nl,ni
+3	pur	ur,pr,pu
+3	sas	as,ss,sa
+3	sah	ah,sh,sa
+3	ums	ms,us,um
+3	uns	ns,us,un
+2	ag	g,a
+2	ai	i,a
+2	ar	r,a
+2	as	s,a
+2	ab	b,a
+2	ad	d,a
+2	ah	h,a
+2	am	m,a
+2	an	n,a
+2	au	u,a
+2	ba	a,b
+2	bö	ö,b
+2	bp	p,b
+2	bi	i,b
+2	bz	z,b
+2	co	o,c
+2	ca	a,c
+2	cd	d,c
+2	cl	l,c
+2	cm	m,c
+2	db	b,d
+2	da	a,d
+2	de	e,d
+2	dm	m,d
+2	du	u,d
+2	eg	g,e
+2	eh	h,e
+2	ei	i,e
+2	er	r,e
+2	es	s,e
+2	et	t,e
+2	ex	x,e
+2	fa	a,f
+2	fe	e,f
+2	fg	g,f
+2	fm	m,f
+2	fr	r,f
+2	ft	t,f
+2	ga	a,g
+2	gb	b,g
+2	gi	i,g
+2	hr	r,h
+2	ha	a,h
+2	he	e,h
+2	hl	l,h
+2	ho	o,h
+2	ic	c,i
+2	ig	g,i
+2	iq	q,i
+2	ir	r,i
+2	is	s,i
+2	iv	v,i
+2	il	l,i
+2	im	m,i
+2	in	n,i
+2	ix	x,i
+2	ja	a,j
+2	je	e,j
+2	kb	b,k
+2	kp	p,k
+2	kw	w,k
+2	kz	z,k
+2	kg	g,k
+2	kj	j,k
+2	km	m,k
+2	kn	n,k
+2	la	a,l
+2	lh	h,l
+2	md	d,m
+2	mo	o,m
+2	mr	r,m
+2	ms	s,m
+2	mt	t,m
+2	mb	b,m
+2	mc	c,m
+2	mx	x,m
+2	nd	d,n
+2	ni	i,n
+2	nl	l,n
+2	no	o,n
+2	ns	s,n
+2	na	a,n
+2	nu	u,n
+2	on	n,o
+2	oh	h,o
+2	ok	k,o
+2	öl	l,ö
+2	pc	c,p
+2	pf	f,p
+2	ph	h,p
+2	pi	i,p
+2	po	o,p
+2	pr	r,p
+2	pu	u,p
+2	pö	ö,p
+2	ql	l,q
+2	qm	m,q
+2	rd	d,r
+2	sa	a,s
+2	sb	b,s
+2	sd	d,s
+2	sh	h,s
+2	ssd	sd,ss
+2	so	o,s
+2	st	t,s
+2	tk	k,t
+2	to	o,t
+2	tu	u,t
+2	un	n,u
+2	ur	r,u
+2	us	s,u
+2	um	m,u
+2	vw	w,v
+2	vi	i,v
+2	vii	ii,vi
+2	vt	t,v
+2	wc	c,w
+2	wm	m,w
+2	wo	o,w
+2	xi	i,x
+2	zb	b,z
+2	zk	k,z
+2	zu	u,z
+1	a	
+1	ä	
+1	b	
+1	c	
+1	d	
+1	e	
+1	f	
+1	g	
+1	h	
+1	i	
+1	ii	i
+1	iii	ii
+1	j	
+1	k	
+1	l	
+1	m	
+1	mm	m
+1	n	
+1	o	
+1	ö	
+1	p	
+1	pp	p
+1	q	
+1	r	
+1	ss	s
+1	s	
+1	t	
+1	u	
+1	ü	
+1	v	
+1	w	
+1	x	
+1	y	
+1	z	

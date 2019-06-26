@@ -24,7 +24,9 @@ namespace WordsWithinWords
                 Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
             }
 
-            bestWords = bestWords.OrderByDescending(e => e.Key.Length).ToDictionary(e => e.Key, e => e.Value);
+            //bestWords = bestWords.OrderByDescending(e => e.Key.Length).ToDictionary(e => e.Key, e => e.Value);
+            bestWords = bestWords.OrderByDescending(e => e.Value.Count).ToDictionary(e => e.Key, e => e.Value);
+
 
             foreach (var w in bestWords)
             {

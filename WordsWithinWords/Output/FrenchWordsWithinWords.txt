@@ -1,136 +1,139 @@
-﻿paires	aires,pires,pares,paies,pairs,paire
-raides	aides,rides,rades,raies,raids,raide
-baise	aise,bise,base,baie,bais
-bouts	outs,buts,bots,bous,bout
-paire	aire,pire,pare,paie,pair
-raide	aide,ride,rade,raie,raid
-bais	ais,bis,bas,bai
-foui	oui,fui,foi,fou
-gais	ais,gis,gas,gai
-lais	ais,lis,las,lai
-mail	ail,mil,mal,mai
-mais	ais,mis,mas,mai
-peut	eut,put,pet,peu
-rais	ais,ris,ras,rai
-eus	us,es,eu
-eut	ut,et,eu
-leu	eu,lu,le
-mai	ai,mi,ma
-mil	il,ml,mi
-mme	me,me,mm
-net	et,nt,ne
-vau	au,vu,va
-ab	b,a
-ad	d,a
-ah	h,a
-ai	i,a
-an	n,a
-as	s,a
-au	u,a
-bi	i,b
-bu	u,b
-ca	a,c
-ce	e,c
-cf	f,c
-ci	i,c
-cu	u,c
-de	e,d
-dé	é,d
-do	o,d
-du	u,d
-eh	h,e
-en	n,e
-es	s,e
-et	t,e
-eu	u,e
-ex	x,e
-fa	a,f
-fi	i,f
-go	o,g
-id	d,i
-if	f,i
-il	l,i
-in	n,i
-je	e,j
-kg	g,k
-la	a,l
-là	à,l
-le	e,l
-lé	é,l
-lu	u,l
-ma	a,m
-me	e,m
-mg	g,m
-mi	i,m
-ml	l,m
-mm	m,m
-mo	o,m
-ne	e,n
-né	é,n
-ni	i,n
-nt	t,n
-nu	u,n
-oc	c,o
-oh	h,o
-on	n,o
-or	r,o
-os	s,o
-pi	i,p
-pu	u,p
-qu	u,q
-ré	é,r
-ri	i,r
-ru	u,r
-sa	a,s
-se	e,s
-si	i,s
-su	u,s
-ta	a,t
-te	e,t
-té	é,t
-tu	u,t
-un	n,u
-up	p,u
-us	s,u
-ut	t,u
-va	a,v
-vu	u,v
-xi	i,x
-xv	v,x
-xx	x,x
-yo	o,y
-çà	à,ç
-ès	s,è
-a	
-b	
-c	
-d	
-e	
-f	
-g	
-h	
-i	
-j	
-k	
-l	
-m	
-n	
-o	
-p	
-q	
-r	
-s	
-t	
-u	
-v	
-w	
-x	
-y	
-z	
-é	
-ç	
-à	
-â	
-è	
-ê	
-ô	
+﻿208914 total words in dictionary
+120339 total words with words 57.60217 %
+88575 total words without words 42.39783 %
+6	paires	aires,pires,pares,paies,pairs,paire
+6	raides	aides,rides,rades,raies,raids,raide
+5	baise	aise,bise,base,baie,bais
+5	bouts	outs,buts,bots,bous,bout
+5	paire	aire,pire,pare,paie,pair
+5	raide	aide,ride,rade,raie,raid
+4	bais	ais,bis,bas,bai
+4	foui	oui,fui,foi,fou
+4	gais	ais,gis,gas,gai
+4	lais	ais,lis,las,lai
+4	mail	ail,mil,mal,mai
+4	mais	ais,mis,mas,mai
+4	peut	eut,put,pet,peu
+4	rais	ais,ris,ras,rai
+3	eus	us,es,eu
+3	eut	ut,et,eu
+3	leu	eu,lu,le
+3	mai	ai,mi,ma
+3	mil	il,ml,mi
+3	net	et,nt,ne
+3	vau	au,vu,va
+2	ab	b,a
+2	ad	d,a
+2	ah	h,a
+2	ai	i,a
+2	an	n,a
+2	as	s,a
+2	au	u,a
+2	bi	i,b
+2	bu	u,b
+2	ca	a,c
+2	ce	e,c
+2	cf	f,c
+2	ci	i,c
+2	cu	u,c
+2	de	e,d
+2	dé	é,d
+2	do	o,d
+2	du	u,d
+2	eh	h,e
+2	en	n,e
+2	es	s,e
+2	et	t,e
+2	eu	u,e
+2	ex	x,e
+2	fa	a,f
+2	fi	i,f
+2	go	o,g
+2	id	d,i
+2	if	f,i
+2	il	l,i
+2	in	n,i
+2	je	e,j
+2	kg	g,k
+2	la	a,l
+2	là	à,l
+2	le	e,l
+2	lé	é,l
+2	lu	u,l
+2	ma	a,m
+2	me	e,m
+2	mg	g,m
+2	mi	i,m
+2	ml	l,m
+2	mme	me,mm
+2	mo	o,m
+2	ne	e,n
+2	né	é,n
+2	ni	i,n
+2	nt	t,n
+2	nu	u,n
+2	oc	c,o
+2	oh	h,o
+2	on	n,o
+2	or	r,o
+2	os	s,o
+2	pi	i,p
+2	pu	u,p
+2	qu	u,q
+2	ré	é,r
+2	ri	i,r
+2	ru	u,r
+2	sa	a,s
+2	se	e,s
+2	si	i,s
+2	su	u,s
+2	ta	a,t
+2	te	e,t
+2	té	é,t
+2	tu	u,t
+2	un	n,u
+2	up	p,u
+2	us	s,u
+2	ut	t,u
+2	va	a,v
+2	vu	u,v
+2	xi	i,x
+2	xv	v,x
+2	yo	o,y
+2	çà	à,ç
+2	ès	s,è
+1	a	
+1	b	
+1	c	
+1	d	
+1	e	
+1	f	
+1	g	
+1	h	
+1	i	
+1	j	
+1	k	
+1	l	
+1	m	
+1	mm	m
+1	n	
+1	o	
+1	p	
+1	q	
+1	r	
+1	s	
+1	t	
+1	u	
+1	v	
+1	w	
+1	x	
+1	xx	x
+1	y	
+1	z	
+1	é	
+1	ç	
+1	à	
+1	â	
+1	è	
+1	ê	
+1	ô	

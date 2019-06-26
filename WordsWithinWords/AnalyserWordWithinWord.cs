@@ -38,9 +38,22 @@ namespace WordsWithinWords
 
             var total = percentageWith + percentageWithout;
 
+            var outstr0 = $"{totalWord} total words in dictionary";
+            var outstr1 = $"{totalWordsWith} total words with words {percentageWith} %";
+            var outstr2 = $"{totalWordsWithout} total words without words {percentageWithout} %";
 
-            Console.WriteLine($"{totalWordsWith} total words with words {percentageWith} %");
-            Console.WriteLine($"{totalWordsWithout} total words without words {percentageWithout} %");
+
+            Console.WriteLine(outstr0);
+            Console.WriteLine(outstr1);
+            Console.WriteLine(outstr2);
+
+            var outstrs = new List<string>();
+            outstrs.Add(outstr0);
+            outstrs.Add(outstr1);
+            outstrs.Add(outstr2);
+
+            File.AppendAllLines(OutputPath, outstrs,Encoding.UTF8);            
+
 
             foreach (var word in _wordWithinWords)
             {

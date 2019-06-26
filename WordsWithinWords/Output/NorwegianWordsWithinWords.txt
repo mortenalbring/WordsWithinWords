@@ -1,263 +1,266 @@
-﻿grein	rein,gein,grin,gren,grei
-leide	eide,lide,lede,leie,leid
-leike	eike,like,leke,leie,leik
-meine	eine,mine,mene,meie,mein
-skure	kure,sure,skre,skue,skur
-tåren	åren,tren,tåen,tårn,tåre
-veike	eike,vike,veke,veie,veik
-bile	ile,ble,bie,bil
-bora	ora,bra,boa,bor
-broa	roa,boa,bra,bro
-brua	rua,bua,bra,bru
-buer	uer,ber,bur,bue
-båre	åre,bre,båe,bår
-duer	uer,der,dur,due
-flis	lis,fis,fls,fli
-kule	ule,kle,kue,kul
-leid	eid,lid,led,lei
-leik	eik,lik,lek,lei
-luer	uer,ler,lur,lue
-løye	øye,lye,løe,løy
-reim	eim,rim,rem,rei
-røyr	øyr,ryr,rør,røy
-saug	aug,sug,sag,sau
-seid	eid,sid,sed,sei
-seva	eva,sva,sea,sev
-stua	tua,sua,sta,stu
-suta	uta,sta,sua,sut
-svei	vei,sei,svi,sve
-true	rue,tue,tre,tru
-veid	eid,vid,ved,vei
-veik	eik,vik,vek,vei
-aur	ur,ar,au
-bøy	øy,by,bø
-dar	ar,dr,da
-dau	au,du,da
-del	el,dl,de
-dem	em,dm,de
-der	er,dr,de
-dom	om,dm,do
-dor	or,dr,do
-dra	ra,da,dr
-dur	ur,dr,du
-dyr	yr,dr,dy
-døl	øl,dl,dø
-dør	ør,dr,dø
-eid	id,ed,ei
-enn	nn,en,en
-fem	em,fm,fe
-fly	ly,fy,fl
-flø	lø,fø,fl
-flå	lå,få,fl
-føl	øl,fl,fø
-hai	ai,hi,ha
-har	ar,hr,ha
-hau	au,hu,ha
-hei	ei,hi,he
-her	er,hr,he
-hor	or,hr,ho
-hør	ør,hr,hø
-hår	år,hr,hå
-inn	nn,in,in
-jar	ar,jr,ja
-klø	lø,kø,kl
-kul	ul,kl,ku
-kur	ur,kr,ku
-lei	ei,li,le
-løy	øy,ly,lø
-mil	il,ml,mi
-mol	ol,ml,mo
-mor	or,mr,mo
-mos	os,ms,mo
-mål	ål,ml,må
-mår	år,mr,må
-nei	ei,ni,ne
-par	ar,pr,pa
-rau	au,ru,ra
-rei	ei,ri,re
-sau	au,su,sa
-sei	ei,si,se
-sva	va,sa,sv
-sve	ve,se,sv
-svi	vi,si,sv
-tog	og,tg,to
-tvi	vi,ti,tv
-tøv	øv,tv,tø
-tøy	øy,ty,tø
-vag	ag,vg,va
-vei	ei,vi,ve
-øyr	yr,ør,øy
-ab	b,a
-ad	d,a
-ag	g,a
-ah	h,a
-ai	i,a
-an	n,a
-ap	p,a
-ar	r,a
-at	t,a
-au	u,a
-av	v,a
-be	e,b
-bo	o,b
-bu	u,b
-bø	ø,b
-ca	a,c
-cd	d,c
-cm	m,c
-co	o,c
-da	a,d
-db	b,d
-de	e,d
-di	i,d
-dl	l,d
-dm	m,d
-do	o,d
-dr	r,d
-du	u,d
-dø	ø,d
-ed	d,e
-ef	f,e
-ei	i,e
-el	l,e
-em	m,e
-en	n,e
-er	r,e
-ex	x,e
-fe	e,f
-fl	l,f
-fm	m,f
-fn	n,f
-fø	ø,f
-få	å,f
-gi	i,g
-gå	å,g
-ha	a,h
-hb	b,h
-he	e,h
-hi	i,h
-hk	k,h
-ho	o,h
-hr	r,h
-hu	u,h
-hø	ø,h
-hå	å,h
-id	d,i
-il	l,i
-in	n,i
-iq	q,i
-is	s,i
-ja	a,j
-jf	f,j
-jo	o,j
-jr	r,j
-kg	g,k
-kl	l,k
-km	m,k
-kr	r,k
-ku	u,k
-kw	w,k
-kø	ø,k
-la	a,l
-le	e,l
-li	i,l
-lo	o,l
-lp	p,l
-lø	ø,l
-lå	å,l
-mg	g,m
-mi	i,m
-ml	l,m
-mm	m,m
-mo	o,m
-mr	r,m
-ms	s,m
-må	å,m
-nb	b,n
-ne	e,n
-ni	i,n
-nn	n,n
-nu	u,n
-nø	ø,n
-nå	å,n
-of	f,o
-og	g,o
-ol	l,o
-om	m,o
-or	r,o
-os	s,o
-pa	a,p
-pm	m,p
-pr	r,p
-ps	s,p
-pv	v,p
-på	å,p
-ra	a,r
-re	e,r
-ri	i,r
-ro	o,r
-ru	u,r
-rå	å,r
-sa	a,s
-se	e,s
-sf	f,s
-si	i,s
-su	u,s
-sv	v,s
-så	å,s
-ta	a,t
-te	e,t
-tg	g,t
-ti	i,t
-to	o,t
-tv	v,t
-tø	ø,t
-tå	å,t
-ub	b,u
-ud	d,u
-ul	l,u
-ur	r,u
-ut	t,u
-va	a,v
-ve	e,v
-vg	g,v
-vi	i,v
-vm	m,v
-vw	w,v
-wc	c,w
-åk	k,å
-ål	l,å
-år	r,å
-ås	s,å
-åt	t,å
-øk	k,ø
-øl	l,ø
-øm	m,ø
-ør	r,ø
-øv	v,ø
-ø	
-a	
-b	
-c	
-d	
-e	
-f	
-g	
-h	
-i	
-j	
-k	
-l	
-m	
-n	
-o	
-p	
-q	
-r	
-s	
-t	
-u	
-v	
-w	
-x	
-å	
+﻿61414 total words in dictionary
+25447 total words with words 41.43518 %
+35967 total words without words 58.56482 %
+5	grein	rein,gein,grin,gren,grei
+5	leide	eide,lide,lede,leie,leid
+5	leike	eike,like,leke,leie,leik
+5	meine	eine,mine,mene,meie,mein
+5	skure	kure,sure,skre,skue,skur
+5	tåren	åren,tren,tåen,tårn,tåre
+5	veike	eike,vike,veke,veie,veik
+4	bile	ile,ble,bie,bil
+4	bora	ora,bra,boa,bor
+4	broa	roa,boa,bra,bro
+4	brua	rua,bua,bra,bru
+4	buer	uer,ber,bur,bue
+4	båre	åre,bre,båe,bår
+4	duer	uer,der,dur,due
+4	flis	lis,fis,fls,fli
+4	kule	ule,kle,kue,kul
+4	leid	eid,lid,led,lei
+4	leik	eik,lik,lek,lei
+4	luer	uer,ler,lur,lue
+4	løye	øye,lye,løe,løy
+4	reim	eim,rim,rem,rei
+4	røyr	øyr,ryr,rør,røy
+4	saug	aug,sug,sag,sau
+4	seid	eid,sid,sed,sei
+4	seva	eva,sva,sea,sev
+4	stua	tua,sua,sta,stu
+4	suta	uta,sta,sua,sut
+4	svei	vei,sei,svi,sve
+4	true	rue,tue,tre,tru
+4	veid	eid,vid,ved,vei
+4	veik	eik,vik,vek,vei
+3	aur	ur,ar,au
+3	bøy	øy,by,bø
+3	dar	ar,dr,da
+3	dau	au,du,da
+3	del	el,dl,de
+3	dem	em,dm,de
+3	der	er,dr,de
+3	dom	om,dm,do
+3	dor	or,dr,do
+3	dra	ra,da,dr
+3	dur	ur,dr,du
+3	dyr	yr,dr,dy
+3	døl	øl,dl,dø
+3	dør	ør,dr,dø
+3	eid	id,ed,ei
+3	fem	em,fm,fe
+3	fly	ly,fy,fl
+3	flø	lø,fø,fl
+3	flå	lå,få,fl
+3	føl	øl,fl,fø
+3	hai	ai,hi,ha
+3	har	ar,hr,ha
+3	hau	au,hu,ha
+3	hei	ei,hi,he
+3	her	er,hr,he
+3	hor	or,hr,ho
+3	hør	ør,hr,hø
+3	hår	år,hr,hå
+3	jar	ar,jr,ja
+3	klø	lø,kø,kl
+3	kul	ul,kl,ku
+3	kur	ur,kr,ku
+3	lei	ei,li,le
+3	løy	øy,ly,lø
+3	mil	il,ml,mi
+3	mol	ol,ml,mo
+3	mor	or,mr,mo
+3	mos	os,ms,mo
+3	mål	ål,ml,må
+3	mår	år,mr,må
+3	nei	ei,ni,ne
+3	par	ar,pr,pa
+3	rau	au,ru,ra
+3	rei	ei,ri,re
+3	sau	au,su,sa
+3	sei	ei,si,se
+3	sva	va,sa,sv
+3	sve	ve,se,sv
+3	svi	vi,si,sv
+3	tog	og,tg,to
+3	tvi	vi,ti,tv
+3	tøv	øv,tv,tø
+3	tøy	øy,ty,tø
+3	vag	ag,vg,va
+3	vei	ei,vi,ve
+3	øyr	yr,ør,øy
+2	ab	b,a
+2	ad	d,a
+2	ag	g,a
+2	ah	h,a
+2	ai	i,a
+2	an	n,a
+2	ap	p,a
+2	ar	r,a
+2	at	t,a
+2	au	u,a
+2	av	v,a
+2	be	e,b
+2	bo	o,b
+2	bu	u,b
+2	bø	ø,b
+2	ca	a,c
+2	cd	d,c
+2	cm	m,c
+2	co	o,c
+2	da	a,d
+2	db	b,d
+2	de	e,d
+2	di	i,d
+2	dl	l,d
+2	dm	m,d
+2	do	o,d
+2	dr	r,d
+2	du	u,d
+2	dø	ø,d
+2	ed	d,e
+2	ef	f,e
+2	ei	i,e
+2	el	l,e
+2	em	m,e
+2	en	n,e
+2	enn	nn,en
+2	er	r,e
+2	ex	x,e
+2	fe	e,f
+2	fl	l,f
+2	fm	m,f
+2	fn	n,f
+2	fø	ø,f
+2	få	å,f
+2	gi	i,g
+2	gå	å,g
+2	ha	a,h
+2	hb	b,h
+2	he	e,h
+2	hi	i,h
+2	hk	k,h
+2	ho	o,h
+2	hr	r,h
+2	hu	u,h
+2	hø	ø,h
+2	hå	å,h
+2	id	d,i
+2	il	l,i
+2	in	n,i
+2	inn	nn,in
+2	iq	q,i
+2	is	s,i
+2	ja	a,j
+2	jf	f,j
+2	jo	o,j
+2	jr	r,j
+2	kg	g,k
+2	kl	l,k
+2	km	m,k
+2	kr	r,k
+2	ku	u,k
+2	kw	w,k
+2	kø	ø,k
+2	la	a,l
+2	le	e,l
+2	li	i,l
+2	lo	o,l
+2	lp	p,l
+2	lø	ø,l
+2	lå	å,l
+2	mg	g,m
+2	mi	i,m
+2	ml	l,m
+2	mo	o,m
+2	mr	r,m
+2	ms	s,m
+2	må	å,m
+2	nb	b,n
+2	ne	e,n
+2	ni	i,n
+2	nu	u,n
+2	nø	ø,n
+2	nå	å,n
+2	of	f,o
+2	og	g,o
+2	ol	l,o
+2	om	m,o
+2	or	r,o
+2	os	s,o
+2	pa	a,p
+2	pm	m,p
+2	pr	r,p
+2	ps	s,p
+2	pv	v,p
+2	på	å,p
+2	ra	a,r
+2	re	e,r
+2	ri	i,r
+2	ro	o,r
+2	ru	u,r
+2	rå	å,r
+2	sa	a,s
+2	se	e,s
+2	sf	f,s
+2	si	i,s
+2	su	u,s
+2	sv	v,s
+2	så	å,s
+2	ta	a,t
+2	te	e,t
+2	tg	g,t
+2	ti	i,t
+2	to	o,t
+2	tv	v,t
+2	tø	ø,t
+2	tå	å,t
+2	ub	b,u
+2	ud	d,u
+2	ul	l,u
+2	ur	r,u
+2	ut	t,u
+2	va	a,v
+2	ve	e,v
+2	vg	g,v
+2	vi	i,v
+2	vm	m,v
+2	vw	w,v
+2	wc	c,w
+2	åk	k,å
+2	ål	l,å
+2	år	r,å
+2	ås	s,å
+2	åt	t,å
+2	øk	k,ø
+2	øl	l,ø
+2	øm	m,ø
+2	ør	r,ø
+2	øv	v,ø
+1	ø	
+1	a	
+1	b	
+1	c	
+1	d	
+1	e	
+1	f	
+1	g	
+1	h	
+1	i	
+1	j	
+1	k	
+1	l	
+1	m	
+1	mm	m
+1	n	
+1	nn	n
+1	o	
+1	p	
+1	q	
+1	r	
+1	s	
+1	t	
+1	u	
+1	v	
+1	w	
+1	x	
+1	å	
