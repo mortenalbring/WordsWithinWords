@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace WordsWithinWords
 {
@@ -31,11 +33,20 @@ namespace WordsWithinWords
 
             Console.WriteLine($"There are {bestWords.Count} with all letters in alphabetical order");
 
-            var top10 = bestWords.OrderByDescending(e => e.Length).Take(10).ToList();
+            File.WriteAllText(OutputPath, "");
+            var outstr0 = $"{bestWords} total words in dictionary";
+            var outstrs = new List<string>();
+            outstrs.Add(outstr0);
+
+            File.AppendAllLines(OutputPath, outstrs, Encoding.UTF8);
+
+
+            var top10 = bestWords.OrderByDescending(e => e.Length).ToList();
 
             foreach (var t in top10)
             {
                 Console.WriteLine(t);
+                File.AppendAllText(OutputPath, t + "\n",Encoding.UTF8);
             }
         }
     }

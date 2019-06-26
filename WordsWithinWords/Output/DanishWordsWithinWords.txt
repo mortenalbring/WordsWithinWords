@@ -1,219 +1,222 @@
-﻿xviii	viii,xiii,xvii,xvii,xvii
-viii	iii,vii,vii,vii
-xiii	iii,xii,xii,xii
-xvii	vii,xii,xvi,xvi
-ais	is,as,ai
-ase	se,ae,as
-aud	ud,ad,au
-ave	ve,ae,av
-der	er,dr,de
-dok	ok,dk,do
-dur	ur,dr,du
-dør	ør,dr,dø
-far	ar,fr,fa
-får	år,fr,få
-had	ad,hd,ha
-har	ar,hr,ha
-hat	at,ht,ha
-iii	ii,ii,ii
-kom	om,km,ko
-kop	op,kp,ko
-kro	ro,ko,kr
-kør	ør,kr,kø
-ohm	hm,om,oh
-par	ar,pr,pa
-pas	as,ps,pa
-pis	is,ps,pi
-pst	st,pt,ps
-rom	om,rm,ro
-set	et,st,se
-stå	tå,så,st
-thi	hi,ti,th
-tid	id,td,ti
-vii	ii,vi,vi
-vis	is,vs,vi
-ac	c,a
-ad	d,a
-ae	e,a
-af	f,a
-ah	h,a
-ai	i,a
-ak	k,a
-al	l,a
-an	n,a
-ar	r,a
-as	s,a
-at	t,a
-au	u,a
-av	v,a
-bh	h,b
-bi	i,b
-bl	l,b
-bo	o,b
-bt	t,b
-by	y,b
-ca	a,c
-cl	l,c
-cm	m,c
-co	o,c
-da	a,d
-db	b,d
-de	e,d
-dk	k,d
-do	o,d
-dr	r,d
-du	u,d
-dø	ø,d
-då	å,d
-ed	d,e
-ef	f,e
-eg	g,e
-ej	j,e
-el	l,e
-en	n,e
-ep	p,e
-er	r,e
-es	s,e
-et	t,e
-ex	x,e
-fa	a,f
-ff	f,f
-fl	l,f
-fn	n,f
-fr	r,f
-fx	x,f
-fy	y,f
-fæ	æ,f
-få	å,f
-gl	l,g
-gø	ø,g
-gå	å,g
-ha	a,h
-hd	d,h
-hi	i,h
-hk	k,h
-hm	m,h
-ho	o,h
-hr	r,h
-ht	t,h
-ib	b,i
-id	d,i
-if	f,i
-ih	h,i
-ii	i,i
-in	n,i
-is	s,i
-iv	v,i
-ix	x,i
-ja	a,j
-jo	o,j
-kg	g,k
-km	m,k
-ko	o,k
-kp	p,k
-kr	r,k
-kø	ø,k
-la	a,l
-le	e,l
-li	i,l
-lo	o,l
-lp	p,l
-lå	å,l
-mf	f,m
-mi	i,m
-mm	m,m
-mv	v,m
-må	å,m
-nb	b,n
-ni	i,n
-nu	u,n
-nv	v,n
-ny	y,n
-nå	å,n
-od	d,o
-og	g,o
-oh	h,o
-ok	k,o
-ol	l,o
-om	m,o
-op	p,o
-os	s,o
-pa	a,p
-pc	c,p
-pd	d,p
-ph	h,p
-pi	i,p
-pr	r,p
-ps	s,p
-pt	t,p
-på	å,p
-rm	m,r
-ro	o,r
-ru	u,r
-ry	y,r
-rå	å,r
-se	e,s
-sf	f,s
-so	o,s
-st	t,s
-su	u,s
-sv	v,s
-sy	y,s
-sø	ø,s
-så	å,s
-tb	b,t
-td	d,t
-te	e,t
-tf	f,t
-th	h,t
-ti	i,t
-to	o,t
-tv	v,t
-tå	å,t
-ud	d,u
-uf	f,u
-ug	g,u
-uh	h,u
-up	p,u
-ur	r,u
-ve	e,v
-vi	i,v
-vs	s,v
-wc	c,w
-xv	v,x
-xx	x,x
-åh	h,å
-år	r,å
-øl	l,ø
-ør	r,ø
-æg	g,æ
-ær	r,æ
-a	
-b	
-c	
-d	
-e	
-f	
-g	
-h	
-i	
-j	
-k	
-l	
-m	
-n	
-o	
-p	
-q	
-r	
-s	
-t	
-u	
-v	
-w	
-x	
-y	
-z	
-å	
-ø	
-æ	
+﻿23516 total words in dictionary
+7875 total words with words 33.48784 %
+15641 total words without words 66.51216 %
+3	ais	is,as,ai
+3	ase	se,ae,as
+3	aud	ud,ad,au
+3	ave	ve,ae,av
+3	der	er,dr,de
+3	dok	ok,dk,do
+3	dur	ur,dr,du
+3	dør	ør,dr,dø
+3	far	ar,fr,fa
+3	får	år,fr,få
+3	had	ad,hd,ha
+3	har	ar,hr,ha
+3	hat	at,ht,ha
+3	kom	om,km,ko
+3	kop	op,kp,ko
+3	kro	ro,ko,kr
+3	kør	ør,kr,kø
+3	ohm	hm,om,oh
+3	par	ar,pr,pa
+3	pas	as,ps,pa
+3	pis	is,ps,pi
+3	pst	st,pt,ps
+3	rom	om,rm,ro
+3	set	et,st,se
+3	stå	tå,så,st
+3	thi	hi,ti,th
+3	tid	id,td,ti
+3	vis	is,vs,vi
+3	xvii	vii,xii,xvi
+3	xviii	viii,xiii,xvii
+2	ac	c,a
+2	ad	d,a
+2	ae	e,a
+2	af	f,a
+2	ah	h,a
+2	ai	i,a
+2	ak	k,a
+2	al	l,a
+2	an	n,a
+2	ar	r,a
+2	as	s,a
+2	at	t,a
+2	au	u,a
+2	av	v,a
+2	bh	h,b
+2	bi	i,b
+2	bl	l,b
+2	bo	o,b
+2	bt	t,b
+2	by	y,b
+2	ca	a,c
+2	cl	l,c
+2	cm	m,c
+2	co	o,c
+2	da	a,d
+2	db	b,d
+2	de	e,d
+2	dk	k,d
+2	do	o,d
+2	dr	r,d
+2	du	u,d
+2	dø	ø,d
+2	då	å,d
+2	ed	d,e
+2	ef	f,e
+2	eg	g,e
+2	ej	j,e
+2	el	l,e
+2	en	n,e
+2	ep	p,e
+2	er	r,e
+2	es	s,e
+2	et	t,e
+2	ex	x,e
+2	fa	a,f
+2	fl	l,f
+2	fn	n,f
+2	fr	r,f
+2	fx	x,f
+2	fy	y,f
+2	fæ	æ,f
+2	få	å,f
+2	gl	l,g
+2	gø	ø,g
+2	gå	å,g
+2	ha	a,h
+2	hd	d,h
+2	hi	i,h
+2	hk	k,h
+2	hm	m,h
+2	ho	o,h
+2	hr	r,h
+2	ht	t,h
+2	ib	b,i
+2	id	d,i
+2	if	f,i
+2	ih	h,i
+2	in	n,i
+2	is	s,i
+2	iv	v,i
+2	ix	x,i
+2	ja	a,j
+2	jo	o,j
+2	kg	g,k
+2	km	m,k
+2	ko	o,k
+2	kp	p,k
+2	kr	r,k
+2	kø	ø,k
+2	la	a,l
+2	le	e,l
+2	li	i,l
+2	lo	o,l
+2	lp	p,l
+2	lå	å,l
+2	mf	f,m
+2	mi	i,m
+2	mv	v,m
+2	må	å,m
+2	nb	b,n
+2	ni	i,n
+2	nu	u,n
+2	nv	v,n
+2	ny	y,n
+2	nå	å,n
+2	od	d,o
+2	og	g,o
+2	oh	h,o
+2	ok	k,o
+2	ol	l,o
+2	om	m,o
+2	op	p,o
+2	os	s,o
+2	pa	a,p
+2	pc	c,p
+2	pd	d,p
+2	ph	h,p
+2	pi	i,p
+2	pr	r,p
+2	ps	s,p
+2	pt	t,p
+2	på	å,p
+2	rm	m,r
+2	ro	o,r
+2	ru	u,r
+2	ry	y,r
+2	rå	å,r
+2	se	e,s
+2	sf	f,s
+2	so	o,s
+2	st	t,s
+2	su	u,s
+2	sv	v,s
+2	sy	y,s
+2	sø	ø,s
+2	så	å,s
+2	tb	b,t
+2	td	d,t
+2	te	e,t
+2	tf	f,t
+2	th	h,t
+2	ti	i,t
+2	to	o,t
+2	tv	v,t
+2	tå	å,t
+2	ud	d,u
+2	uf	f,u
+2	ug	g,u
+2	uh	h,u
+2	up	p,u
+2	ur	r,u
+2	ve	e,v
+2	vi	i,v
+2	vii	ii,vi
+2	viii	iii,vii
+2	vs	s,v
+2	wc	c,w
+2	xiii	iii,xii
+2	xv	v,x
+2	åh	h,å
+2	år	r,å
+2	øl	l,ø
+2	ør	r,ø
+2	æg	g,æ
+2	ær	r,æ
+1	a	
+1	b	
+1	c	
+1	d	
+1	e	
+1	f	
+1	ff	f
+1	g	
+1	h	
+1	i	
+1	ii	i
+1	iii	ii
+1	j	
+1	k	
+1	l	
+1	m	
+1	mm	m
+1	n	
+1	o	
+1	p	
+1	q	
+1	r	
+1	s	
+1	t	
+1	u	
+1	v	
+1	w	
+1	x	
+1	xx	x
+1	y	
+1	z	
+1	å	
+1	ø	
+1	æ	

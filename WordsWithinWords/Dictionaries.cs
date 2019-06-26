@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 
 namespace WordsWithinWords
 {
@@ -17,11 +15,12 @@ namespace WordsWithinWords
 
             OutputDirectory = Path.Combine(ProjectDirectory, "Output");
 
-            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english.txt"), Language.English));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english-sowpods.txt"), Language.English));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "norsk.txt"), Language.Norwegian));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "dansk.txt"), Language.Danish));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "deutsch.txt"), Language.German));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "swiss.txt"), Language.Swiss));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "francais.txt"), Language.French));
 
             var totalHs = new HashSet<string>();
             foreach (var wl in WordList)
@@ -34,8 +33,24 @@ namespace WordsWithinWords
                     }
                 }
             }
-
             TotalHashSet = totalHs;
+
+        }
+
+        public List<Language> FindLanguages(string word)
+        {
+            var output = new List<Language>();
+
+            foreach (var w in WordList)
+            {
+                if (w.WordSet.Contains(word))
+                {
+                    output.Add(w.Language);
+                }
+            }
+
+            return output;
+
         }
 
         public string OutputDirectory { get; set; }
@@ -43,31 +58,7 @@ namespace WordsWithinWords
         public string ProjectDirectory { get; set; }
         public HashSet<string> TotalHashSet { get; set; }
 
-        public WordList WordListEnglish => WordList.FirstOrDefault(e => e.Language == Language.English);
-
         public List<WordList> WordList = new List<WordList>();
-    }
-
-    public class WordList
-    {
-        public WordList(string inputPath, Language language)
-        {
-            InputPath = inputPath;
-            Language = language;
-
-            var allWords = File.ReadAllLines(InputPath, Encoding.GetEncoding(1252));
-
-            WordSet = new HashSet<string>();
-            foreach (var w in allWords)
-            {
-                WordSet.Add(w.ToLower());
-            }
-        }
-
-        public string InputPath { get; set; }
-        public Language Language { get; set; }
-
-        public HashSet<string> WordSet { get; set; }
     }
 
     public enum Language
@@ -77,6 +68,7 @@ namespace WordsWithinWords
         Danish,
         German,
         Swiss,
+        French,
         CombineAll
     }
 }

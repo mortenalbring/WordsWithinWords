@@ -15,7 +15,10 @@ namespace WordsWithinWords
 
                 if (exists)
                 {
-                    WordsWithinWord.Add(newWord);
+                    if (!WordsWithinWord.Contains(newWord))
+                    {
+                        WordsWithinWord.Add(newWord);
+                    }                    
                 }
                 else
                 {
@@ -48,7 +51,7 @@ namespace WordsWithinWords
 
         public bool HasAny => WordsWithinWord.Any();
 
-        public string Output => Word + "\t" + string.Join(",", WordsWithinWord) + "\n";
+        public string Output => WordsWithinWord.Count + "\t" + Word + "\t" + string.Join(",", WordsWithinWord) + "\n";
         public string Word { get; set; }
 
         public List<string> NotWords = new List<string>();
