@@ -34,11 +34,11 @@ namespace WordsWithinWords
             Console.WriteLine($"There are {bestWords.Count} with all letters in alphabetical order");
 
             File.WriteAllText(OutputPath, "");
-            var outstr0 = $"{bestWords} total words in dictionary";
+            var outstr0 = $"{WordSet.Count} total words in dictionary";
             var outstrs = new List<string>();
             outstrs.Add(outstr0);
 
-            File.AppendAllLines(OutputPath, outstrs, Encoding.UTF8);
+            File.AppendAllText(OutputPath, outstr0, Encoding.UTF8);
 
 
             var top10 = bestWords.OrderByDescending(e => e.Length).ToList();

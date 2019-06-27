@@ -1,3274 +1,1510 @@
-﻿mailles	ailles,milles,malles,mailes,mailes,maills,maille
-course	ourse,curse,corse,couse,coure,cours
-mailes	ailes,miles,males,maies,mails,maile
-maille	aille,mille,malle,maile,maile,maill
-paries	aries,pries,paies,pares,paris,parie
-salite	alite,slite,saite,salte,salie,salit
-shoots	hoots,soots,shots,shots,shoos,shoot
-blaute	laute,baute,blute,blate,blaue,blaut
-braute	raute,baute,brute,brate,braue,braut
-staute	taute,saute,stute,state,staue,staut
-flaute	laute,faute,flute,flate,flaue,flaut
-heilst	eilst,hilst,helst,heist,heilt,heils
-leises	eises,lises,leses,leies,leiss,leise
-laides	aides,lides,lades,laies,laids,laide
-maires	aires,mires,mares,maies,mairs,maire
-paires	aires,pires,pares,paies,pairs,paire
-raides	aides,rides,rades,raies,raids,raide
-saines	aines,sines,sanes,saies,sains,saine
-taries	aries,tries,taies,tares,taris,tarie
-amias	mias,aias,amas,amis,amia
-asker	sker,aker,aser,askr,aske
-baals	aals,bals,bals,baas,baal
-baile	aile,bile,bale,baie,bail
-baits	aits,bits,bats,bais,bait
-balas	alas,blas,baas,bals,bala
-barie	arie,brie,baie,bare,bari
-beild	eild,bild,beld,beid,beil
-bleat	leat,beat,blat,blet,blea
-boars	oars,bars,bors,boas,boar
-boats	oats,bats,bots,boas,boat
-boons	oons,bons,bons,boos,boon
-boots	oots,bots,bots,boos,boot
-boras	oras,bras,boas,bors,bora
-bourn	ourn,burn,born,boun,bour
-bouts	outs,buts,bots,bous,bout
-brain	rain,bain,brin,bran,brai
-breek	reek,beek,brek,brek,bree
-brood	rood,bood,brod,brod,broo
-brook	rook,book,brok,brok,broo
-broom	room,boom,brom,brom,broo
-buret	uret,bret,buet,burt,bure
-carts	arts,crts,cats,cars,cart
-chain	hain,cain,chin,chan,chai
-coils	oils,cils,cols,cois,coil
-coons	oons,cons,cons,coos,coon
-coops	oops,cops,cops,coos,coop
-coots	oots,cots,cots,coos,coot
-cores	ores,cres,coes,cors,core
-cours	ours,curs,cors,cous,cour
-crees	rees,cees,cres,cres,cree
-dearn	earn,darn,dern,dean,dear
-drays	rays,days,drys,dras,dray
-fails	ails,fils,fals,fais,fail
-fains	ains,fins,fans,fais,fain
-faint	aint,fint,fant,fait,fain
-fairs	airs,firs,fars,fais,fair
-faits	aits,fits,fats,fais,fait
-feels	eels,fels,fels,fees,feel
-fires	ires,fres,fies,firs,fire
-fleet	leet,feet,flet,flet,flee
-flour	lour,four,flur,flor,flou
-flout	lout,fout,flut,flot,flou
-foils	oils,fils,fols,fois,foil
-foins	oins,fins,fons,fois,foin
-fores	ores,fres,foes,fors,fore
-fours	ours,furs,fors,fous,four
-freed	reed,feed,fred,fred,free
-freen	reen,feen,fren,fren,free
-frees	rees,fees,fres,fres,free
-freet	reet,feet,fret,fret,free
-freit	reit,feit,frit,fret,frei
-fries	ries,fies,fres,fris,frie
-gains	ains,gins,gans,gais,gain
-gleed	leed,geed,gled,gled,glee
-grees	rees,gees,gres,gres,gree
-greet	reet,geet,gret,gret,gree
-grein	rein,gein,grin,gren,grei
-greit	reit,geit,grit,gret,grei
-hails	ails,hils,hals,hais,hail
-haine	aine,hine,hane,haie,hain
-haire	aire,hire,hare,haie,hair
-hause	ause,huse,hase,haue,haus
-haust	aust,hust,hast,haut,haus
-haute	aute,hute,hate,haue,haut
-haven	aven,hven,haen,havn,have
-yearn	earn,yarn,yern,yean,year
-kanas	anas,knas,kaas,kans,kana
-kanes	anes,knes,kaes,kans,kane
-laine	aine,line,lane,laie,lain
-least	east,last,lest,leat,leas
-loops	oops,lops,lops,loos,loop
-loots	oots,lots,lots,loos,loot
-maids	aids,mids,mads,mais,maid
-maile	aile,mile,male,maie,mail
-maine	aine,mine,mane,maie,main
-mains	ains,mins,mans,mais,main
-maire	aire,mire,mare,maie,mair
-mairs	airs,mirs,mars,mais,mair
-meats	eats,mats,mets,meas,meat
-mille	ille,mlle,mile,mile,mill
-moats	oats,mats,mots,moas,moat
-moils	oils,mils,mols,mois,moil
-molle	olle,mlle,mole,mole,moll
-moons	oons,mons,mons,moos,moon
-moots	oots,mots,mots,moos,moot
-pails	ails,pils,pals,pais,pail
-paine	aine,pine,pane,paie,pain
-pains	ains,pins,pans,pais,pain
-paise	aise,pise,pase,paie,pais
-pears	ears,pars,pers,peas,pear
-peats	eats,pats,pets,peas,peat
-peins	eins,pins,pens,peis,pein
-peris	eris,pris,peis,pers,peri
-pleat	leat,peat,plat,plet,plea
-preed	reed,peed,pred,pred,pree
-preen	reen,peen,pren,pren,pree
-prees	rees,pees,pres,pres,pree
-pries	ries,pies,pres,pris,prie
-proof	roof,poof,prof,prof,proo
-raids	aids,rids,rads,rais,raid
-raise	aise,rise,rase,raie,rais
-reins	eins,rins,rens,reis,rein
-roust	oust,rust,rost,rout,rous
-routs	outs,ruts,rots,rous,rout
-sains	ains,sins,sans,sais,sain
-saint	aint,sint,sant,sait,sain
-saunt	aunt,sunt,sant,saut,saun
-seats	eats,sats,sets,seas,seat
-seels	eels,sels,sels,sees,seel
-sheel	heel,seel,shel,shel,shee
-sheer	heer,seer,sher,sher,shee
-shoot	hoot,soot,shot,shot,shoo
-skeel	keel,seel,skel,skel,skee
-skeen	keen,seen,sken,sken,skee
-skein	kein,sein,skin,sken,skei
-skier	kier,sier,sker,skir,skie
-sleep	leep,seep,slep,slep,slee
-sloot	loot,soot,slot,slot,sloo
-sneer	neer,seer,sner,sner,snee
-spare	pare,sare,spre,spae,spar
-spier	pier,sier,sper,spir,spie
-spies	pies,sies,spes,spis,spie
-spire	pire,sire,spre,spie,spir
-staun	taun,saun,stun,stan,stau
-stied	tied,sied,sted,stid,stie
-stire	tire,sire,stre,stie,stir
-tails	ails,tils,tals,tais,tail
-tains	ains,tins,tans,tais,tain
-taint	aint,tint,tant,tait,tain
-tares	ares,tres,taes,tars,tare
-tarie	arie,trie,taie,tare,tari
-tasks	asks,tsks,taks,tass,task
-tears	ears,tars,ters,teas,tear
-tyees	yees,tees,tyes,tyes,tyee
-tirer	irer,trer,tier,tirr,tire
-tires	ires,tres,ties,tirs,tire
-tores	ores,tres,toes,tors,tore
-toust	oust,tust,tost,tout,tous
-touts	outs,tuts,tots,tous,tout
-treen	reen,teen,tren,tren,tree
-trees	rees,tees,tres,tres,tree
-tries	ries,ties,tres,tris,trie
-troad	road,toad,trad,trod,troa
-trout	rout,tout,trut,trot,trou
-truer	ruer,tuer,trer,trur,true
-vails	ails,vils,vals,vais,vail
-vaire	aire,vire,vare,vaie,vair
-veins	eins,vins,vens,veis,vein
-woons	oons,wons,wons,woos,woon
-xviii	viii,xiii,xvii,xvii,xvii
-xxiii	xiii,xiii,xxii,xxii,xxii
-avise	vise,aise,avse,avie,avis
-beins	eins,bins,bens,beis,bein
-blaut	laut,baut,blut,blat,blau
-braut	raut,baut,brut,brat,brau
-breen	reen,been,bren,bren,bree
-breid	reid,beid,brid,bred,brei
-breit	reit,beit,brit,bret,brei
-bøyde	øyde,byde,bøde,bøye,bøyd
-døyet	øyet,dyet,døet,døyt,døye
-feila	eila,fila,fela,feia,feil
-feile	eile,file,fele,feie,feil
-flaut	laut,faut,flut,flat,flau
-graut	raut,gaut,grut,grat,grau
-greip	reip,geip,grip,grep,grei
-hauge	auge,huge,hage,haue,haug
-hauke	auke,huke,hake,haue,hauk
-heile	eile,hile,hele,heie,heil
-heilt	eilt,hilt,helt,heit,heil
-klova	lova,kova,klva,kloa,klov
-kneet	neet,keet,knet,knet,knee
-korna	orna,krna,kona,kora,korn
-laust	aust,lust,last,laut,laus
-leide	eide,lide,lede,leie,leid
-leier	eier,lier,leer,leir,leie
-leies	eies,lies,lees,leis,leie
-leike	eike,like,leke,leie,leik
-leire	eire,lire,lere,leie,leir
-meine	eine,mine,mene,meie,mein
-meins	eins,mins,mens,meis,mein
-neide	eide,nide,nede,neie,neid
-piren	iren,pren,pien,pirn,pire
-raide	aide,ride,rade,raie,raid
-rause	ause,ruse,rase,raue,raus
-raute	aute,rute,rate,raue,raut
-reine	eine,rine,rene,reie,rein
-saven	aven,sven,saen,savn,save
-seilt	eilt,silt,selt,seit,seil
-skeid	keid,seid,skid,sked,skei
-skuer	kuer,suer,sker,skur,skue
-skure	kure,sure,skre,skue,skur
-snues	nues,sues,snes,snus,snue
-staur	taur,saur,stur,star,stau
-staut	taut,saut,stut,stat,stau
-stier	tier,sier,ster,stir,stie
-stige	tige,sige,stge,stie,stig
-stuer	tuer,suer,ster,stur,stue
-sture	ture,sure,stre,stue,stur
-styre	tyre,syre,stre,stye,styr
-støye	tøye,søye,stye,støe,støy
-sulet	ulet,slet,suet,sult,sule
-svein	vein,sein,svin,sven,svei
-taren	aren,tren,taen,tarn,tare
-taust	aust,tust,tast,taut,taus
-traut	raut,taut,trut,trat,trau
-treet	reet,teet,tret,tret,tree
-turer	urer,trer,tuer,turr,ture
-tåren	åren,tren,tåen,tårn,tåre
-veike	eike,vike,veke,veie,veik
-aires	ires,ares,aies,airs,aire
-baust	aust,bust,bast,baut,baus
-braun	raun,baun,brun,bran,brau
-braus	raus,baus,brus,bras,brau
-daune	aune,dune,dane,daue,daun
-daure	aure,dure,dare,daue,daur
-feilt	eilt,filt,felt,feit,feil
-freie	reie,feie,frie,free,frei
-freue	reue,feue,frue,free,freu
-garen	aren,gren,gaen,garn,gare
-graus	raus,gaus,grus,gras,grau
-knies	nies,kies,knes,knis,knie
-klaut	laut,kaut,klut,klat,klau
-leime	eime,lime,leme,leie,leim
-passt	asst,psst,past,past,pass
-raube	aube,rube,rabe,raue,raub
-raunt	aunt,runt,rant,raut,raun
-regen	egen,rgen,reen,regn,rege
-seher	eher,sher,seer,sehr,sehe
-sehen	ehen,shen,seen,sehn,sehe
-seins	eins,sins,sens,seis,sein
-toren	oren,tren,toen,torn,tore
-taute	aute,tute,tate,taue,taut
-teilt	eilt,tilt,telt,teit,teil
-weins	eins,wins,wens,weis,wein
-agies	gies,aies,ages,agis,agie
-bains	ains,bins,bans,bais,bain
-baise	aise,bise,base,baie,bais
-braie	raie,baie,brie,brae,brai
-brous	rous,bous,brus,bros,brou
-couds	ouds,cuds,cods,cous,coud
-crues	rues,cues,cres,crus,crue
-daims	aims,dims,dams,dais,daim
-feins	eins,fins,fens,feis,fein
-foies	oies,fies,foes,fois,foie
-gaies	aies,gies,gaes,gais,gaie
-gares	ares,gres,gaes,gars,gare
-laide	aide,lide,lade,laie,laid
-laids	aids,lids,lads,lais,laid
-laits	aits,lits,lats,lais,lait
-maies	aies,mies,maes,mais,maie
-malle	alle,mlle,male,male,mall
-mouds	ouds,muds,mods,mous,moud
-ovins	vins,oins,ovns,ovis,ovin
-paire	aire,pire,pare,paie,pair
-parie	arie,prie,paie,pare,pari
-poils	oils,pils,pols,pois,poil
-raine	aine,rine,rane,raie,rain
-saine	aine,sine,sane,saie,sain
-salit	alit,slit,sait,salt,sali
-soins	oins,sins,sons,sois,soin
-taies	aies,ties,taes,tais,taie
-troua	roua,toua,trua,troa,trou
-vaine	aine,vine,vane,vaie,vain
-vains	ains,vins,vans,vais,vain
-veine	eine,vine,vene,veie,vein
-voies	oies,vies,voes,vois,voie
-aahs	ahs,ahs,aas,aah
-aals	als,als,aas,aal
-abas	bas,aas,abs,aba
-abet	bet,aet,abt,abe
-abye	bye,aye,abe,aby
-abys	bys,ays,abs,aby
-able	ble,ale,abe,abl
-ably	bly,aly,aby,abl
-adam	dam,aam,adm,ada
-ager	ger,aer,agr,age
-aget	get,aet,agt,age
-agin	gin,ain,agn,agi
-agit	git,ait,agt,agi
-agra	gra,ara,aga,agr
-agre	gre,are,age,agr
-aide	ide,ade,aie,aid
-aids	ids,ads,ais,aid
-ayes	yes,aes,ays,aye
-aile	ile,ale,aie,ail
-ails	ils,als,ais,ail
-ains	ins,ans,ais,ain
-aint	int,ant,ait,ain
-aire	ire,are,aie,air
-airs	irs,ars,ais,air
-alas	las,aas,als,ala
-albs	lbs,abs,als,alb
-ales	les,aes,als,ale
-amie	mie,aie,ame,ami
-amit	mit,ait,amt,ami
-anas	nas,aas,ans,ana
-anes	nes,aes,ans,ane
-anet	net,aet,ant,ane
-anis	nis,ais,ans,ani
-aper	per,aer,apr,ape
-apes	pes,aes,aps,ape
-apis	pis,ais,aps,api
-appl	ppl,apl,apl,app
-appt	ppt,apt,apt,app
-ares	res,aes,ars,are
-aret	ret,aet,art,are
-arna	rna,ana,ara,arn
-arte	rte,ate,are,art
-arum	rum,aum,arm,aru
-asha	sha,aha,asa,ash
-asps	sps,aps,ass,asp
-asta	sta,ata,asa,ast
-auge	uge,age,aue,aug
-auld	uld,ald,aud,aul
-aval	val,aal,avl,ava
-baal	aal,bal,bal,baa
-baas	aas,bas,bas,baa
-babs	abs,bbs,bas,bab
-bach	ach,bch,bah,bac
-bade	ade,bde,bae,bad
-bads	ads,bds,bas,bad
-bail	ail,bil,bal,bai
-bain	ain,bin,ban,bai
-bais	ais,bis,bas,bai
-bays	ays,bys,bas,bay
-bait	ait,bit,bat,bai
-bala	ala,bla,baa,bal
-bald	ald,bld,bad,bal
-bale	ale,ble,bae,bal
-balk	alk,blk,bak,bal
-bals	als,bls,bas,bal
-bapt	apt,bpt,bat,bap
-bara	ara,bra,baa,bar
-bard	ard,brd,bad,bar
-bare	are,bre,bae,bar
-barr	arr,brr,bar,bar
-bart	art,brt,bat,bar
-baru	aru,bru,bau,bar
-bash	ash,bsh,bah,bas
-bast	ast,bst,bat,bas
-baud	aud,bud,bad,bau
-bauk	auk,buk,bak,bau
-baul	aul,bul,bal,bau
-bbls	bls,bls,bbs,bbl
-bead	ead,bad,bed,bea
-bean	ean,ban,ben,bea
-bear	ear,bar,ber,bea
-beat	eat,bat,bet,bea
-beds	eds,bds,bes,bed
-been	een,ben,ben,bee
-beer	eer,ber,ber,bee
-beid	eid,bid,bed,bei
-bein	ein,bin,ben,bei
-bela	ela,bla,bea,bel
-beld	eld,bld,bed,bel
-belk	elk,blk,bek,bel
-bels	els,bls,bes,bel
-bere	ere,bre,bee,ber
-bert	ert,brt,bet,ber
-best	est,bst,bet,bes
-bibs	ibs,bbs,bis,bib
-bide	ide,bde,bie,bid
-bids	ids,bds,bis,bid
-byee	yee,bee,bye,bye
-byes	yes,bes,bys,bye
-bile	ile,ble,bie,bil
-bilo	ilo,blo,bio,bil
-bion	ion,bon,bin,bio
-bios	ios,bos,bis,bio
-byre	yre,bre,bye,byr
-bist	ist,bst,bit,bis
-bits	its,bts,bis,bit
-blad	lad,bad,bld,bla
-blay	lay,bay,bly,bla
-blas	las,bas,bls,bla
-blea	lea,bea,bla,ble
-bled	led,bed,bld,ble
-blee	lee,bee,ble,ble
-blok	lok,bok,blk,blo
-boar	oar,bar,bor,boa
-boat	oat,bat,bot,boa
-bobs	obs,bbs,bos,bob
-bode	ode,bde,boe,bod
-bods	ods,bds,bos,bod
-boer	oer,ber,bor,boe
-bola	ola,bla,boa,bol
-bold	old,bld,bod,bol
-bole	ole,ble,boe,bol
-boos	oos,bos,bos,boo
-boot	oot,bot,bot,boo
-bops	ops,bps,bos,bop
-bora	ora,bra,boa,bor
-bord	ord,brd,bod,bor
-bore	ore,bre,boe,bor
-bort	ort,brt,bot,bor
-brad	rad,bad,brd,bra
-bray	ray,bay,bry,bra
-brat	rat,bat,brt,bra
-bred	red,bed,brd,bre
-bree	ree,bee,bre,bre
-bret	ret,bet,brt,bre
-brod	rod,bod,brd,bro
-broo	roo,boo,bro,bro
-brot	rot,bot,brt,bro
-brut	rut,but,brt,bru
-bude	ude,bde,bue,bud
-buds	uds,bds,bus,bud
-bulk	ulk,blk,buk,bul
-bura	ura,bra,bua,bur
-burd	urd,brd,bud,bur
-bure	ure,bre,bue,bur
-burt	urt,brt,but,bur
-bush	ush,bsh,buh,bus
-bust	ust,bst,but,bus
-buts	uts,bts,bus,but
-caid	aid,cid,cad,cai
-cair	air,cir,car,cai
-caps	aps,cps,cas,cap
-cary	ary,cry,cay,car
-cars	ars,crs,cas,car
-cast	ast,cst,cat,cas
-cest	est,cst,cet,ces
-cete	ete,cte,cee,cet
-chai	hai,cai,chi,cha
-cham	ham,cam,chm,cha
-chan	han,can,chn,cha
-char	har,car,chr,cha
-chee	hee,cee,che,che
-chen	hen,cen,chn,che
-chia	hia,cia,cha,chi
-chis	his,cis,chs,chi
-chon	hon,con,chn,cho
-chum	hum,cum,chm,chu
-chun	hun,cun,chn,chu
-cire	ire,cre,cie,cir
-cist	ist,cst,cit,cis
-cloy	loy,coy,cly,clo
-coes	oes,ces,cos,coe
-coil	oil,cil,col,coi
-coos	oos,cos,cos,coo
-coot	oot,cot,cot,coo
-cops	ops,cps,cos,cop
-copt	opt,cpt,cot,cop
-core	ore,cre,coe,cor
-cory	ory,cry,coy,cor
-cost	ost,cst,cot,cos
-coto	oto,cto,coo,cot
-coud	oud,cud,cod,cou
-cree	ree,cee,cre,cre
-cres	res,ces,crs,cre
-cris	ris,cis,crs,cri
-croy	roy,coy,cry,cro
-cuit	uit,cit,cut,cui
-cure	ure,cre,cue,cur
-cute	ute,cte,cue,cut
-daer	aer,der,dar,dae
-days	ays,dys,das,day
-daks	aks,dks,das,dak
-dark	ark,drk,dak,dar
-daud	aud,dud,dad,dau
-dauk	auk,duk,dak,dau
-daur	aur,dur,dar,dau
-dean	ean,dan,den,dea
-dear	ear,dar,der,dea
-deer	eer,der,der,dee
-deft	eft,dft,det,def
-deil	eil,dil,del,dei
-deis	eis,dis,des,dei
-dens	ens,dns,des,den
-depa	epa,dpa,dea,dep
-dian	ian,dan,din,dia
-dyer	yer,der,dyr,dye
-dyes	yes,des,dys,dye
-dins	ins,dns,dis,din
-doat	oat,dat,dot,doa
-dobl	obl,dbl,dol,dob
-doer	oer,der,dor,doe
-does	oes,des,dos,doe
-dons	ons,dns,dos,don
-dopa	opa,dpa,doa,dop
-dora	ora,dra,doa,dor
-dray	ray,day,dry,dra
-duer	uer,der,dur,due
-duit	uit,dit,dut,dui
-duns	uns,dns,dus,dun
-dura	ura,dra,dua,dur
-earn	arn,ern,ean,ear
-egad	gad,ead,egd,ega
-eyen	yen,een,eyn,eye
-eyer	yer,eer,eyr,eye
-eild	ild,eld,eid,eil
-eire	ire,ere,eie,eir
-eyre	yre,ere,eye,eyr
-emus	mus,eus,ems,emu
-eons	ons,ens,eos,eon
-erat	rat,eat,ert,era
-facy	acy,fcy,fay,fac
-fays	ays,fys,fas,fay
-faro	aro,fro,fao,far
-fart	art,frt,fat,far
-feer	eer,fer,fer,fee
-fill	ill,fll,fil,fil
-fils	ils,fls,fis,fil
-firk	irk,frk,fik,fir
-firs	irs,frs,fis,fir
-flob	lob,fob,flb,flo
-flog	log,fog,flg,flo
-flub	lub,fub,flb,flu
-flus	lus,fus,fls,flu
-foil	oil,fil,fol,foi
-fold	old,fld,fod,fol
-foot	oot,fot,fot,foo
-fops	ops,fps,fos,fop
-fort	ort,frt,fot,for
-foud	oud,fud,fod,fou
-four	our,fur,for,fou
-fray	ray,fay,fry,fra
-frat	rat,fat,frt,fra
-fris	ris,fis,frs,fri
-frit	rit,fit,frt,fri
-frot	rot,fot,frt,fro
-full	ull,fll,ful,ful
-furs	urs,frs,fus,fur
-gads	ads,gds,gas,gad
-gaes	aes,ges,gas,gae
-gaet	aet,get,gat,gae
-gail	ail,gil,gal,gai
-gain	ain,gin,gan,gai
-gair	air,gir,gar,gai
-gait	ait,git,gat,gai
-gale	ale,gle,gae,gal
-galt	alt,glt,gat,gal
-gaps	aps,gps,gas,gap
-gare	are,gre,gae,gar
-gary	ary,gry,gay,gar
-gars	ars,grs,gas,gar
-gast	ast,gst,gat,gas
-gate	ate,gte,gae,gat
-gaud	aud,gud,gad,gau
-gaul	aul,gul,gal,gau
-gaum	aum,gum,gam,gau
-gaur	aur,gur,gar,gau
-gaus	aus,gus,gas,gau
-geds	eds,gds,ges,ged
-geer	eer,ger,ger,gee
-gein	ein,gin,gen,gei
-geir	eir,gir,ger,gei
-geld	eld,gld,ged,gel
-gelt	elt,glt,get,gel
-gens	ens,gns,ges,gen
-geom	eom,gom,gem,geo
-geon	eon,gon,gen,geo
-gere	ere,gre,gee,ger
-gers	ers,grs,ges,ger
-gest	est,gst,get,ges
-gids	ids,gds,gis,gid
-gila	ila,gla,gia,gil
-gild	ild,gld,gid,gil
-gile	ile,gle,gie,gil
-gilo	ilo,glo,gio,gil
-gilt	ilt,glt,git,gil
-gins	ins,gns,gis,gin
-gips	ips,gps,gis,gip
-gire	ire,gre,gie,gir
-girr	irr,grr,gir,gir
-gist	ist,gst,git,gis
-gyte	yte,gte,gye,gyt
-glad	lad,gad,gld,gla
-gled	led,ged,gld,gle
-glee	lee,gee,gle,gle
-glia	lia,gia,gla,gli
-glib	lib,gib,glb,gli
-glob	lob,gob,glb,glo
-glod	lod,god,gld,glo
-glue	lue,gue,gle,glu
-glut	lut,gut,glt,glu
-gnus	nus,gus,gns,gnu
-goad	oad,gad,god,goa
-goar	oar,gar,gor,goa
-goat	oat,gat,got,goa
-gods	ods,gds,gos,god
-gola	ola,gla,goa,gol
-gold	old,gld,god,gol
-gony	ony,gny,goy,gon
-goos	oos,gos,gos,goo
-gora	ora,gra,goa,gor
-gory	ory,gry,goy,gor
-gour	our,gur,gor,gou
-gout	out,gut,got,gou
-gray	ray,gay,gry,gra
-gras	ras,gas,grs,gra
-gree	ree,gee,gre,gre
-gres	res,ges,grs,gre
-gris	ris,gis,grs,gri
-gros	ros,gos,grs,gro
-grue	rue,gue,gre,gru
-grus	rus,gus,grs,gru
-guld	uld,gld,gud,gul
-gule	ule,gle,gue,gul
-gult	ult,glt,gut,gul
-guns	uns,gns,gus,gun
-gust	ust,gst,gut,gus
-haes	aes,hes,has,hae
-haet	aet,het,hat,hae
-haye	aye,hye,hae,hay
-hail	ail,hil,hal,hai
-hain	ain,hin,han,hai
-hair	air,hir,har,hai
-hait	ait,hit,hat,hai
-halm	alm,hlm,ham,hal
-haul	aul,hul,hal,hau
-haum	aum,hum,ham,hau
-heel	eel,hel,hel,hee
-heer	eer,her,her,hee
-heil	eil,hil,hel,hei
-hein	ein,hin,hen,hei
-heir	eir,hir,her,hei
-held	eld,hld,hed,hel
-helm	elm,hlm,hem,hel
-hers	ers,hrs,hes,her
-hits	its,hts,his,hit
-hoer	oer,her,hor,hoe
-hoes	oes,hes,hos,hoe
-hold	old,hld,hod,hol
-holm	olm,hlm,hom,hol
-hoof	oof,hof,hof,hoo
-hoot	oot,hot,hot,hoo
-hors	ors,hrs,hos,hor
-huts	uts,hts,hus,hut
-yank	ank,ynk,yak,yan
-yean	ean,yan,yen,yea
-year	ear,yar,yer,yea
-yeat	eat,yat,yet,yea
-yere	ere,yre,yee,yer
-yeta	eta,yta,yea,yet
-yett	ett,ytt,yet,yet
-yids	ids,yds,yis,yid
-inst	nst,ist,int,ins
-yode	ode,yde,yoe,yod
-ions	ons,ins,ios,ion
-yore	ore,yre,yoe,yor
-isle	sle,ile,ise,isl
-jain	ain,jin,jan,jai
-jant	ant,jnt,jat,jan
-jeer	eer,jer,jer,jee
-junt	unt,jnt,jut,jun
-kail	ail,kil,kal,kai
-kain	ain,kin,kan,kai
-kale	ale,kle,kae,kal
-kane	ane,kne,kae,kan
-keat	eat,kat,ket,kea
-keen	een,ken,ken,kee
-keid	eid,kid,ked,kei
-keir	eir,kir,ker,kei
-kerf	erf,krf,kef,ker
-kyle	yle,kle,kye,kyl
-kist	ist,kst,kit,kis
-klom	lom,kom,klm,klo
-knee	nee,kee,kne,kne
-koil	oil,kil,kol,koi
-kona	ona,kna,koa,kon
-kora	ora,kra,koa,kor
-kors	ors,krs,kos,kor
-kras	ras,kas,krs,kra
-kulm	ulm,klm,kum,kul
-labs	abs,lbs,las,lab
-laid	aid,lid,lad,lai
-laik	aik,lik,lak,lai
-lain	ain,lin,lan,lai
-lair	air,lir,lar,lai
-lays	ays,lys,las,lay
-lait	ait,lit,lat,lai
-last	ast,lst,lat,las
-laud	aud,lud,lad,lau
-laur	aur,lur,lar,lau
-laus	aus,lus,las,lau
-lead	ead,lad,led,lea
-leam	eam,lam,lem,lea
-lean	ean,lan,len,lea
-lear	ear,lar,ler,lea
-leat	eat,lat,let,lea
-leer	eer,ler,ler,lee
-leis	eis,lis,les,lei
-leon	eon,lon,len,leo
-leos	eos,los,les,leo
-lest	est,lst,let,les
-libs	ibs,lbs,lis,lib
-lyes	yes,les,lys,lye
-list	ist,lst,lit,lis
-load	oad,lad,lod,loa
-loam	oam,lam,lom,loa
-lobs	obs,lbs,los,lob
-loca	oca,lca,loa,loc
-loof	oof,lof,lof,loo
-loos	oos,los,los,loo
-loot	oot,lot,lot,loo
-lost	ost,lst,lot,los
-loud	oud,lud,lod,lou
-lour	our,lur,lor,lou
-lout	out,lut,lot,lou
-lust	ust,lst,lut,lus
-lwop	wop,lop,lwp,lwo
-maes	aes,mes,mas,mae
-maid	aid,mid,mad,mai
-mail	ail,mil,mal,mai
-maim	aim,mim,mam,mai
-main	ain,min,man,mai
-mair	air,mir,mar,mai
-mand	and,mnd,mad,man
-mark	ark,mrk,mak,mar
-mars	ars,mrs,mas,mar
-maru	aru,mru,mau,mar
-mass	ass,mss,mas,mas
-maud	aud,mud,mad,mau
-maux	aux,mux,max,mau
-mead	ead,mad,med,mea
-mean	ean,man,men,mea
-mear	ear,mar,mer,mea
-meat	eat,mat,met,mea
-meer	eer,mer,mer,mee
-mein	ein,min,men,mei
-mend	end,mnd,med,men
-merk	erk,mrk,mek,mer
-mess	ess,mss,mes,mes
-mian	ian,man,min,mia
-miao	iao,mao,mio,mia
-mind	ind,mnd,mid,min
-mirs	irs,mrs,mis,mir
-moat	oat,mat,mot,moa
-moil	oil,mil,mol,moi
-mona	ona,mna,moa,mon
-moos	oos,mos,mos,moo
-moot	oot,mot,mot,moo
-mors	ors,mrs,mos,mor
-moss	oss,mss,mos,mos
-moud	oud,mud,mod,mou
-mout	out,mut,mot,mou
-mume	ume,mme,mue,mum
-mund	und,mnd,mud,mun
-muts	uts,mts,mus,mut
-naam	aam,nam,nam,naa
-nays	ays,nys,nas,nay
-nark	ark,nrk,nak,nar
-nast	ast,nst,nat,nas
-near	ear,nar,ner,nea
-neat	eat,nat,net,nea
-neer	eer,ner,ner,nee
-nest	est,nst,net,nes
-neut	eut,nut,net,neu
-nyet	yet,net,nyt,nye
-nist	ist,nst,nit,nis
-noam	oam,nam,nom,noa
-noes	oes,nes,nos,noe
-nork	ork,nrk,nok,nor
-obes	bes,oes,obs,obe
-odes	des,oes,ods,ode
-okie	kie,oie,oke,oki
-olam	lam,oam,olm,ola
-ones	nes,oes,ons,one
-oohs	ohs,ohs,oos,ooh
-opes	pes,oes,ops,ope
-orad	rad,oad,ord,ora
-ores	res,oes,ors,ore
-orle	rle,ole,ore,orl
-oses	ses,oes,oss,ose
-pact	act,pct,pat,pac
-pahi	ahi,phi,pai,pah
-paik	aik,pik,pak,pai
-pail	ail,pil,pal,pai
-pain	ain,pin,pan,pai
-pair	air,pir,par,pai
-pais	ais,pis,pas,pai
-paly	aly,ply,pay,pal
-paps	aps,pps,pas,pap
-pars	ars,prs,pas,par
-past	ast,pst,pat,pas
-patt	att,ptt,pat,pat
-paul	aul,pul,pal,pau
-pean	ean,pan,pen,pea
-pear	ear,par,per,pea
-peat	eat,pat,pet,pea
-peen	een,pen,pen,pee
-peer	eer,per,per,pee
-pega	ega,pga,pea,peg
-pere	ere,pre,pee,per
-pern	ern,prn,pen,per
-pers	ers,prs,pes,per
-pest	est,pst,pet,pes
-pete	ete,pte,pee,pet
-phit	hit,pit,pht,phi
-phot	hot,pot,pht,pho
-phut	hut,put,pht,phu
-pian	ian,pan,pin,pia
-pips	ips,pps,pis,pip
-pyre	yre,pre,pye,pyr
-pist	ist,pst,pit,pis
-pita	ita,pta,pia,pit
-pits	its,pts,pis,pit
-ploy	loy,poy,ply,plo
-poil	oil,pil,pol,poi
-pops	ops,pps,pos,pop
-pore	ore,pre,poe,por
-pory	ory,pry,poy,por
-post	ost,pst,pot,pos
-pouf	ouf,puf,pof,pou
-pour	our,pur,por,pou
-pout	out,put,pot,pou
-pree	ree,pee,pre,pre
-prep	rep,pep,prp,pre
-pres	res,pes,prs,pre
-pron	ron,pon,prn,pro
-prop	rop,pop,prp,pro
-pros	ros,pos,prs,pro
-pups	ups,pps,pus,pup
-pure	ure,pre,pue,pur
-purs	urs,prs,pus,pur
-puts	uts,pts,pus,put
-raid	aid,rid,rad,rai
-rain	ain,rin,ran,rai
-rais	ais,ris,ras,rai
-rand	and,rnd,rad,ran
-raps	aps,rps,ras,rap
-rapt	apt,rpt,rat,rap
-read	ead,rad,red,rea
-ream	eam,ram,rem,rea
-reel	eel,rel,rel,ree
-reen	een,ren,ren,ree
-refs	efs,rfs,res,ref
-reid	eid,rid,red,rei
-reim	eim,rim,rem,rei
-rein	ein,rin,ren,rei
-reis	eis,ris,res,rei
-rems	ems,rms,res,rem
-rend	end,rnd,red,ren
-rete	ete,rte,ree,ret
-rind	ind,rnd,rid,rin
-rips	ips,rps,ris,rip
-road	oad,rad,rod,roa
-roak	oak,rak,rok,roa
-roam	oam,ram,rom,roa
-roar	oar,rar,ror,roa
-roes	oes,res,ros,roe
-roms	oms,rms,ros,rom
-rond	ond,rnd,rod,ron
-root	oot,rot,rot,roo
-rule	ule,rle,rue,rul
-rums	ums,rms,rus,rum
-saho	aho,sho,sao,sah
-said	aid,sid,sad,sai
-sail	ail,sil,sal,sai
-saim	aim,sim,sam,sai
-sain	ain,sin,san,sai
-sair	air,sir,sar,sai
-saka	aka,ska,saa,sak
-sake	ake,ske,sae,sak
-sala	ala,sla,saa,sal
-sale	ale,sle,sae,sal
-salt	alt,slt,sat,sal
-sane	ane,sne,sae,san
-sapa	apa,spa,saa,sap
-saps	aps,sps,sas,sap
-sata	ata,sta,saa,sat
-sate	ate,ste,sae,sat
-sati	ati,sti,sai,sat
-saul	aul,sul,sal,sau
-saum	aum,sum,sam,sau
-saur	aur,sur,sar,sau
-save	ave,sve,sae,sav
-seam	eam,sam,sem,sea
-sean	ean,san,sen,sea
-sear	ear,sar,ser,sea
-seat	eat,sat,set,sea
-seel	eel,sel,sel,see
-seen	een,sen,sen,see
-seer	eer,ser,ser,see
-seid	eid,sid,sed,sei
-seis	eis,sis,ses,sei
-seld	eld,sld,sed,sel
-selt	elt,slt,set,sel
-serg	erg,srg,seg,ser
-seta	eta,sta,sea,set
-seve	eve,sve,see,sev
-shah	hah,sah,shh,sha
-shai	hai,sai,shi,sha
-shay	hay,say,shy,sha
-shap	hap,sap,shp,sha
-shat	hat,sat,sht,sha
-shee	hee,see,she,she
-sher	her,ser,shr,she
-shia	hia,sia,sha,shi
-ship	hip,sip,shp,shi
-shit	hit,sit,sht,shi
-shoe	hoe,soe,she,sho
-shop	hop,sop,shp,sho
-shot	hot,sot,sht,sho
-shut	hut,sut,sht,shu
-syed	yed,sed,syd,sye
-sike	ike,ske,sie,sik
-sild	ild,sld,sid,sil
-sile	ile,sle,sie,sil
-silt	ilt,slt,sit,sil
-sima	ima,sma,sia,sim
-sips	ips,sps,sis,sip
-sita	ita,sta,sia,sit
-siva	iva,sva,sia,siv
-skat	kat,sat,skt,ska
-skee	kee,see,ske,ske
-skey	key,sey,sky,ske
-sket	ket,set,skt,ske
-skye	kye,sye,ske,sky
-skit	kit,sit,skt,ski
-slad	lad,sad,sld,sla
-slay	lay,say,sly,sla
-slat	lat,sat,slt,sla
-sled	led,sed,sld,sle
-slee	lee,see,sle,sle
-sley	ley,sey,sly,sle
-slod	lod,sod,sld,slo
-sloe	loe,soe,sle,slo
-slot	lot,sot,slt,slo
-slud	lud,sud,sld,slu
-slue	lue,sue,sle,slu
-slut	lut,sut,slt,slu
-snee	nee,see,sne,sne
-snye	nye,sye,sne,sny
-sods	ods,sds,sos,sod
-soil	oil,sil,sol,soi
-soke	oke,ske,soe,sok
-sold	old,sld,sod,sol
-sole	ole,sle,soe,sol
-sone	one,sne,soe,son
-sope	ope,spe,soe,sop
-sops	ops,sps,sos,sop
-soud	oud,sud,sod,sou
-spad	pad,sad,spd,spa
-spay	pay,say,spy,spa
-spas	pas,sas,sps,spa
-spat	pat,sat,spt,spa
-sped	ped,sed,spd,spe
-spet	pet,set,spt,spe
-stad	tad,sad,std,sta
-stag	tag,sag,stg,sta
-stay	tay,say,sty,sta
-stam	tam,sam,stm,sta
-star	tar,sar,str,sta
-steg	teg,seg,stg,ste
-stem	tem,sem,stm,ste
-ster	ter,ser,str,ste
-stid	tid,sid,std,sti
-stye	tye,sye,ste,sty
-stim	tim,sim,stm,sti
-stir	tir,sir,str,sti
-stod	tod,sod,std,sto
-stog	tog,sog,stg,sto
-stue	tue,sue,ste,stu
-stug	tug,sug,stg,stu
-stum	tum,sum,stm,stu
-suds	uds,sds,sus,sud
-suer	uer,ser,sur,sue
-suit	uit,sit,sut,sui
-sula	ula,sla,sua,sul
-suld	uld,sld,sud,sul
-sulu	ulu,slu,suu,sul
-sune	une,sne,sue,sun
-sups	ups,sps,sus,sup
-susu	usu,ssu,suu,sus
-sutu	utu,stu,suu,sut
-sway	way,say,swy,swa
-taal	aal,tal,tal,taa
-tabs	abs,tbs,tas,tab
-tack	ack,tck,tak,tac
-tail	ail,til,tal,tai
-tain	ain,tin,tan,tai
-tait	ait,tit,tat,tai
-takt	akt,tkt,tat,tak
-tang	ang,tng,tag,tan
-taps	aps,tps,tas,tap
-tara	ara,tra,taa,tar
-tare	are,tre,tae,tar
-taro	aro,tro,tao,tar
-tars	ars,trs,tas,tar
-tart	art,trt,tat,tar
-task	ask,tsk,tak,tas
-tass	ass,tss,tas,tas
-taum	aum,tum,tam,tau
-taur	aur,tur,tar,tau
-taus	aus,tus,tas,tau
-tawa	awa,twa,taa,taw
-tead	ead,tad,ted,tea
-team	eam,tam,tem,tea
-tean	ean,tan,ten,tea
-tear	ear,tar,ter,tea
-teat	eat,tat,tet,tea
-teel	eel,tel,tel,tee
-teen	een,ten,ten,tee
-teer	eer,ter,ter,tee
-teng	eng,tng,teg,ten
-tera	era,tra,tea,ter
-tess	ess,tss,tes,tes
-test	est,tst,tet,tes
-text	ext,txt,tet,tex
-thae	hae,tae,the,tha
-thai	hai,tai,thi,tha
-thee	hee,tee,the,the
-thoo	hoo,too,tho,tho
-tyee	yee,tee,tye,tye
-tyes	yes,tes,tys,tye
-ting	ing,tng,tig,tin
-tint	int,tnt,tit,tin
-tips	ips,tps,tis,tip
-tire	ire,tre,tie,tir
-tyre	yre,tre,tye,tyr
-toad	oad,tad,tod,toa
-toat	oat,tat,tot,toa
-tock	ock,tck,tok,toc
-toes	oes,tes,tos,toe
-toil	oil,til,tol,toi
-toot	oot,tot,tot,too
-tops	ops,tps,tos,top
-tora	ora,tra,toa,tor
-tore	ore,tre,toe,tor
-tory	ory,try,toy,tor
-tors	ors,trs,tos,tor
-tort	ort,trt,tot,tor
-toss	oss,tss,tos,tos
-tost	ost,tst,tot,tos
-tour	our,tur,tor,tou
-tout	out,tut,tot,tou
-tray	ray,tay,try,tra
-trap	rap,tap,trp,tra
-tree	ree,tee,tre,tre
-tref	ref,tef,trf,tre
-tres	res,tes,trs,tre
-tret	ret,tet,trt,tre
-trip	rip,tip,trp,tri
-trit	rit,tit,trt,tri
-troy	roy,toy,try,tro
-trop	rop,top,trp,tro
-trot	rot,tot,trt,tro
-true	rue,tue,tre,tru
-tung	ung,tng,tug,tun
-tups	ups,tps,tus,tup
-turf	urf,trf,tuf,tur
-turi	uri,tri,tui,tur
-unit	nit,uit,unt,uni
-urna	rna,una,ura,urn
-vail	ail,vil,val,vai
-vain	ain,vin,van,vai
-vaus	aus,vus,vas,vau
-veen	een,ven,ven,vee
-veer	eer,ver,ver,vee
-veil	eil,vil,vel,vei
-vein	ein,vin,ven,vei
-viii	iii,vii,vii,vii
-waer	aer,wer,war,wae
-waes	aes,wes,was,wae
-wary	ary,wry,way,war
-wean	ean,wan,wen,wea
-wear	ear,war,wer,wea
-ween	een,wen,wen,wee
-weer	eer,wer,wer,wee
-weir	eir,wir,wer,wei
-whar	har,war,whr,wha
-whoo	hoo,woo,who,who
-woad	oad,wad,wod,woa
-woes	oes,wes,wos,woe
-woos	oos,wos,wos,woo
-xiii	iii,xii,xii,xii
-xvii	vii,xii,xvi,xvi
-xxii	xii,xii,xxi,xxi
-xxiv	xiv,xiv,xxv,xxi
-aber	ber,aer,abr,abe
-apal	pal,aal,apl,apa
-apet	pet,aet,apt,ape
-apte	pte,ate,ape,apt
-aset	set,aet,ast,ase
-aska	ska,aka,asa,ask
-aske	ske,ake,ase,ask
-aspa	spa,apa,asa,asp
-auke	uke,ake,aue,auk
-aure	ure,are,aue,aur
-ause	use,ase,aue,aus
-babl	abl,bbl,bal,bab
-baks	aks,bks,bas,bak
-bakt	akt,bkt,bat,bak
-baug	aug,bug,bag,bau
-baus	aus,bus,bas,bau
-beis	eis,bis,bes,bei
-blei	lei,bei,bli,ble
-blek	lek,bek,blk,ble
-bles	les,bes,bls,ble
-blid	lid,bid,bld,bli
-blod	lod,bod,bld,blo
-broa	roa,boa,bra,bro
-bror	ror,bor,brr,bro
-brua	rua,bua,bra,bru
-brud	rud,bud,brd,bru
-bryr	ryr,byr,brr,bry
-buer	uer,ber,bur,bue
-bule	ule,ble,bue,bul
-byer	yer,ber,byr,bye
-byet	yet,bet,byt,bye
-båre	åre,bre,båe,bår
-cosi	osi,csi,coi,cos
-dans	ans,dns,das,dan
-daue	aue,due,dae,dau
-drua	rua,dua,dra,dru
-egen	gen,een,egn,ege
-eike	ike,eke,eie,eik
-erte	rte,ete,ere,ert
-este	ste,ete,ese,est
-etat	tat,eat,ett,eta
-fars	ars,frs,fas,far
-feen	een,fen,fen,fee
-feie	eie,fie,fee,fei
-flid	lid,fid,fld,fli
-flis	lis,fis,fls,fli
-flod	lod,fod,fld,flo
-gatt	att,gtt,gat,gat
-geil	eil,gil,gel,gei
-gira	ira,gra,gia,gir
-gitt	itt,gtt,git,git
-glei	lei,gei,gli,gle
-glid	lid,gid,gld,gli
-gloa	loa,goa,gla,glo
-grei	rei,gei,gri,gre
-groa	roa,goa,gra,gro
-gror	ror,gor,grr,gro
-guds	uds,gds,gus,gud
-gytt	ytt,gtt,gyt,gyt
-hagt	agt,hgt,hat,hag
-haud	aud,hud,had,hau
-haug	aug,hug,hag,hau
-hauk	auk,huk,hak,hau
-haus	aus,hus,has,hau
-heie	eie,hie,hee,hei
-heim	eim,him,hem,hei
-heis	eis,his,hes,hei
-hoie	oie,hie,hoe,hoi
-kaie	aie,kie,kae,kai
-kare	are,kre,kae,kar
-kast	ast,kst,kat,kas
-kave	ave,kve,kae,kav
-kile	ile,kle,kie,kil
-kjee	jee,kee,kje,kje
-klin	lin,kin,kln,kli
-knea	nea,kea,kna,kne
-kost	ost,kst,kot,kos
-kroa	roa,koa,kra,kro
-kuer	uer,ker,kur,kue
-kule	ule,kle,kue,kul
-kure	ure,kre,kue,kur
-kvie	vie,kie,kve,kvi
-laug	aug,lug,lag,lau
-leid	eid,lid,led,lei
-leie	eie,lie,lee,lei
-leik	eik,lik,lek,lei
-leir	eir,lir,ler,lei
-luer	uer,ler,lur,lue
-lyet	yet,let,lyt,lye
-løye	øye,lye,løe,løy
-maie	aie,mie,mae,mai
-mais	ais,mis,mas,mai
-makt	akt,mkt,mat,mak
-maur	aur,mur,mar,mau
-meie	eie,mie,mee,mei
-meis	eis,mis,mes,mei
-mers	ers,mrs,mes,mer
-neie	eie,nie,nee,nei
-nerk	erk,nrk,nek,ner
-obos	bos,oos,obs,obo
-ospa	spa,opa,osa,osp
-pakt	akt,pkt,pat,pak
-pors	ors,prs,pos,por
-pren	ren,pen,prn,pre
-pust	ust,pst,put,pus
-puta	uta,pta,pua,put
-pute	ute,pte,pue,put
-raus	aus,rus,ras,rau
-reie	eie,rie,ree,rei
-ropt	opt,rpt,rot,rop
-rund	und,rnd,rud,run
-rute	ute,rte,rue,rut
-røyk	øyk,ryk,røk,røy
-røyr	øyr,ryr,rør,røy
-saug	aug,sug,sag,sau
-saus	aus,sus,sas,sau
-seil	eil,sil,sel,sei
-sein	ein,sin,sen,sei
-sene	ene,sne,see,sen
-sete	ete,ste,see,set
-seva	eva,sva,sea,sev
-sive	ive,sve,sie,siv
-skei	kei,sei,ski,ske
-skie	kie,sie,ske,ski
-slet	let,set,slt,sle
-smal	mal,sal,sml,sma
-smil	mil,sil,sml,smi
-snue	nue,sue,sne,snu
-sopp	opp,spp,sop,sop
-sopt	opt,spt,sot,sop
-sove	ove,sve,soe,sov
-spes	pes,ses,sps,spe
-sted	ted,sed,std,ste
-stie	tie,sie,ste,sti
-stig	tig,sig,stg,sti
-stri	tri,sri,sti,str
-stua	tua,sua,sta,stu
-stur	tur,sur,str,stu
-styr	tyr,syr,str,sty
-stør	tør,sør,str,stø
-står	tår,sår,str,stå
-sule	ule,sle,sue,sul
-sult	ult,slt,sut,sul
-suta	uta,sta,sua,sut
-svai	vai,sai,svi,sva
-svei	vei,sei,svi,sve
-svie	vie,sie,sve,svi
-svip	vip,sip,svp,svi
-søkt	økt,skt,søt,søk
-taes	aes,tes,tas,tae
-tant	ant,tnt,tat,tan
-tast	ast,tst,tat,tas
-taue	aue,tue,tae,tau
-tegn	egn,tgn,ten,teg
-ters	ers,trs,tes,ter
-toer	oer,ter,tor,toe
-tokt	okt,tkt,tot,tok
-trau	rau,tau,tru,tra
-trea	rea,tea,tra,tre
-troa	roa,toa,tra,tro
-trua	rua,tua,tra,tru
-trut	rut,tut,trt,tru
-tura	ura,tra,tua,tur
-ture	ure,tre,tue,tur
-turt	urt,trt,tut,tur
-tust	ust,tst,tut,tus
-tørt	ørt,trt,tøt,tør
-tåra	åra,tra,tåa,tår
-urte	rte,ute,ure,urt
-vass	ass,vss,vas,vas
-veid	eid,vid,ved,vei
-veie	eie,vie,vee,vei
-veik	eik,vik,vek,vei
-voss	oss,vss,vos,vos
-yret	ret,yet,yrt,yre
-yrte	rte,yte,yre,yrt
-ytet	tet,yet,ytt,yte
-øren	ren,øen,ørn,øre
-øyer	yer,øer,øyr,øye
-blød	lød,bød,bld,blø
-egon	gon,eon,egn,ego
-fuld	uld,fld,fud,ful
-glat	lat,gat,glt,gla
-magt	agt,mgt,mat,mag
-stak	tak,sak,stk,sta
-stik	tik,sik,stk,sti
-styg	tyg,syg,stg,sty
-tris	ris,tis,trs,tri
-ydes	des,yes,yds,yde
-aras	ras,aas,ars,ara
-beil	eil,bil,bel,bei
-bild	ild,bld,bid,bil
-baum	aum,bum,bam,bau
-brau	rau,bau,bru,bra
-chor	hor,cor,chr,cho
-dein	ein,din,den,dei
-eins	ins,ens,eis,ein
-flug	lug,fug,flg,flu
-furt	urt,frt,fut,fur
-fein	ein,fin,fen,fei
-gans	ans,gns,gas,gan
-gelb	elb,glb,geb,gel
-grau	rau,gau,gru,gra
-gute	ute,gte,gue,gut
-haie	aie,hie,hae,hai
-hais	ais,his,has,hai
-heus	eus,hus,hes,heu
-huld	uld,hld,hud,hul
-haue	aue,hue,hae,hau
-klee	lee,kee,kle,kle
-kaum	aum,kum,kam,kau
-kein	ein,kin,ken,kei
-leim	eim,lim,lem,lei
-mond	ond,mnd,mod,mon
-maus	aus,mus,mas,mau
-neid	eid,nid,ned,nei
-neue	eue,nue,nee,neu
-papi	api,ppi,pai,pap
-raum	aum,rum,ram,rau
-rehe	ehe,rhe,ree,reh
-reue	eue,rue,ree,reu
-saal	aal,sal,sal,saa
-sarg	arg,srg,sag,sar
-saud	aud,sud,sad,sau
-schi	chi,shi,sci,sch
-schr	chr,shr,scr,sch
-stau	tau,sau,stu,sta
-tagt	agt,tgt,tat,tag
-trat	rat,tat,trt,tra
-wein	ein,win,wen,wei
-weis	eis,wis,wes,wei
-abus	bus,aus,abs,abu
-acte	cte,ate,ace,act
-agie	gie,aie,age,agi
-agir	gir,air,agr,agi
-aise	ise,ase,aie,ais
-baie	aie,bie,bae,bai
-baye	aye,bye,bae,bay
-chas	has,cas,chs,cha
-chue	hue,cue,che,chu
-cors	ors,crs,cos,cor
-cour	our,cur,cor,cou
-crie	rie,cie,cre,cri
-crue	rue,cue,cre,cru
-dira	ira,dra,dia,dir
-flou	lou,fou,flu,flo
-foie	oie,fie,foe,foi
-fors	ors,frs,fos,for
-foui	oui,fui,foi,fou
-fout	out,fut,fot,fou
-fuit	uit,fit,fut,fui
-gaie	aie,gie,gae,gai
-gais	ais,gis,gas,gai
-lais	ais,lis,las,lai
-luit	uit,lit,lut,lui
-meus	eus,mus,mes,meu
-meut	eut,mut,met,meu
-muer	uer,mer,mur,mue
-nuit	uit,nit,nut,nui
-paix	aix,pix,pax,pai
-peau	eau,pau,peu,pea
-peut	eut,put,pet,peu
-pire	ire,pre,pie,pir
-puer	uer,per,pur,pue
-saie	aie,sie,sae,sai
-sais	ais,sis,sas,sai
-sait	ait,sit,sat,sai
-sape	ape,spe,sae,sap
-soie	oie,sie,soe,soi
-suri	uri,sri,sui,sur
-taie	aie,tie,tae,tai
-tais	ais,tis,tas,tai
-tapi	api,tpi,tai,tap
-taux	aux,tux,tax,tau
-tirs	irs,trs,tis,tir
-trie	rie,tie,tre,tri
-tuer	uer,ter,tur,tue
-vais	ais,vis,vas,vai
-aaa	aa,aa,aa
-aah	ah,ah,aa
-aal	al,al,aa
-aam	am,am,aa
-aas	as,as,aa
-aba	ba,aa,ab
-abb	bb,ab,ab
-abd	bd,ad,ab
-abe	be,ae,ab
-aby	by,ay,ab
-abl	bl,al,ab
-abn	bn,an,ab
-abo	bo,ao,ab
-abp	bp,ap,ab
-abr	br,ar,ab
-abs	bs,as,ab
-abt	bt,at,ab
-abu	bu,au,ab
-abv	bv,av,ab
-acc	cc,ac,ac
-ace	ce,ae,ac
-ach	ch,ah,ac
-acy	cy,ay,ac
-ack	ck,ak,ac
-act	ct,at,ac
-ada	da,aa,ad
-adc	dc,ac,ad
-add	dd,ad,ad
-ade	de,ae,ad
-ady	dy,ay,ad
-adm	dm,am,ad
-ado	do,ao,ad
-adp	dp,ap,ad
-ads	ds,as,ad
-adz	dz,az,ad
-aeq	eq,aq,ae
-aer	er,ar,ae
-aes	es,as,ae
-aet	et,at,ae
-afb	fb,ab,af
-aff	ff,af,af
-aft	ft,at,af
-aga	ga,aa,ag
-age	ge,ae,ag
-ago	go,ao,ag
-agr	gr,ar,ag
-agt	gt,at,ag
-aha	ha,aa,ah
-ahi	hi,ai,ah
-aho	ho,ao,ah
-ahs	hs,as,ah
-aht	ht,at,ah
-ahu	hu,au,ah
-aid	id,ad,ai
-aye	ye,ae,ay
-aik	ik,ak,ai
-ail	il,al,ai
-aim	im,am,ai
-ain	in,an,ai
-air	ir,ar,ai
-ais	is,as,ai
-ays	ys,as,ay
-ait	it,at,ai
-aix	ix,ax,ai
-aka	ka,aa,ak
-ako	ko,ao,ak
-aku	ku,au,ak
-ala	la,aa,al
-alb	lb,ab,al
-alc	lc,ac,al
-ald	ld,ad,al
-ale	le,ae,al
-alf	lf,af,al
-alg	lg,ag,al
-aly	ly,ay,al
-all	ll,al,al
-aln	ln,an,al
-alo	lo,ao,al
-alp	lp,ap,al
-als	ls,as,al
-alt	lt,at,al
-ama	ma,aa,am
-amb	mb,ab,am
-ame	me,ae,am
-ami	mi,ai,am
-amy	my,ay,am
-amp	mp,ap,am
-amt	mt,at,am
-amu	mu,au,am
-ana	na,aa,an
-and	nd,ad,an
-ane	ne,ae,an
-ani	ni,ai,an
-any	ny,ay,an
-ann	nn,an,an
-ans	ns,as,an
-ant	nt,at,an
-aob	ob,ab,ao
-aor	or,ar,ao
-apa	pa,aa,ap
-ape	pe,ae,ap
-aph	ph,ah,ap
-apl	pl,al,ap
-app	pp,ap,ap
-apr	pr,ar,ap
-apt	pt,at,ap
-ara	ra,aa,ar
-arc	rc,ac,ar
-are	re,ae,ar
-arf	rf,af,ar
-arg	rg,ag,ar
-ary	ry,ay,ar
-arm	rm,am,ar
-arn	rn,an,ar
-aro	ro,ao,ar
-ars	rs,as,ar
-art	rt,at,ar
-aru	ru,au,ar
-asa	sa,aa,as
-asb	sb,ab,as
-ase	se,ae,as
-asg	sg,ag,as
-ash	sh,ah,as
-ask	sk,ak,as
-asp	sp,ap,as
-ass	ss,as,as
-ast	st,at,as
-ata	ta,aa,at
-ate	te,ae,at
-ati	ti,ai,at
-atm	tm,am,at
-aud	ud,ad,au
-auf	uf,af,au
-aug	ug,ag,au
-auh	uh,ah,au
-aul	ul,al,au
-aum	um,am,au
-aus	us,as,au
-aux	ux,ax,au
-ava	va,aa,av
-ave	ve,ae,av
-avg	vg,ag,av
-avo	vo,ao,av
-awa	wa,aa,aw
-awd	wd,ad,aw
-awe	we,ae,aw
-awk	wk,ak,aw
-awl	wl,al,aw
-awm	wm,am,aw
-azo	zo,ao,az
-baa	aa,ba,ba
-bab	ab,bb,ba
-bad	ad,bd,ba
-bae	ae,be,ba
-bag	ag,bg,ba
-bah	ah,bh,ba
-bai	ai,bi,ba
-bay	ay,by,ba
-bal	al,bl,ba
-bam	am,bm,ba
-ban	an,bn,ba
-bap	ap,bp,ba
-bar	ar,br,ba
-bas	as,bs,ba
-bat	at,bt,ba
-bbl	bl,bl,bb
-bbs	bs,bs,bb
-bde	de,be,bd
-bdl	dl,bl,bd
-bds	ds,bs,bd
-bea	ea,ba,be
-bed	ed,bd,be
-bee	ee,be,be
-bef	ef,bf,be
-beg	eg,bg,be
-bey	ey,by,be
-bel	el,bl,be
-ben	en,bn,be
-ber	er,br,be
-bes	es,bs,be
-bet	et,bt,be
-bhd	hd,bd,bh
-bhp	hp,bp,bh
-bib	ib,bb,bi
-bid	id,bd,bi
-bye	ye,be,by
-big	ig,bg,bi
-bim	im,bm,bi
-bin	in,bn,bi
-bio	io,bo,bi
-bis	is,bs,bi
-bys	ys,bs,by
-bit	it,bt,bi
-bkg	kg,bg,bk
-bkt	kt,bt,bk
-bld	ld,bd,bl
-blo	lo,bo,bl
-bls	ls,bs,bl
-bob	ob,bb,bo
-bod	od,bd,bo
-boe	oe,be,bo
-bog	og,bg,bo
-boh	oh,bh,bo
-boy	oy,by,bo
-bol	ol,bl,bo
-bom	om,bm,bo
-bon	on,bn,bo
-bop	op,bp,bo
-bor	or,br,bo
-bos	os,bs,bo
-bot	ot,bt,bo
-box	ox,bx,bo
-bpi	pi,bi,bp
-bps	ps,bs,bp
-bpt	pt,bt,bp
-bra	ra,ba,br
-bro	ro,bo,br
-bsf	sf,bf,bs
-bsh	sh,bh,bs
-btu	tu,bu,bt
-bub	ub,bb,bu
-bud	ud,bd,bu
-bug	ug,bg,bu
-bul	ul,bl,bu
-bum	um,bm,bu
-bun	un,bn,bu
-bur	ur,br,bu
-bus	us,bs,bu
-but	ut,bt,bu
-bvt	vt,bt,bv
-bxs	xs,bs,bx
-cab	ab,cb,ca
-cad	ad,cd,ca
-caf	af,cf,ca
-cag	ag,cg,ca
-cai	ai,ci,ca
-cay	ay,cy,ca
-cal	al,cl,ca
-cam	am,cm,ca
-cap	ap,cp,ca
-car	ar,cr,ca
-cat	at,ct,ca
-cav	av,cv,ca
-ccm	cm,cm,cc
-cdg	dg,cg,cd
-cdr	dr,cr,cd
-cee	ee,ce,ce
-cep	ep,cp,ce
-cfi	fi,ci,cf
-cfm	fm,cm,cf
-cfs	fs,cs,cf
-cgm	gm,cm,cg
-cgs	gs,cs,cg
-cha	ha,ca,ch
-che	he,ce,ch
-chg	hg,cg,ch
-chi	hi,ci,ch
-chm	hm,cm,ch
-cho	ho,co,ch
-chs	hs,cs,ch
-cia	ia,ca,ci
-cid	id,cd,ci
-cie	ie,ce,ci
-cif	if,cf,ci
-cig	ig,cg,ci
-cyl	yl,cl,cy
-cir	ir,cr,ci
-cis	is,cs,ci
-cit	it,ct,ci
-civ	iv,cv,ci
-cli	li,ci,cl
-cly	ly,cy,cl
-clo	lo,co,cl
-clr	lr,cr,cl
-cmd	md,cd,cm
-cml	ml,cl,cm
-cob	ob,cb,co
-cod	od,cd,co
-coe	oe,ce,co
-cog	og,cg,co
-coy	oy,cy,co
-col	ol,cl,co
-com	om,cm,co
-cop	op,cp,co
-cor	or,cr,co
-cos	os,cs,co
-cot	ot,ct,co
-cpd	pd,cd,cp
-cpi	pi,ci,cp
-cpl	pl,cl,cp
-cpm	pm,cm,cp
-cpo	po,co,cp
-cps	ps,cs,cp
-cpt	pt,ct,cp
-cpu	pu,cu,cp
-crc	rc,cc,cr
-cre	re,ce,cr
-cry	ry,cy,cr
-cro	ro,co,cr
-crs	rs,cs,cr
-cru	ru,cu,cr
-csc	sc,cc,cs
-csi	si,ci,cs
-csk	sk,ck,cs
-csp	sp,cp,cs
-cst	st,ct,cs
-cte	te,ce,ct
-ctf	tf,cf,ct
-ctg	tg,cg,ct
-cto	to,co,ct
-ctr	tr,cr,ct
-cts	ts,cs,ct
-cub	ub,cb,cu
-cud	ud,cd,cu
-cul	ul,cl,cu
-cum	um,cm,cu
-cup	up,cp,cu
-cur	ur,cr,cu
-cut	ut,ct,cu
-dab	ab,db,da
-dad	ad,dd,da
-dae	ae,de,da
-dag	ag,dg,da
-day	ay,dy,da
-dak	ak,dk,da
-dal	al,dl,da
-dam	am,dm,da
-dan	an,dn,da
-dao	ao,do,da
-dap	ap,dp,da
-dar	ar,dr,da
-das	as,ds,da
-dat	at,dt,da
-dau	au,du,da
-dbl	bl,dl,db
-dca	ca,da,dc
-dcb	cb,db,dc
-ddt	dt,dt,dd
-dea	ea,da,de
-dec	ec,dc,de
-dee	ee,de,de
-deg	eg,dg,de
-dei	ei,di,de
-dey	ey,dy,de
-del	el,dl,de
-dem	em,dm,de
-den	en,dn,de
-dep	ep,dp,de
-der	er,dr,de
-des	es,ds,de
-det	et,dt,de
-dex	ex,dx,de
-dia	ia,da,di
-dib	ib,db,di
-did	id,dd,di
-die	ie,de,di
-dye	ye,de,dy
-dig	ig,dg,di
-dil	il,dl,di
-dim	im,dm,di
-din	in,dn,di
-dyn	yn,dn,dy
-dir	ir,dr,di
-dis	is,ds,di
-dys	ys,ds,dy
-dit	it,dt,di
-dix	ix,dx,di
-dkg	kg,dg,dk
-dkl	kl,dl,dk
-dkm	km,dm,dk
-dlr	lr,dr,dl
-dob	ob,db,do
-doc	oc,dc,do
-dod	od,dd,do
-doe	oe,de,do
-dog	og,dg,do
-dol	ol,dl,do
-dom	om,dm,do
-don	on,dn,do
-dop	op,dp,do
-dor	or,dr,do
-dos	os,ds,do
-dot	ot,dt,do
-doz	oz,dz,do
-dpt	pt,dt,dp
-dry	ry,dy,dr
-dsp	sp,dp,ds
-dsr	sr,dr,ds
-dtd	td,dd,dt
-dub	ub,db,du
-duc	uc,dc,du
-dud	ud,dd,du
-dug	ug,dg,du
-dui	ui,di,du
-dum	um,dm,du
-dun	un,dn,du
-dup	up,dp,du
-dur	ur,dr,du
-dux	ux,dx,du
-dzo	zo,do,dz
-ead	ad,ed,ea
-eam	am,em,ea
-ean	an,en,ea
-ear	ar,er,ea
-eat	at,et,ea
-eau	au,eu,ea
-eco	co,eo,ec
-ecu	cu,eu,ec
-edo	do,eo,ed
-edp	dp,ep,ed
-eds	ds,es,ed
-eel	el,el,ee
-een	en,en,ee
-eer	er,er,ee
-eff	ff,ef,ef
-efl	fl,el,ef
-efs	fs,es,ef
-eft	ft,et,ef
-ego	go,eo,eg
-eye	ye,ee,ey
-eyl	yl,el,ey
-eyn	yn,en,ey
-eir	ir,er,ei
-eyr	yr,er,ey
-ela	la,ea,el
-eld	ld,ed,el
-elf	lf,ef,el
-eli	li,ei,el
-ell	ll,el,el
-elm	lm,em,el
-els	ls,es,el
-elt	lt,et,el
-eme	me,ee,em
-emf	mf,ef,em
-emm	mm,em,em
-emp	mp,ep,em
-ems	ms,es,em
-emu	mu,eu,em
-end	nd,ed,en
-eng	ng,eg,en
-enl	nl,el,en
-ens	ns,es,en
-eof	of,ef,eo
-eom	om,em,eo
-eon	on,en,eo
-eos	os,es,eo
-epa	pa,ea,ep
-epi	pi,ei,ep
-era	ra,ea,er
-erd	rd,ed,er
-ere	re,ee,er
-erf	rf,ef,er
-erg	rg,eg,er
-ern	rn,en,er
-ers	rs,es,er
-esc	sc,ec,es
-esd	sd,ed,es
-ese	se,ee,es
-esp	sp,ep,es
-esq	sq,eq,es
-ess	ss,es,es
-est	st,et,es
-esu	su,eu,es
-eta	ta,ea,et
-etc	tc,ec,et
-eth	th,eh,et
-ety	ty,ey,et
-ewe	we,ee,ew
-exr	xr,er,ex
-fab	ab,fb,fa
-fac	ac,fc,fa
-fae	ae,fe,fa
-fag	ag,fg,fa
-fay	ay,fy,fa
-fam	am,fm,fa
-fan	an,fn,fa
-far	ar,fr,fa
-fas	as,fs,fa
-fat	at,ft,fa
-fax	ax,fx,fa
-fbi	bi,fi,fb
-fcy	cy,fy,fc
-fcp	cp,fp,fc
-fcs	cs,fs,fc
-fec	ec,fc,fe
-fee	ee,fe,fe
-fei	ei,fi,fe
-fey	ey,fy,fe
-fem	em,fm,fe
-fen	en,fn,fe
-fer	er,fr,fe
-fet	et,ft,fe
-feu	eu,fu,fe
-few	ew,fw,fe
-ffa	fa,fa,ff
-fgn	gn,fn,fg
-fib	ib,fb,fi
-fie	ie,fe,fi
-fig	ig,fg,fi
-fil	il,fl,fi
-fin	in,fn,fi
-fir	ir,fr,fi
-fit	it,ft,fi
-fix	ix,fx,fi
-flb	lb,fb,fl
-fly	ly,fy,fl
-fll	ll,fl,fl
-flo	lo,fo,fl
-flu	lu,fu,fl
-fmt	mt,ft,fm
-fob	ob,fb,fo
-foe	oe,fe,fo
-fog	og,fg,fo
-foy	oy,fy,fo
-fol	ol,fl,fo
-fon	on,fn,fo
-fop	op,fp,fo
-for	or,fr,fo
-fot	ot,ft,fo
-fow	ow,fw,fo
-fox	ox,fx,fo
-fpm	pm,fm,fp
-fps	ps,fs,fp
-fra	ra,fa,fr
-fry	ry,fy,fr
-fro	ro,fo,fr
-frs	rs,fs,fr
-frt	rt,ft,fr
-fub	ub,fb,fu
-fug	ug,fg,fu
-fum	um,fm,fu
-fun	un,fn,fu
-fur	ur,fr,fu
-fut	ut,ft,fu
-gab	ab,gb,ga
-gad	ad,gd,ga
-gae	ae,ge,ga
-gal	al,gl,ga
-gam	am,gm,ga
-gan	an,gn,ga
-gap	ap,gp,ga
-gar	ar,gr,ga
-gas	as,gs,ga
-gat	at,gt,ga
-gau	au,gu,ga
-gds	ds,gs,gd
-ged	ed,gd,ge
-gee	ee,ge,ge
-gel	el,gl,ge
-gem	em,gm,ge
-gen	en,gn,ge
-geo	eo,go,ge
-ger	er,gr,ge
-ges	es,gs,ge
-get	et,gt,ge
-gib	ib,gb,gi
-gid	id,gd,gi
-gie	ie,ge,gi
-gil	il,gl,gi
-gim	im,gm,gi
-gin	in,gn,gi
-gio	io,go,gi
-gis	is,gs,gi
-git	it,gt,gi
-glb	lb,gb,gl
-gld	ld,gd,gl
-glt	lt,gt,gl
-gns	ns,gs,gn
-gnu	nu,gu,gn
-gob	ob,gb,go
-god	od,gd,go
-gol	ol,gl,go
-gon	on,gn,go
-gor	or,gr,go
-gos	os,gs,go
-got	ot,gt,go
-gpd	pd,gd,gp
-gpm	pm,gm,gp
-gps	ps,gs,gp
-gra	ra,ga,gr
-gre	re,ge,gr
-gro	ro,go,gr
-grs	rs,gs,gr
-gtd	td,gd,gt
-gte	te,ge,gt
-gud	ud,gd,gu
-gul	ul,gl,gu
-gum	um,gm,gu
-gun	un,gn,gu
-gup	up,gp,gu
-gur	ur,gr,gu
-gus	us,gs,gu
-gut	ut,gt,gu
-hab	ab,hb,ha
-had	ad,hd,ha
-hae	ae,he,ha
-haf	af,hf,ha
-hag	ag,hg,ha
-hay	ay,hy,ha
-hak	ak,hk,ha
-hal	al,hl,ha
-ham	am,hm,ha
-hao	ao,ho,ha
-hap	ap,hp,ha
-has	as,hs,ha
-hat	at,ht,ha
-hau	au,hu,ha
-hav	av,hv,ha
-haw	aw,hw,ha
-hed	ed,hd,he
-hee	ee,he,he
-hei	ei,hi,he
-hey	ey,hy,he
-hel	el,hl,he
-hem	em,hm,he
-heo	eo,ho,he
-hep	ep,hp,he
-her	er,hr,he
-hes	es,hs,he
-het	et,ht,he
-hew	ew,hw,he
-hgt	gt,ht,hg
-hia	ia,ha,hi
-hid	id,hd,hi
-hyd	yd,hd,hy
-hie	ie,he,hi
-hye	ye,he,hy
-him	im,hm,hi
-hir	ir,hr,hi
-his	is,hs,hi
-hit	it,ht,hi
-hld	ld,hd,hl
-hob	ob,hb,ho
-hod	od,hd,ho
-hoe	oe,he,ho
-hog	og,hg,ho
-hoy	oy,hy,ho
-hol	ol,hl,ho
-hom	om,hm,ho
-hop	op,hp,ho
-hor	or,hr,ho
-hot	ot,ht,ho
-how	ow,hw,ho
-hrs	rs,hs,hr
-hsi	si,hi,hs
-hts	ts,hs,ht
-hub	ub,hb,hu
-hud	ud,hd,hu
-hug	ug,hg,hu
-hui	ui,hi,hu
-hum	um,hm,hu
-hup	up,hp,hu
-hut	ut,ht,hu
-hwa	wa,ha,hw
-hwy	wy,hy,hw
-hwt	wt,ht,hw
-yad	ad,yd,ya
-yam	am,ym,ya
-ian	an,in,ia
-yan	an,yn,ya
-iao	ao,io,ia
-yao	ao,yo,ya
-yar	ar,yr,ya
-yas	as,ys,ya
-yat	at,yt,ya
-iba	ba,ia,ib
-ibm	bm,im,ib
-ibo	bo,io,ib
-ice	ce,ie,ic
-ich	ch,ih,ic
-ida	da,ia,id
-ide	de,ie,id
-ido	do,io,id
-ids	ds,is,id
-yds	ds,ys,yd
-yea	ea,ya,ye
-yed	ed,yd,ye
-yee	ee,ye,ye
-yen	en,yn,ye
-yeo	eo,yo,ye
-yer	er,yr,ye
-yes	es,ys,ye
-yet	et,yt,ye
-ife	fe,ie,if
-iff	ff,if,if
-ifs	fs,is,if
-ign	gn,in,ig
-ihi	hi,ii,ih
-ihs	hs,is,ih
-yid	id,yd,yi
-iii	ii,ii,ii
-yin	in,yn,yi
-yis	is,ys,yi
-ila	la,ia,il
-ile	le,ie,il
-ill	ll,il,il
-ima	ma,ia,im
-imi	mi,ii,im
-ind	nd,id,in
-ing	ng,ig,in
-inn	nn,in,in
-ino	no,io,in
-ins	ns,is,in
-int	nt,it,in
-inv	nv,iv,in
-yod	od,yd,yo
-yoe	oe,ye,yo
-iof	of,if,io
-yom	om,ym,yo
-ion	on,in,io
-yon	on,yn,yo
-yor	or,yr,yo
-ios	os,is,io
-yot	ot,yt,yo
-iqs	qs,is,iq
-ira	ra,ia,ir
-ire	re,ie,ir
-irs	rs,is,ir
-yrs	rs,ys,yr
-ise	se,ie,is
-ish	sh,ih,is
-isl	sl,il,is
-ism	sm,im,is
-isn	sn,in,is
-iso	so,io,is
-ist	st,it,is
-ita	ta,ia,it
-itd	td,id,it
-ito	to,io,it
-its	ts,is,it
-iva	va,ia,iv
-ive	ve,ie,iv
-iwa	wa,ia,iw
-jag	ag,jg,ja
-jai	ai,ji,ja
-jar	ar,jr,ja
-jat	at,jt,ja
-jee	ee,je,je
-jef	ef,jf,je
-jeg	eg,jg,je
-jer	er,jr,je
-jet	et,jt,je
-jeu	eu,ju,je
-jig	ig,jg,ji
-joe	oe,je,jo
-jog	og,jg,jo
-jos	os,js,jo
-jot	ot,jt,jo
-jug	ug,jg,ju
-jur	ur,jr,ju
-jus	us,js,ju
-jut	ut,jt,ju
-kab	ab,kb,ka
-kai	ai,ki,ka
-kay	ay,ky,ka
-kal	al,kl,ka
-kam	am,km,ka
-kan	an,kn,ka
-kat	at,kt,ka
-kaw	aw,kw,ka
-kgr	gr,kr,kg
-kil	il,kl,ki
-kyl	yl,kl,ky
-kim	im,km,ki
-kin	in,kn,ki
-kit	it,kt,ki
-kln	ln,kn,kl
-kob	ob,kb,ko
-kol	ol,kl,ko
-kon	on,kn,ko
-kop	op,kp,ko
-kor	or,kr,ko
-kpc	pc,kc,kp
-kra	ra,ka,kr
-kru	ru,ku,kr
-kui	ui,ki,ku
-lab	ab,lb,la
-lac	ac,lc,la
-lad	ad,ld,la
-lag	ag,lg,la
-lah	ah,lh,la
-lai	ai,li,la
-lay	ay,ly,la
-lam	am,lm,la
-lan	an,ln,la
-lao	ao,lo,la
-lap	ap,lp,la
-lar	ar,lr,la
-las	as,ls,la
-lat	at,lt,la
-lav	av,lv,la
-lax	ax,lx,la
-lbf	bf,lf,lb
-lbs	bs,ls,lb
-lca	ca,la,lc
-lcd	cd,ld,lc
-lcm	cm,lm,lc
-ldg	dg,lg,ld
-lea	ea,la,le
-led	ed,ld,le
-lee	ee,le,le
-leg	eg,lg,le
-lei	ei,li,le
-ley	ey,ly,le
-len	en,ln,le
-leo	eo,lo,le
-lep	ep,lp,le
-ler	er,lr,le
-les	es,ls,le
-let	et,lt,le
-leu	eu,lu,le
-lex	ex,lx,le
-lhb	hb,lb,lh
-lhd	hd,ld,lh
-lib	ib,lb,li
-lid	id,ld,li
-lie	ie,le,li
-lye	ye,le,ly
-lif	if,lf,li
-lig	ig,lg,li
-lim	im,lm,li
-lym	ym,lm,ly
-lin	in,ln,li
-lyn	yn,ln,ly
-lir	ir,lr,li
-lis	is,ls,li
-lys	ys,ls,ly
-lit	it,lt,li
-liv	iv,lv,li
-llb	lb,lb,ll
-lnr	nr,lr,ln
-lob	ob,lb,lo
-loc	oc,lc,lo
-lod	od,ld,lo
-loe	oe,le,lo
-lof	of,lf,lo
-log	og,lg,lo
-loy	oy,ly,lo
-lop	op,lp,lo
-lor	or,lr,lo
-lot	ot,lt,lo
-lox	ox,lx,lo
-lpm	pm,lm,lp
-lsc	sc,lc,ls
-lst	st,lt,ls
-ltr	tr,lr,lt
-lub	ub,lb,lu
-luc	uc,lc,lu
-lud	ud,ld,lu
-lug	ug,lg,lu
-lui	ui,li,lu
-lum	um,lm,lu
-lur	ur,lr,lu
-lut	ut,lt,lu
-lux	ux,lx,lu
-lxx	xx,lx,lx
-mab	ab,mb,ma
-mac	ac,mc,ma
-mad	ad,md,ma
-mae	ae,me,ma
-mag	ag,mg,ma
-mah	ah,mh,ma
-may	ay,my,ma
-mal	al,ml,ma
-mam	am,mm,ma
-man	an,mn,ma
-mao	ao,mo,ma
-map	ap,mp,ma
-mar	ar,mr,ma
-mas	as,ms,ma
-mat	at,mt,ma
-mau	au,mu,ma
-maw	aw,mw,ma
-max	ax,mx,ma
-mbd	bd,md,mb
-mcf	cf,mf,mc
-mcg	cg,mg,mc
-mea	ea,ma,me
-med	ed,md,me
-mee	ee,me,me
-meg	eg,mg,me
-mel	el,ml,me
-mem	em,mm,me
-men	en,mn,me
-meo	eo,mo,me
-mer	er,mr,me
-mes	es,ms,me
-met	et,mt,me
-meu	eu,mu,me
-mew	ew,mw,me
-mfg	fg,mg,mf
-mfr	fr,mr,mf
-mgd	gd,md,mg
-mgr	gr,mr,mg
-mgt	gt,mt,mg
-mhg	hg,mg,mh
-mho	ho,mo,mh
-mia	ia,ma,mi
-mya	ya,ma,my
-mib	ib,mb,mi
-mid	id,md,mi
-mig	ig,mg,mi
-mil	il,ml,mi
-mim	im,mm,mi
-mym	ym,mm,my
-min	in,mn,mi
-mir	ir,mr,mi
-mis	is,ms,mi
-mit	it,mt,mi
-mix	ix,mx,mi
-mkt	kt,mt,mk
-mlx	lx,mx,ml
-mmf	mf,mf,mm
-mna	na,ma,mn
-mob	ob,mb,mo
-moc	oc,mc,mo
-mod	od,md,mo
-moe	oe,me,mo
-mog	og,mg,mo
-moy	oy,my,mo
-mol	ol,ml,mo
-mom	om,mm,mo
-mon	on,mn,mo
-mop	op,mp,mo
-mor	or,mr,mo
-mos	os,ms,mo
-mot	ot,mt,mo
-mow	ow,mw,mo
-mpg	pg,mg,mp
-mph	ph,mh,mp
-mrs	rs,ms,mr
-mru	ru,mu,mr
-msg	sg,mg,ms
-msl	sl,ml,ms
-mss	ss,ms,ms
-mtd	td,md,mt
-mtg	tg,mg,mt
-mtn	tn,mn,mt
-mts	ts,ms,mt
-mtx	tx,mx,mt
-mud	ud,md,mu
-mug	ug,mg,mu
-mum	um,mm,mu
-mun	un,mn,mu
-mus	us,ms,mu
-mut	ut,mt,mu
-mux	ux,mx,mu
-mwa	wa,ma,mw
-mxd	xd,md,mx
-naa	aa,na,na
-nab	ab,nb,na
-nad	ad,nd,na
-nae	ae,ne,na
-nag	ag,ng,na
-nay	ay,ny,na
-nam	am,nm,na
-nan	an,nn,na
-nap	ap,np,na
-nar	ar,nr,na
-nat	at,nt,na
-nav	av,nv,na
-nbg	bg,ng,nb
-nea	ea,na,ne
-ned	ed,nd,ne
-nee	ee,ne,ne
-neg	eg,ng,ne
-nei	ei,ni,ne
-neo	eo,no,ne
-nep	ep,np,ne
-net	et,nt,ne
-nib	ib,nb,ni
-nid	id,nd,ni
-nye	ye,ne,ny
-nig	ig,ng,ni
-nil	il,nl,ni
-nim	im,nm,ni
-nis	is,ns,ni
-nit	it,nt,ni
-nob	ob,nb,no
-nod	od,nd,no
-nog	og,ng,no
-noy	oy,ny,no
-nol	ol,nl,no
-nom	om,nm,no
-non	on,nn,no
-nor	or,nr,no
-nos	os,ns,no
-not	ot,nt,no
-nub	ub,nb,nu
-nul	ul,nl,nu
-num	um,nm,nu
-nun	un,nn,nu
-nus	us,ns,nu
-nut	ut,nt,nu
-obb	bb,ob,ob
-obe	be,oe,ob
-obl	bl,ol,ob
-obs	bs,os,ob
-och	ch,oh,oc
-ock	ck,ok,oc
-oct	ct,ot,oc
-odd	dd,od,od
-ode	de,oe,od
-ods	ds,os,od
-odz	dz,oz,od
-oer	er,or,oe
-oes	es,os,oe
-off	ff,of,of
-oft	ft,ot,of
-ohm	hm,om,oh
-ohs	hs,os,oh
-old	ld,od,ol
-ole	le,oe,ol
-olm	lm,om,ol
-olp	lp,op,ol
-oms	ms,os,om
-one	ne,oe,on
-ony	ny,oy,on
-ons	ns,os,on
-ont	nt,ot,on
-ope	pe,oe,op
-opp	pp,op,op
-ops	ps,os,op
-opt	pt,ot,op
-orc	rc,oc,or
-ord	rd,od,or
-ore	re,oe,or
-orf	rf,of,or
-org	rg,og,or
-ory	ry,oy,or
-ors	rs,os,or
-ort	rt,ot,or
-osc	sc,oc,os
-ose	se,oe,os
-otc	tc,oc,ot
-owd	wd,od,ow
-owe	we,oe,ow
-owk	wk,ok,ow
-owl	wl,ol,ow
-owt	wt,ot,ow
-ozs	zs,os,oz
-pac	ac,pc,pa
-pad	ad,pd,pa
-pah	ah,ph,pa
-pal	al,pl,pa
-pam	am,pm,pa
-pap	ap,pp,pa
-par	ar,pr,pa
-pas	as,ps,pa
-pat	at,pt,pa
-pau	au,pu,pa
-pav	av,pv,pa
-pcf	cf,pf,pc
-pci	ci,pi,pc
-pcm	cm,pm,pc
-pct	ct,pt,pc
-pdl	dl,pl,pd
-pea	ea,pa,pe
-ped	ed,pd,pe
-pee	ee,pe,pe
-peg	eg,pg,pe
-peh	eh,ph,pe
-pep	ep,pp,pe
-per	er,pr,pe
-pes	es,ps,pe
-pet	et,pt,pe
-pfc	fc,pc,pf
-pfg	fg,pg,pf
-phi	hi,pi,ph
-pho	ho,po,ph
-phr	hr,pr,ph
-pht	ht,pt,ph
-phu	hu,pu,ph
-pia	ia,pa,pi
-pic	ic,pc,pi
-pie	ie,pe,pi
-pig	ig,pg,pi
-pik	ik,pk,pi
-pil	il,pl,pi
-pim	im,pm,pi
-pir	ir,pr,pi
-pis	is,ps,pi
-pit	it,pt,pi
-pkg	kg,pg,pk
-pkt	kt,pt,pk
-plf	lf,pf,pl
-pli	li,pi,pl
-plu	lu,pu,pl
-pmk	mk,pk,pm
-pmt	mt,pt,pm
-pod	od,pd,po
-poe	oe,pe,po
-poh	oh,ph,po
-pol	ol,pl,po
-pom	om,pm,po
-pop	op,pp,po
-por	or,pr,po
-pos	os,ps,po
-pot	ot,pt,po
-ppa	pa,pa,pp
-ppd	pd,pd,pp
-pph	ph,ph,pp
-ppi	pi,pi,pp
-ppl	pl,pl,pp
-ppm	pm,pm,pp
-ppr	pr,pr,pp
-pps	ps,ps,pp
-ppt	pt,pt,pp
-pre	re,pe,pr
-prf	rf,pf,pr
-pro	ro,po,pr
-prs	rs,ps,pr
-psf	sf,pf,ps
-psi	si,pi,ps
-pst	st,pt,ps
-pta	ta,pa,pt
-pte	te,pe,pt
-ptg	tg,pg,pt
-ptp	tp,pp,pt
-pts	ts,ps,pt
-pud	ud,pd,pu
-pug	ug,pg,pu
-pul	ul,pl,pu
-pup	up,pp,pu
-pur	ur,pr,pu
-pus	us,ps,pu
-put	ut,pt,pu
-pvt	vt,pt,pv
-qrs	rs,qs,qr
-qty	ty,qy,qt
-qtr	tr,qr,qt
-qts	ts,qs,qt
-rad	ad,rd,ra
-rag	ag,rg,ra
-rah	ah,rh,ra
-ray	ay,ry,ra
-ram	am,rm,ra
-ran	an,rn,ra
-ras	as,rs,ra
-rat	at,rt,ra
-rcd	cd,rd,rc
-rct	ct,rt,rc
-rea	ea,ra,re
-rec	ec,rc,re
-red	ed,rd,re
-ree	ee,re,re
-ref	ef,rf,re
-reg	eg,rg,re
-reh	eh,rh,re
-rei	ei,ri,re
-rem	em,rm,re
-ren	en,rn,re
-res	es,rs,re
-ret	et,rt,re
-rfs	fs,rs,rf
-rha	ha,ra,rh
-rhd	hd,rd,rh
-rhe	he,re,rh
-rho	ho,ro,rh
-ria	ia,ra,ri
-rya	ya,ra,ry
-ric	ic,rc,ri
-rid	id,rd,ri
-rie	ie,re,ri
-rye	ye,re,ry
-rig	ig,rg,ri
-rim	im,rm,ri
-rin	in,rn,ri
-rio	io,ro,ri
-rit	it,rt,ri
-rms	ms,rs,rm
-rnd	nd,rd,rn
-roc	oc,rc,ro
-rod	od,rd,ro
-roe	oe,re,ro
-rog	og,rg,ro
-roy	oy,ry,ro
-rom	om,rm,ro
-ron	on,rn,ro
-ros	os,rs,ro
-rot	ot,rt,ro
-rte	te,re,rt
-rti	ti,ri,rt
-rud	ud,rd,ru
-rug	ug,rg,ru
-rum	um,rm,ru
-run	un,rn,ru
-rus	us,rs,ru
-rut	ut,rt,ru
-saa	aa,sa,sa
-sab	ab,sb,sa
-sac	ac,sc,sa
-sad	ad,sd,sa
-sae	ae,se,sa
-sag	ag,sg,sa
-sah	ah,sh,sa
-sai	ai,si,sa
-say	ay,sy,sa
-sak	ak,sk,sa
-sal	al,sl,sa
-sam	am,sm,sa
-san	an,sn,sa
-sao	ao,so,sa
-sap	ap,sp,sa
-sar	ar,sr,sa
-sat	at,st,sa
-sau	au,su,sa
-sav	av,sv,sa
-saw	aw,sw,sa
-scf	cf,sf,sc
-sch	ch,sh,sc
-sci	ci,si,sc
-scr	cr,sr,sc
-sct	ct,st,sc
-sds	ds,ss,sd
-sea	ea,sa,se
-sec	ec,sc,se
-sed	ed,sd,se
-see	ee,se,se
-seg	eg,sg,se
-sei	ei,si,se
-sey	ey,sy,se
-sel	el,sl,se
-sem	em,sm,se
-sen	en,sn,se
-sep	ep,sp,se
-seq	eq,sq,se
-ser	er,sr,se
-set	et,st,se
-sew	ew,sw,se
-sfm	fm,sm,sf
-sgd	gd,sd,sg
-sha	ha,sa,sh
-she	he,se,sh
-shi	hi,si,sh
-shy	hy,sy,sh
-sho	ho,so,sh
-shp	hp,sp,sh
-shr	hr,sr,sh
-sht	ht,st,sh
-shu	hu,su,sh
-sia	ia,sa,si
-sib	ib,sb,si
-sic	ic,sc,si
-sid	id,sd,si
-syd	yd,sd,sy
-sie	ie,se,si
-sye	ye,se,sy
-sig	ig,sg,si
-sil	il,sl,si
-syl	yl,sl,sy
-sim	im,sm,si
-sym	ym,sm,sy
-sin	in,sn,si
-syn	yn,sn,sy
-sir	ir,sr,si
-syr	yr,sr,sy
-sis	is,ss,si
-sit	it,st,si
-ski	ki,si,sk
-sky	ky,sy,sk
-sla	la,sa,sl
-sld	ld,sd,sl
-sly	ly,sy,sl
-slt	lt,st,sl
-sma	ma,sa,sm
-sml	ml,sl,sm
-sny	ny,sy,sn
-sob	ob,sb,so
-soc	oc,sc,so
-sod	od,sd,so
-soe	oe,se,so
-sog	og,sg,so
-soh	oh,sh,so
-soy	oy,sy,so
-sok	ok,sk,so
-sol	ol,sl,so
-son	on,sn,so
-sop	op,sp,so
-sos	os,ss,so
-sot	ot,st,so
-sow	ow,sw,so
-spa	pa,sa,sp
-spl	pl,sl,sp
-spp	pp,sp,sp
-sps	ps,ss,sp
-spt	pt,st,sp
-sri	ri,si,sr
-ssi	si,si,ss
-ssp	sp,sp,ss
-ssu	su,su,ss
-sta	ta,sa,st
-std	td,sd,st
-stg	tg,sg,st
-sty	ty,sy,st
-stk	tk,sk,st
-stm	tm,sm,st
-str	tr,sr,st
-stu	tu,su,st
-sub	ub,sb,su
-sud	ud,sd,su
-suf	uf,sf,su
-sui	ui,si,su
-sum	um,sm,su
-sun	un,sn,su
-sup	up,sp,su
-sur	ur,sr,su
-sus	us,ss,su
-svc	vc,sc,sv
-swa	wa,sa,sw
-swy	wy,sy,sw
-taa	aa,ta,ta
-tab	ab,tb,ta
-tad	ad,td,ta
-tae	ae,te,ta
-tag	ag,tg,ta
-tai	ai,ti,ta
-tay	ay,ty,ta
-tam	am,tm,ta
-tan	an,tn,ta
-tao	ao,to,ta
-tap	ap,tp,ta
-tar	ar,tr,ta
-tas	as,ts,ta
-tau	au,tu,ta
-tav	av,tv,ta
-tax	ax,tx,ta
-tbs	bs,ts,tb
-tch	ch,th,tc
-tck	ck,tk,tc
-tdr	dr,tr,td
-tea	ea,ta,te
-tec	ec,tc,te
-ted	ed,td,te
-tee	ee,te,te
-tef	ef,tf,te
-teg	eg,tg,te
-tem	em,tm,te
-ten	en,tn,te
-ter	er,tr,te
-tex	ex,tx,te
-tfr	fr,tr,tf
-tgn	gn,tn,tg
-tha	ha,ta,th
-the	he,te,th
-thy	hy,ty,th
-tho	ho,to,th
-tib	ib,tb,ti
-tic	ic,tc,ti
-tid	id,td,ti
-tie	ie,te,ti
-tye	ye,te,ty
-tig	ig,tg,ti
-tim	im,tm,ti
-tin	in,tn,ti
-tyr	yr,tr,ty
-tis	is,ts,ti
-tmh	mh,th,tm
-tng	ng,tg,tn
-tob	ob,tb,to
-tod	od,td,to
-toe	oe,te,to
-tog	og,tg,to
-toy	oy,ty,to
-tom	om,tm,to
-ton	on,tn,to
-top	op,tp,to
-tor	or,tr,to
-tos	os,ts,to
-tox	ox,tx,to
-tpd	pd,td,tp
-tph	ph,th,tp
-tpi	pi,ti,tp
-tpk	pk,tk,tp
-tpm	pm,tm,tp
-tps	ps,ts,tp
-tra	ra,ta,tr
-trf	rf,tf,tr
-tri	ri,ti,tr
-try	ry,ty,tr
-trs	rs,ts,tr
-tsi	si,ti,ts
-tsk	sk,tk,ts
-tsp	sp,tp,ts
-tss	ss,ts,ts
-tub	ub,tb,tu
-tug	ug,tg,tu
-tui	ui,ti,tu
-tum	um,tm,tu
-tun	un,tn,tu
-tup	up,tp,tu
-tur	ur,tr,tu
-tux	ux,tx,tu
-ubi	bi,ui,ub
-udi	di,ui,ud
-uds	ds,us,ud
-ufs	fs,us,uf
-ugt	gt,ut,ug
-uhs	hs,us,uh
-uit	it,ut,ui
-ull	ll,ul,ul
-ult	lt,ut,ul
-umm	mm,um,um
-ump	mp,up,um
-unb	nb,ub,un
-ung	ng,ug,un
-uni	ni,ui,un
-unl	nl,ul,un
-unn	nn,un,un
-unp	np,up,un
-uns	ns,us,un
-ups	ps,us,up
-urd	rd,ud,ur
-urf	rf,uf,ur
-uri	ri,ui,ur
-urn	rn,un,ur
-urs	rs,us,ur
-ush	sh,uh,us
-ust	st,ut,us
-uti	ti,ui,ut
-uts	ts,us,ut
-vac	ac,vc,va
-vag	ag,vg,va
-vai	ai,vi,va
-val	al,vl,va
-var	ar,vr,va
-vas	as,vs,va
-vat	at,vt,va
-vau	au,vu,va
-vav	av,vv,va
-vaw	aw,vw,va
-vee	ee,ve,ve
-veg	eg,vg,ve
-vei	ei,vi,ve
-vel	el,vl,ve
-ver	er,vr,ve
-vet	et,vt,ve
-via	ia,va,vi
-vic	ic,vc,vi
-vie	ie,ve,vi
-vii	ii,vi,vi
-vil	il,vl,vi
-vim	im,vm,vi
-vis	is,vs,vi
-voc	oc,vc,vo
-vod	od,vd,vo
-voe	oe,ve,vo
-vog	og,vg,vo
-vol	ol,vl,vo
-vow	ow,vw,vo
-vss	ss,vs,vs
-vug	ug,vg,vu
-vum	um,vm,vu
-wab	ab,wb,wa
-wac	ac,wc,wa
-wad	ad,wd,wa
-wae	ae,we,wa
-waf	af,wf,wa
-wag	ag,wg,wa
-wah	ah,wh,wa
-way	ay,wy,wa
-war	ar,wr,wa
-was	as,ws,wa
-wat	at,wt,wa
-wea	ea,wa,we
-wed	ed,wd,we
-wee	ee,we,we
-wef	ef,wf,we
-wei	ei,wi,we
-wey	ey,wy,we
-wem	em,wm,we
-wer	er,wr,we
-wes	es,ws,we
-wet	et,wt,we
-wha	ha,wa,wh
-whf	hf,wf,wh
-why	hy,wy,wh
-who	ho,wo,wh
-whr	hr,wr,wh
-whs	hs,ws,wh
-wid	id,wd,wi
-wye	ye,we,wy
-wig	ig,wg,wi
-wim	im,wm,wi
-wir	ir,wr,wi
-wis	is,ws,wi
-wit	it,wt,wi
-wmk	mk,wk,wm
-wob	ob,wb,wo
-wod	od,wd,wo
-woe	oe,we,wo
-wog	og,wg,wo
-woy	oy,wy,wo
-wok	ok,wk,wo
-wos	os,ws,wo
-wot	ot,wt,wo
-wry	ry,wy,wr
-wro	ro,wo,wr
-wud	ud,wd,wu
-wur	ur,wr,wu
-wus	us,ws,wu
-wut	ut,wt,wu
-xii	ii,xi,xi
-xis	is,xs,xi
-xiv	iv,xv,xi
-xix	ix,xx,xi
-xvi	vi,xi,xv
-xxi	xi,xi,xx
-xxv	xv,xv,xx
-xxx	xx,xx,xx
-zak	ak,zk,za
-zan	an,zn,za
-agn	gn,an,ag
-akt	kt,at,ak
-alm	lm,am,al
-alv	lv,av,al
-ang	ng,ag,an
-aur	ur,ar,au
-avd	vd,ad,av
-avl	vl,al,av
-bak	ak,bk,ba
-bia	ia,ba,bi
-bie	ie,be,bi
-bil	il,bl,bi
-bla	la,ba,bl
-ble	le,be,bl
-bli	li,bi,bl
-bly	ly,by,bl
-blø	lø,bø,bl
-bok	ok,bk,bo
-bre	re,be,br
-bru	ru,bu,br
-bry	ry,by,br
-byr	yr,br,by
-bøk	øk,bk,bø
-bør	ør,br,bø
-bøy	øy,by,bø
-ddr	dr,dr,dd
-dra	ra,da,dr
-dus	us,ds,du
-dyd	yd,dd,dy
-dyr	yr,dr,dy
-døl	øl,dl,dø
-dør	ør,dr,dø
-eec	ec,ec,ee
-ega	ga,ea,eg
-egd	gd,ed,eg
-egn	gn,en,eg
-eid	id,ed,ei
-eie	ie,ee,ei
-eim	im,em,ei
-elg	lg,eg,el
-ene	ne,ee,en
-enn	nn,en,en
-ert	rt,et,er
-ete	te,ee,et
-etg	tg,eg,et
-fis	is,fs,fi
-fli	li,fi,fl
-fls	ls,fs,fl
-flø	lø,fø,fl
-flå	lå,få,fl
-fnl	nl,fl,fn
-fos	os,fs,fo
-fri	ri,fi,fr
-fru	ru,fu,fr
-ful	ul,fl,fu
-fus	us,fs,fu
-fyr	yr,fr,fy
-fys	ys,fs,fy
-føl	øl,fl,fø
-før	ør,fr,fø
-får	år,fr,få
-fås	ås,fs,få
-gav	av,gv,ga
-gir	ir,gr,gi
-giv	iv,gv,gi
-gla	la,ga,gl
-gle	le,ge,gl
-gli	li,gi,gl
-glo	lo,go,gl
-glø	lø,gø,gl
-gni	ni,gi,gn
-gnr	nr,gr,gn
-gom	om,gm,go
-gru	ru,gu,gr
-grå	rå,gå,gr
-går	år,gr,gå
-gås	ås,gs,gå
-hai	ai,hi,ha
-har	ar,hr,ha
-hiv	iv,hv,hi
-hos	os,hs,ho
-hul	ul,hl,hu
-hus	us,hs,hu
-hva	va,ha,hv
-hyl	yl,hl,hy
-høl	øl,hl,hø
-hør	ør,hr,hø
-høy	øy,hy,hø
-hål	ål,hl,hå
-hår	år,hr,hå
-hås	ås,hs,hå
-ild	ld,id,il
-ilo	lo,io,il
-jfr	fr,jr,jf
-kar	ar,kr,ka
-kav	av,kv,ka
-kiv	iv,kv,ki
-kli	li,ki,kl
-klo	lo,ko,kl
-klø	lø,kø,kl
-kna	na,ka,kn
-kny	ny,ky,kn
-kom	om,km,ko
-kro	ro,ko,kr
-kry	ry,ky,kr
-kul	ul,kl,ku
-kum	um,km,ku
-kun	un,kn,ku
-kur	ur,kr,ku
-kut	ut,kt,ku
-kvi	vi,ki,kv
-kvm	vm,km,kv
-kyr	yr,kr,ky
-kyt	yt,kt,ky
-køy	øy,ky,kø
-lem	em,lm,le
-lia	ia,la,li
-lom	om,lm,lo
-lon	on,ln,lo
-los	os,ls,lo
-lsd	sd,ld,ls
-ltd	td,ld,lt
-lun	un,ln,lu
-lus	us,ls,lu
-lyd	yd,ld,ly
-lyr	yr,lr,ly
-lyt	yt,lt,ly
-løv	øv,lv,lø
-løy	øy,ly,lø
-lår	år,lr,lå
-lås	ås,ls,lå
-låt	åt,lt,lå
-mai	ai,mi,ma
-mak	ak,mk,ma
-mav	av,mv,ma
-mei	ei,mi,me
-mnd	nd,md,mn
-mur	ur,mr,mu
-mye	ye,me,my
-myr	yr,mr,my
-mål	ål,ml,må
-mår	år,mr,må
-nem	em,nm,ne
-ner	er,nr,ne
-nes	es,ns,ne
-noe	oe,ne,no
-nsb	sb,nb,ns
-nsu	su,nu,ns
-ntb	tb,nb,nt
-nyt	yt,nt,ny
-nål	ål,nl,nå
-når	år,nr,nå
-okt	kt,ot,ok
-omn	mn,on,om
-ond	nd,od,on
-onn	nn,on,on
-orm	rm,om,or
-osp	sp,op,os
-oss	ss,os,os
-ost	st,ot,os
-pai	ai,pi,pa
-pvc	vc,pc,pv
-påk	åk,pk,på
-rau	au,ru,ra
-ris	is,rs,ri
-rås	ås,rs,rå
-råt	åt,rt,rå
-sas	as,ss,sa
-ses	es,ss,se
-sik	ik,sk,si
-siv	iv,sv,si
-ska	ka,sa,sk
-sko	ko,so,sk
-sle	le,se,sl
-slo	lo,so,sl
-slu	lu,su,sl
-slå	lå,så,sl
-smi	mi,si,sm
-små	må,så,sm
-sne	ne,se,sn
-sno	no,so,sn
-snu	nu,su,sn
-snø	nø,sø,sn
-som	om,sm,so
-spe	pe,se,sp
-spå	på,så,sp
-ste	te,se,st
-sti	ti,si,st
-stø	tø,sø,st
-stå	tå,så,st
-sug	ug,sg,su
-sul	ul,sl,su
-sut	ut,st,su
-sva	va,sa,sv
-sve	ve,se,sv
-svi	vi,si,sv
-søk	øk,sk,sø
-søl	øl,sl,sø
-søm	øm,sm,sø
-sør	ør,sr,sø
-sår	år,sr,så
-sås	ås,ss,så
-tak	ak,tk,ta
-tok	ok,tk,to
-tre	re,te,tr
-tro	ro,to,tr
-tru	ru,tu,tr
-trå	rå,tå,tr
-tvi	vi,ti,tv
-tys	ys,ts,ty
-tøm	øm,tm,tø
-tør	ør,tr,tø
-tøv	øv,tv,tø
-tøy	øy,ty,tø
-tåk	åk,tk,tå
-tår	år,tr,tå
-uff	ff,uf,uf
-unt	nt,ut,un
-urt	rt,ut,ur
-vad	ad,vd,va
-ved	ed,vd,ve
-vid	id,vd,vi
-vit	it,vt,vi
-viv	iv,vv,vi
-vom	om,vm,vo
-vri	ri,vi,vr
-vvs	vs,vs,vv
-yle	le,ye,yl
-ymt	mt,yt,ym
-yre	re,ye,yr
-yrt	rt,yt,yr
-yta	ta,ya,yt
-yte	te,ye,yt
-ålt	lt,åt,ål
-års	rs,ås,år
-øyr	yr,ør,øy
-aps	ps,as,ap
-bst	st,bt,bs
-bts	ts,bs,bt
-buh	uh,bh,bu
-byt	yt,bt,by
-chr	hr,cr,ch
-cpr	pr,cr,cp
-ddc	dc,dc,dd
-dok	ok,dk,do
-dsb	sb,db,ds
-dtb	tb,db,dt
-ege	ge,ee,eg
-eus	us,es,eu
-fif	if,ff,fi
-flg	lg,fg,fl
-fup	up,fp,fu
-fyn	yn,fn,fy
-gia	ia,ga,gi
-gmt	mt,gt,gm
-gør	ør,gr,gø
-hil	il,hl,hi
-hof	of,hf,ho
-ibs	bs,is,ib
-ilt	lt,it,il
-kap	ap,kp,ka
-kgl	gl,kl,kg
-kig	ig,kg,ki
-kør	ør,kr,kø
-lal	al,ll,la
-mht	ht,mt,mh
-mio	io,mo,mi
-nas	as,ns,na
-nej	ej,nj,ne
-nyn	yn,nn,ny
-nys	ys,ns,ny
-nås	ås,ns,nå
-opg	pg,og,op
-pak	ak,pk,pa
-pga	ga,pa,pg
-puf	uf,pf,pu
-rna	na,ra,rn
-ruf	uf,rf,ru
-sdr	dr,sr,sd
-skt	kt,st,sk
-thi	hi,ti,th
-tik	ik,tk,ti
-tir	ir,tr,ti
-uld	ld,ud,ul
-uth	th,uh,ut
-vig	ig,vg,vi
-vor	or,vr,vo
-yde	de,ye,yd
-ard	rd,ad,ar
-brd	rd,bd,br
-brt	rt,bt,br
-bvg	vg,bg,bv
-bau	au,bu,ba
-bei	ei,bi,be
-cdu	du,cu,cd
-csu	su,cu,cs
-cbm	bm,cm,cb
-cdc	dc,cc,cd
-deo	eo,do,de
-dgb	gb,db,dg
-dkp	kp,dp,dk
-dns	ns,ds,dn
-dpa	pa,da,dp
-eil	il,el,ei
-ewg	wg,eg,ew
-ews	ws,es,ew
-ehe	he,ee,eh
-ein	in,en,ei
-eis	is,es,ei
-fao	ao,fo,fa
-faz	az,fz,fa
-gst	st,gt,gs
-huf	uf,hf,hu
-heu	eu,hu,he
-ici	ci,ii,ic
-ihm	hm,im,ih
-ihr	hr,ir,ih
-kgb	gb,kb,kg
-kir	ir,kr,ki
-klm	lm,km,kl
-kot	ot,kt,ko
-kau	au,ku,ka
-lau	au,lu,la
-ndp	dp,np,nd
-nst	st,nt,ns
-neu	eu,nu,ne
-nie	ie,ne,ni
-nur	ur,nr,nu
-ohr	hr,or,oh
-plo	lo,po,pl
-peu	eu,pu,pe
-pof	of,pf,po
-qls	ls,qs,ql
-roh	oh,rh,ro
-reu	eu,ru,re
-ruh	uh,rh,ru
-sdi	di,si,sd
-spd	pd,sd,sp
-srg	rg,sg,sr
-ssd	sd,sd,ss
-sfr	fr,sr,sf
-uhr	hr,ur,uh
-ulm	lm,um,ul
-ums	ms,us,um
-und	nd,ud,un
-vdi	di,vi,vd
-wal	al,wl,wa
-weg	eg,wg,we
-weh	eh,wh,we
-wie	ie,we,wi
-gei	ei,gi,ge
-sto	to,so,st
-agi	gi,ai,ag
-aie	ie,ae,ai
-api	pi,ai,ap
-cas	as,cs,ca
-ces	es,cs,ce
-cet	et,ct,ce
-chu	hu,cu,ch
-cil	il,cl,ci
-cri	ri,ci,cr
-cui	ui,ci,cu
-dru	ru,du,dr
-dut	ut,dt,du
-euh	uh,eh,eu
-eut	ut,et,eu
-eux	ux,ex,eu
-fia	ia,fa,fi
-foc	oc,fc,fo
-fui	ui,fi,fu
-gai	ai,gi,ga
-glu	lu,gu,gl
-gri	ri,gi,gr
-gui	ui,gi,gu
-hlm	lm,hm,hl
-ils	ls,is,il
-mec	ec,mc,me
-mie	ie,me,mi
-mme	me,me,mm
-nia	ia,na,ni
-nui	ui,ni,nu
-paf	af,pf,pa
-pif	if,pf,pi
-rai	ai,ri,ra
-suc	uc,sc,su
-svp	vp,sp,sv
-tac	ac,tc,ta
-tes	es,ts,te
-toc	oc,tc,to
-tuf	uf,tf,tu
-tus	us,ts,tu
-vos	os,vs,vo
-vus	us,vs,vu
+﻿6	breist	reist,beist,brist,brest,breit,breis
+6	course	ourse,curse,corse,couse,coure,cours
+6	dearns	earns,darns,derns,deans,dears,dearn
+6	flours	lours,fours,flurs,flors,flous,flour
+6	heards	eards,hards,herds,heads,hears,heard
+6	mailes	ailes,miles,males,maies,mails,maile
+6	maires	aires,mires,mares,maies,mairs,maire
+6	paires	aires,pires,pares,paies,pairs,paire
+6	railes	ailes,riles,rales,raies,rails,raile
+6	skeins	keins,seins,skins,skens,skeis,skein
+6	spared	pared,sared,spred,spaed,spard,spare
+6	trains	rains,tains,trins,trans,trais,train
+6	yeards	eards,yards,yerds,yeads,years,yeard
+6	blaute	laute,baute,blute,blate,blaue,blaut
+6	braute	raute,baute,brute,brate,braue,braut
+6	staute	taute,saute,stute,state,staue,staut
+6	flaute	laute,faute,flute,flate,flaue,flaut
+6	heilst	eilst,hilst,helst,heist,heilt,heils
+6	laides	aides,lides,lades,laies,laids,laide
+6	mailles	ailles,milles,malles,mailes,maills,maille
+6	raides	aides,rides,rades,raies,raids,raide
+6	saines	aines,sines,sanes,saies,sains,saine
+5	arias	rias,aias,aras,aris,aria
+5	arise	rise,aise,arse,arie,aris
+5	baits	aits,bits,bats,bais,bait
+5	boaks	oaks,baks,boks,boas,boak
+5	boars	oars,bars,bors,boas,boar
+5	boats	oats,bats,bots,boas,boat
+5	bouts	outs,buts,bots,bous,bout
+5	brain	rain,bain,brin,bran,brai
+5	coils	oils,cils,cols,cois,coil
+5	coups	oups,cups,cops,cous,coup
+5	cours	ours,curs,cors,cous,cour
+5	dearn	earn,darn,dern,dean,dear
+5	drays	rays,days,drys,dras,dray
+5	fails	ails,fils,fals,fais,fail
+5	fains	ains,fins,fans,fais,fain
+5	fairs	airs,firs,fars,fais,fair
+5	feres	eres,fres,fees,fers,fere
+5	fires	ires,fres,fies,firs,fire
+5	flour	lour,four,flur,flor,flou
+5	flout	lout,fout,flut,flot,flou
+5	foils	oils,fils,fols,fois,foil
+5	foins	oins,fins,fons,fois,foin
+5	fores	ores,fres,foes,fors,fore
+5	fours	ours,furs,fors,fous,four
+5	frays	rays,fays,frys,fras,fray
+5	fries	ries,fies,fres,fris,frie
+5	froes	roes,foes,fres,fros,froe
+5	gaids	aids,gids,gads,gais,gaid
+5	gains	ains,gins,gans,gais,gain
+5	gaits	aits,gits,gats,gais,gait
+5	garis	aris,gris,gais,gars,gari
+5	glias	lias,gias,glas,glis,glia
+5	grein	rein,gein,grin,gren,grei
+5	hails	ails,hils,hals,hais,hail
+5	hains	ains,hins,hans,hais,hain
+5	hause	ause,huse,hase,haue,haus
+5	haven	aven,hven,haen,havn,have
+5	heard	eard,hard,herd,head,hear
+5	kaies	aies,kies,kaes,kais,kaie
+5	kains	ains,kins,kans,kais,kain
+5	kanas	anas,knas,kaas,kans,kana
+5	kanes	anes,knes,kaes,kans,kane
+5	ketas	etas,ktas,keas,kets,keta
+5	laids	aids,lids,lads,lais,laid
+5	least	east,last,lest,leat,leas
+5	leats	eats,lats,lets,leas,leat
+5	lours	ours,lurs,lors,lous,lour
+5	maids	aids,mids,mads,mais,maid
+5	maile	aile,mile,male,maie,mail
+5	mails	ails,mils,mals,mais,mail
+5	mains	ains,mins,mans,mais,main
+5	maire	aire,mire,mare,maie,mair
+5	mairs	airs,mirs,mars,mais,mair
+5	maise	aise,mise,mase,maie,mais
+5	manas	anas,mnas,maas,mans,mana
+5	meins	eins,mins,mens,meis,mein
+5	moats	oats,mats,mots,moas,moat
+5	moils	oils,mils,mols,mois,moil
+5	pails	ails,pils,pals,pais,pail
+5	pains	ains,pins,pans,pais,pain
+5	paire	aire,pire,pare,paie,pair
+5	pairs	airs,pirs,pars,pais,pair
+5	paise	aise,pise,pase,paie,pais
+5	paris	aris,pris,pais,pars,pari
+5	peans	eans,pans,pens,peas,pean
+5	pears	ears,pars,pers,peas,pear
+5	peats	eats,pats,pets,peas,peat
+5	peins	eins,pins,pens,peis,pein
+5	pleat	leat,peat,plat,plet,plea
+5	raids	aids,rids,rads,rais,raid
+5	raile	aile,rile,rale,raie,rail
+5	raine	aine,rine,rane,raie,rain
+5	raise	aise,rise,rase,raie,rais
+5	raits	aits,rits,rats,rais,rait
+5	reins	eins,rins,rens,reis,rein
+5	saims	aims,sims,sams,sais,saim
+5	saine	aine,sine,sane,saie,sain
+5	sains	ains,sins,sans,sais,sain
+5	sairs	airs,sirs,sars,sais,sair
+5	saris	aris,sris,sais,sars,sari
+5	saunt	aunt,sunt,sant,saut,saun
+5	seans	eans,sans,sens,seas,sean
+5	sears	ears,sars,sers,seas,sear
+5	seats	eats,sats,sets,seas,seat
+5	shoots	hoots,soots,shots,shoos,shoot
+5	skein	kein,sein,skin,sken,skei
+5	skier	kier,sier,sker,skir,skie
+5	soups	oups,sups,sops,sous,soup
+5	spier	pier,sier,sper,spir,spie
+5	spies	pies,sies,spes,spis,spie
+5	spire	pire,sire,spre,spie,spir
+5	spuer	puer,suer,sper,spur,spue
+5	syens	yens,sens,syns,syes,syen
+5	tails	ails,tils,tals,tais,tail
+5	tains	ains,tins,tans,tais,tain
+5	taits	aits,tits,tats,tais,tait
+5	tares	ares,tres,taes,tars,tare
+5	tasks	asks,tsks,taks,tass,task
+5	tears	ears,tars,ters,teas,tear
+5	teats	eats,tats,tets,teas,teat
+5	tires	ires,tres,ties,tirs,tire
+5	tores	ores,tres,toes,tors,tore
+5	touts	outs,tuts,tots,tous,tout
+5	tries	ries,ties,tres,tris,trie
+5	troad	road,toad,trad,trod,troa
+5	trout	rout,tout,trut,trot,trou
+5	truer	ruer,tuer,trer,trur,true
+5	vails	ails,vils,vals,vais,vail
+5	vaire	aire,vire,vare,vaie,vair
+5	veins	eins,vins,vens,veis,vein
+5	wains	ains,wins,wans,wais,wain
+5	waits	aits,wits,wats,wais,wait
+5	yeard	eard,yard,yerd,yead,year
+5	youks	ouks,yuks,yoks,yous,youk
+5	beins	eins,bins,bens,beis,bein
+5	blaut	laut,baut,blut,blat,blau
+5	braut	raut,baut,brut,brat,brau
+5	bøyde	øyde,byde,bøde,bøye,bøyd
+5	døyet	øyet,dyet,døet,døyt,døye
+5	feile	eile,file,fele,feie,feil
+5	flaut	laut,faut,flut,flat,flau
+5	greip	reip,geip,grip,grep,grei
+5	hauge	auge,huge,hage,haue,haug
+5	hauke	auke,huke,hake,haue,hauk
+5	heilt	eilt,hilt,helt,heit,heil
+5	laust	aust,lust,last,laut,laus
+5	leide	eide,lide,lede,leie,leid
+5	leier	eier,lier,leer,leir,leie
+5	leies	eies,lies,lees,leis,leie
+5	leike	eike,like,leke,leie,leik
+5	leire	eire,lire,lere,leie,leir
+5	meine	eine,mine,mene,meie,mein
+5	neide	eide,nide,nede,neie,neid
+5	raide	aide,ride,rade,raie,raid
+5	rause	ause,ruse,rase,raue,raus
+5	reine	eine,rine,rene,reie,rein
+5	saven	aven,sven,saen,savn,save
+5	skuer	kuer,suer,sker,skur,skue
+5	skure	kure,sure,skre,skue,skur
+5	snues	nues,sues,snes,snus,snue
+5	staut	taut,saut,stut,stat,stau
+5	støye	tøye,søye,stye,støe,støy
+5	sulet	ulet,slet,suet,sult,sule
+5	sveik	veik,seik,svik,svek,svei
+5	svein	vein,sein,svin,sven,svei
+5	taust	aust,tust,tast,taut,taus
+5	traut	raut,taut,trut,trat,trau
+5	tåren	åren,tren,tåen,tårn,tåre
+5	veike	eike,vike,veke,veie,veik
+5	aires	ires,ares,aies,airs,aire
+5	baust	aust,bust,bast,baut,baus
+5	braun	raun,baun,brun,bran,brau
+5	braus	raus,baus,brus,bras,brau
+5	daure	aure,dure,dare,daue,daur
+5	feilt	eilt,filt,felt,feit,feil
+5	freie	reie,feie,frie,free,frei
+5	freue	reue,feue,frue,free,freu
+5	graus	raus,gaus,grus,gras,grau
+5	heide	eide,hide,hede,heie,heid
+5	knies	nies,kies,knes,knis,knie
+5	klaut	laut,kaut,klut,klat,klau
+5	leime	eime,lime,leme,leie,leim
+5	raube	aube,rube,rabe,raue,raub
+5	raunt	aunt,runt,rant,raut,raun
+5	seins	eins,sins,sens,seis,sein
+5	toren	oren,tren,toen,torn,tore
+5	teilt	eilt,tilt,telt,teit,teil
+5	weins	eins,wins,wens,weis,wein
+5	agies	gies,aies,ages,agis,agie
+5	bains	ains,bins,bans,bais,bain
+5	baise	aise,bise,base,baie,bais
+5	braie	raie,baie,brie,brae,brai
+5	brait	rait,bait,brit,brat,brai
+5	couds	ouds,cuds,cods,cous,coud
+5	daims	aims,dims,dams,dais,daim
+5	faits	aits,fits,fats,fais,fait
+5	feins	eins,fins,fens,feis,fein
+5	foies	oies,fies,foes,fois,foie
+5	frais	rais,fais,fris,fras,frai
+5	gaies	aies,gies,gaes,gais,gaie
+5	laide	aide,lide,lade,laie,laid
+5	laine	aine,line,lane,laie,lain
+5	laits	aits,lits,lats,lais,lait
+5	maies	aies,mies,maes,mais,maie
+5	maille	aille,mille,malle,maile,maill
+5	mouds	ouds,muds,mods,mous,moud
+5	parie	arie,prie,paie,pare,pari
+5	poils	oils,pils,pols,pois,poil
+5	salit	alit,slit,sait,salt,sali
+5	soins	oins,sins,sons,sois,soin
+5	taies	aies,ties,taes,tais,taie
+5	tarie	arie,trie,taie,tare,tari
+5	taris	aris,tris,tais,tars,tari
+5	tirer	irer,trer,tier,tirr,tire
+5	troua	roua,toua,trua,troa,trou
+5	vaine	aine,vine,vane,vaie,vain
+5	vains	ains,vins,vans,vais,vain
+5	veine	eine,vine,vene,veie,vein
+5	voies	oies,vies,voes,vois,voie
+4	abas	bas,aas,abs,aba
+4	abye	bye,aye,abe,aby
+4	abys	bys,ays,abs,aby
+4	agas	gas,aas,ags,aga
+4	agin	gin,ain,agn,agi
+4	ahis	his,ais,ahs,ahi
+4	aide	ide,ade,aie,aid
+4	aids	ids,ads,ais,aid
+4	ails	ils,als,ais,ail
+4	ains	ins,ans,ais,ain
+4	alas	las,aas,als,ala
+4	amia	mia,aia,ama,ami
+4	anas	nas,aas,ans,ana
+4	anis	nis,ais,ans,ani
+4	aura	ura,ara,aua,aur
+4	aval	val,aal,avl,ava
+4	ayus	yus,aus,ays,ayu
+4	baals	aals,bals,baas,baal
+4	bail	ail,bil,bal,bai
+4	bait	ait,bit,bat,bai
+4	bard	ard,brd,bad,bar
+4	bast	ast,bst,bat,bas
+4	baud	aud,bud,bad,bau
+4	bauk	auk,buk,bak,bau
+4	baur	aur,bur,bar,bau
+4	bays	ays,bys,bas,bay
+4	bein	ein,bin,ben,bei
+4	bere	ere,bre,bee,ber
+4	best	est,bst,bet,bes
+4	bide	ide,bde,bie,bid
+4	bile	ile,ble,bie,bil
+4	bios	ios,bos,bis,bio
+4	bist	ist,bst,bit,bis
+4	bits	its,bts,bis,bit
+4	blay	lay,bay,bly,bla
+4	blees	lees,bees,bles,blee
+4	bley	ley,bey,bly,ble
+4	boak	oak,bak,bok,boa
+4	boar	oar,bar,bor,boa
+4	boat	oat,bat,bot,boa
+4	boil	oil,bil,bol,boi
+4	boohs	oohs,bohs,boos,booh
+4	booms	ooms,boms,boos,boom
+4	boons	oons,bons,boos,boon
+4	boots	oots,bots,boos,boot
+4	bora	ora,bra,boa,bor
+4	bord	ord,brd,bod,bor
+4	bort	ort,brt,bot,bor
+4	boys	oys,bys,bos,boy
+4	brad	rad,bad,brd,bra
+4	brat	rat,bat,brt,bra
+4	bray	ray,bay,bry,bra
+4	bred	red,bed,brd,bre
+4	brod	rod,bod,brd,bro
+4	brook	rook,book,brok,broo
+4	broom	room,boom,brom,broo
+4	broos	roos,boos,bros,broo
+4	brut	rut,but,brt,bru
+4	bura	ura,bra,bua,bur
+4	burd	urd,brd,bud,bur
+4	buts	uts,bts,bus,but
+4	byes	yes,bes,bys,bye
+4	byre	yre,bre,bye,byr
+4	char	har,car,chr,cha
+4	coil	oil,cil,col,coi
+4	cooms	ooms,coms,coos,coom
+4	coons	oons,cons,coos,coon
+4	coops	oops,cops,coos,coop
+4	coots	oots,cots,coos,coot
+4	coup	oup,cup,cop,cou
+4	cour	our,cur,cor,cou
+4	dans	ans,dns,das,dan
+4	dark	ark,drk,dak,dar
+4	daud	aud,dud,dad,dau
+4	daur	aur,dur,dar,dau
+4	dens	ens,dns,des,den
+4	dins	ins,dns,dis,din
+4	does	oes,des,dos,doe
+4	dons	ons,dns,dos,don
+4	dooms	ooms,doms,doos,doom
+4	dork	ork,drk,dok,dor
+4	dray	ray,day,dry,dra
+4	duns	uns,dns,dus,dun
+4	dura	ura,dra,dua,dur
+4	eans	ans,ens,eas,ean
+4	ears	ars,ers,eas,ear
+4	east	ast,est,eat,eas
+4	eaus	aus,eus,eas,eau
+4	eild	ild,eld,eid,eil
+4	emus	mus,eus,ems,emu
+4	eras	ras,eas,ers,era
+4	etat	tat,eat,ett,eta
+4	ethe	the,ehe,ete,eth
+4	fays	ays,fys,fas,fay
+4	feels	eels,fels,fees,feel
+4	feis	eis,fis,fes,fei
+4	feus	eus,fus,fes,feu
+4	fils	ils,fls,fis,fil
+4	firk	irk,frk,fik,fir
+4	fleet	leet,feet,flet,flee
+4	flog	log,fog,flg,flo
+4	flus	lus,fus,fls,flu
+4	foes	oes,fes,fos,foe
+4	foil	oil,fil,fol,foi
+4	foud	oud,fud,fod,fou
+4	four	our,fur,for,fou
+4	fous	ous,fus,fos,fou
+4	foys	oys,fys,fos,foy
+4	fray	ray,fay,fry,fra
+4	freed	reed,feed,fred,free
+4	frees	rees,fees,fres,free
+4	gaid	aid,gid,gad,gai
+4	gain	ain,gin,gan,gai
+4	gair	air,gir,gar,gai
+4	gait	ait,git,gat,gai
+4	gale	ale,gle,gae,gal
+4	gare	are,gre,gae,gar
+4	gast	ast,gst,gat,gas
+4	gaud	aud,gud,gad,gau
+4	gaur	aur,gur,gar,gau
+4	gaus	aus,gus,gas,gau
+4	gere	ere,gre,gee,ger
+4	gios	ios,gos,gis,gio
+4	gist	ist,gst,git,gis
+4	gleed	leed,geed,gled,glee
+4	glei	lei,gei,gli,gle
+4	glia	lia,gia,gla,gli
+4	glue	lue,gue,gle,glu
+4	goat	oat,gat,got,goa
+4	gole	ole,gle,goe,gol
+4	goons	oons,gons,goos,goon
+4	gora	ora,gra,goa,gor
+4	gore	ore,gre,goe,gor
+4	gray	ray,gay,gry,gra
+4	grue	rue,gue,gre,gru
+4	gule	ule,gle,gue,gul
+4	hail	ail,hil,hal,hai
+4	hain	ain,hin,han,hai
+4	halm	alm,hlm,ham,hal
+4	haud	aud,hud,had,hau
+4	heid	eid,hid,hed,hei
+4	heil	eil,hil,hel,hei
+4	helm	elm,hlm,hem,hel
+4	hoar	oar,har,hor,hoa
+4	hoes	oes,hes,hos,hoe
+4	holm	olm,hlm,hom,hol
+4	ions	ons,ins,ios,ion
+4	kaim	aim,kim,kam,kai
+4	kain	ain,kin,kan,kai
+4	kais	ais,kis,kas,kai
+4	kane	ane,kne,kae,kan
+4	kist	ist,kst,kit,kis
+4	kune	une,kne,kue,kun
+4	laid	aid,lid,lad,lai
+4	laud	aud,lud,lad,lau
+4	lays	ays,lys,las,lay
+4	lear	ear,lar,ler,lea
+4	leas	eas,las,les,lea
+4	leat	eat,lat,let,lea
+4	leis	eis,lis,les,lei
+4	loofs	oofs,lofs,loos,loof
+4	loops	oops,lops,loos,loop
+4	loots	oots,lots,loos,loot
+4	loud	oud,lud,lod,lou
+4	lour	our,lur,lor,lou
+4	lous	ous,lus,los,lou
+4	lout	out,lut,lot,lou
+4	loys	oys,lys,los,loy
+4	lyes	yes,les,lys,lye
+4	maid	aid,mid,mad,mai
+4	mail	ail,mil,mal,mai
+4	maim	aim,mim,mam,mai
+4	main	ain,min,man,mai
+4	mair	air,mir,mar,mai
+4	mana	ana,mna,maa,man
+4	mand	and,mnd,mad,man
+4	mark	ark,mrk,mak,mar
+4	mars	ars,mrs,mas,mar
+4	mean	ean,man,men,mea
+4	meat	eat,mat,met,mea
+4	mein	ein,min,men,mei
+4	meme	eme,mme,mee,mem
+4	mend	end,mnd,med,men
+4	merk	erk,mrk,mek,mer
+4	meus	eus,mus,mes,meu
+4	mille	ille,mlle,mile,mill
+4	mind	ind,mnd,mid,min
+4	moat	oat,mat,mot,moa
+4	moes	oes,mes,mos,moe
+4	moil	oil,mil,mol,moi
+4	moons	oons,mons,moos,moon
+4	moops	oops,mops,moos,moop
+4	moots	oots,mots,moos,moot
+4	mors	ors,mrs,mos,mor
+4	mous	ous,mus,mos,mou
+4	nark	ark,nrk,nak,nar
+4	nays	ays,nys,nas,nay
+4	nerk	erk,nrk,nek,ner
+4	nest	est,nst,net,nes
+4	noes	oes,nes,nos,noe
+4	nork	ork,nrk,nok,nor
+4	noys	oys,nys,nos,noy
+4	nyes	yes,nes,nys,nye
+4	obes	bes,oes,obs,obe
+4	obos	bos,oos,obs,obo
+4	odes	des,oes,ods,ode
+4	ohos	hos,oos,ohs,oho
+4	ones	nes,oes,ons,one
+4	onos	nos,oos,ons,ono
+4	onst	nst,ost,ont,ons
+4	opes	pes,oes,ops,ope
+4	ores	res,oes,ors,ore
+4	oses	ses,oes,oss,ose
+4	ouds	uds,ods,ous,oud
+4	oups	ups,ops,ous,oup
+4	ours	urs,ors,ous,our
+4	oyes	yes,oes,oys,oye
+4	pail	ail,pil,pal,pai
+4	pain	ain,pin,pan,pai
+4	pair	air,pir,par,pai
+4	pais	ais,pis,pas,pai
+4	past	ast,pst,pat,pas
+4	pean	ean,pan,pen,pea
+4	pear	ear,par,per,pea
+4	peas	eas,pas,pes,pea
+4	peat	eat,pat,pet,pea
+4	pere	ere,pre,pee,per
+4	pest	est,pst,pet,pes
+4	phot	hot,pot,pht,pho
+4	poons	oons,pons,poos,poon
+4	poops	oops,pops,poos,poop
+4	poots	oots,pots,poos,poot
+4	post	ost,pst,pot,pos
+4	pouf	ouf,puf,pof,pou
+4	pout	out,put,pot,pou
+4	preen	reen,peen,pren,pree
+4	prep	rep,pep,prp,pre
+4	proof	roof,poof,prof,proo
+4	prop	rop,pop,prp,pro
+4	puer	uer,per,pur,pue
+4	pure	ure,pre,pue,pur
+4	raid	aid,rid,rad,rai
+4	rain	ain,rin,ran,rai
+4	rais	ais,ris,ras,rai
+4	rait	ait,rit,rat,rai
+4	reik	eik,rik,rek,rei
+4	rein	ein,rin,ren,rei
+4	reis	eis,ris,res,rei
+4	roar	oar,rar,ror,roa
+4	roes	oes,res,ros,roe
+4	rooms	ooms,roms,roos,room
+4	roots	oots,rots,roos,root
+4	said	aid,sid,sad,sai
+4	sail	ail,sil,sal,sai
+4	saim	aim,sim,sam,sai
+4	sain	ain,sin,san,sai
+4	sair	air,sir,sar,sai
+4	sais	ais,sis,sas,sai
+4	sake	ake,ske,sae,sak
+4	sale	ale,sle,sae,sal
+4	sane	ane,sne,sae,san
+4	sate	ate,ste,sae,sat
+4	save	ave,sve,sae,sav
+4	sean	ean,san,sen,sea
+4	sear	ear,sar,ser,sea
+4	seas	eas,sas,ses,sea
+4	seat	eat,sat,set,sea
+4	seels	eels,sels,sees,seel
+4	seik	eik,sik,sek,sei
+4	seil	eil,sil,sel,sei
+4	seir	eir,sir,ser,sei
+4	seis	eis,sis,ses,sei
+4	sene	ene,sne,see,sen
+4	seta	eta,sta,sea,set
+4	shah	hah,sah,shh,sha
+4	shay	hay,say,shy,sha
+4	shoot	hoot,soot,shot,shoo
+4	sile	ile,sle,sie,sil
+4	skat	kat,sat,skt,ska
+4	skeen	keen,seen,sken,skee
+4	sket	ket,set,skt,ske
+4	skit	kit,sit,skt,ski
+4	sleep	leep,seep,slep,slee
+4	sley	ley,sey,sly,sle
+4	slue	lue,sue,sle,slu
+4	sneed	need,seed,sned,snee
+4	snye	nye,sye,sne,sny
+4	soil	oil,sil,sol,soi
+4	soup	oup,sup,sop,sou
+4	sous	ous,sus,sos,sou
+4	sout	out,sut,sot,sou
+4	spay	pay,say,spy,spa
+4	sped	ped,sed,spd,spe
+4	stay	tay,say,sty,sta
+4	stie	tie,sie,ste,sti
+4	stye	tye,sye,ste,sty
+4	suer	uer,ser,sur,sue
+4	syen	yen,sen,syn,sye
+4	tail	ail,til,tal,tai
+4	tain	ain,tin,tan,tai
+4	tais	ais,tis,tas,tai
+4	tait	ait,tit,tat,tai
+4	tare	are,tre,tae,tar
+4	task	ask,tsk,tak,tas
+4	taus	aus,tus,tas,tau
+4	tays	ays,tys,tas,tay
+4	tear	ear,tar,ter,tea
+4	teas	eas,tas,tes,tea
+4	teat	eat,tat,tet,tea
+4	teels	eels,tels,tees,teel
+4	tire	ire,tre,tie,tir
+4	tore	ore,tre,toe,tor
+4	treen	reen,teen,tren,tree
+4	trees	rees,tees,tres,tree
+4	trie	rie,tie,tre,tri
+4	troy	roy,toy,try,tro
+4	true	rue,tue,tre,tru
+4	trye	rye,tye,tre,try
+4	tyes	yes,tes,tys,tye
+4	tyre	yre,tre,tye,tyr
+4	vaus	aus,vus,vas,vau
+4	veil	eil,vil,vel,vei
+4	vein	ein,vin,ven,vei
+4	wain	ain,win,wan,wai
+4	wair	air,wir,war,wai
+4	wais	ais,wis,was,wai
+4	wait	ait,wit,wat,wai
+4	wary	ary,wry,way,war
+4	woofs	oofs,wofs,woos,woof
+4	woons	oons,wons,woos,woon
+4	yare	are,yre,yae,yar
+4	youk	ouk,yuk,yok,you
+4	yous	ous,yus,yos,you
+4	apal	pal,aal,apl,apa
+4	aske	ske,ake,ase,ask
+4	auke	uke,ake,aue,auk
+4	aure	ure,are,aue,aur
+4	ause	use,ase,aue,aus
+4	bart	art,brt,bat,bar
+4	baug	aug,bug,bag,bau
+4	baus	aus,bus,bas,bau
+4	beis	eis,bis,bes,bei
+4	bert	ert,brt,bet,ber
+4	blei	lei,bei,bli,ble
+4	breen	reen,been,bren,bree
+4	broa	roa,boa,bra,bro
+4	bror	ror,bor,brr,bro
+4	brua	rua,bua,bra,bru
+4	brud	rud,bud,brd,bru
+4	bryr	ryr,byr,brr,bry
+4	buer	uer,ber,bur,bue
+4	bure	ure,bre,bue,bur
+4	byet	yet,bet,byt,bye
+4	båre	åre,bre,båe,bår
+4	daue	aue,due,dae,dau
+4	deis	eis,dis,des,dei
+4	drua	rua,dua,dra,dru
+4	duer	uer,der,dur,due
+4	egen	gen,een,egn,ege
+4	eire	ire,ere,eie,eir
+4	este	ste,ete,ese,est
+4	feie	eie,fie,fee,fei
+4	flis	lis,fis,fls,fli
+4	gein	ein,gin,gen,gei
+4	gira	ira,gra,gia,gir
+4	gire	ire,gre,gie,gir
+4	gloa	loa,goa,gla,glo
+4	grei	rei,gei,gri,gre
+4	groa	roa,goa,gra,gro
+4	groe	roe,goe,gre,gro
+4	haug	aug,hug,hag,hau
+4	haus	aus,hus,has,hau
+4	heim	eim,him,hem,hei
+4	heis	eis,his,hes,hei
+4	hoie	oie,hie,hoe,hoi
+4	kare	are,kre,kae,kar
+4	kast	ast,kst,kat,kas
+4	kave	ave,kve,kae,kav
+4	kost	ost,kst,kot,kos
+4	kule	ule,kle,kue,kul
+4	kure	ure,kre,kue,kur
+4	laug	aug,lug,lag,lau
+4	laus	aus,lus,las,lau
+4	leid	eid,lid,led,lei
+4	leie	eie,lie,lee,lei
+4	leik	eik,lik,lek,lei
+4	luer	uer,ler,lur,lue
+4	lyet	yet,let,lyt,lye
+4	løye	øye,lye,løe,løy
+4	maie	aie,mie,mae,mai
+4	mais	ais,mis,mas,mai
+4	meie	eie,mie,mee,mei
+4	meis	eis,mis,mes,mei
+4	mers	ers,mrs,mes,mer
+4	neie	eie,nie,nee,nei
+4	ospa	spa,opa,osa,osp
+4	pakt	akt,pkt,pat,pak
+4	pist	ist,pst,pit,pis
+4	raus	aus,rus,ras,rau
+4	reie	eie,rie,ree,rei
+4	reim	eim,rim,rem,rei
+4	røyk	øyk,ryk,røk,røy
+4	røyr	øyr,ryr,rør,røy
+4	saug	aug,sug,sag,sau
+4	saus	aus,sus,sas,sau
+4	seid	eid,sid,sed,sei
+4	sein	ein,sin,sen,sei
+4	sete	ete,ste,see,set
+4	seva	eva,sva,sea,sev
+4	skei	kei,sei,ski,ske
+4	skye	kye,sye,ske,sky
+4	snue	nue,sue,sne,snu
+4	stua	tua,sua,sta,stu
+4	stue	tue,sue,ste,stu
+4	sule	ule,sle,sue,sul
+4	suta	uta,sta,sua,sut
+4	svei	vei,sei,svi,sve
+4	svie	vie,sie,sve,svi
+4	søkt	økt,skt,søt,søk
+4	tant	ant,tnt,tat,tan
+4	taue	aue,tue,tae,tau
+4	ture	ure,tre,tue,tur
+4	veid	eid,vid,ved,vei
+4	veie	eie,vie,vee,vei
+4	veik	eik,vik,vek,vei
+4	yret	ret,yet,yrt,yre
+4	ytet	tet,yet,ytt,yte
+4	øren	ren,øen,ørn,øre
+4	egon	gon,eon,egn,ego
+4	leon	eon,lon,len,leo
+4	mund	und,mnd,mud,mun
+4	nist	ist,nst,nit,nis
+4	stak	tak,sak,stk,sta
+4	stik	tik,sik,stk,sti
+4	aras	ras,aas,ars,ara
+4	auge	uge,age,aue,aug
+4	beil	eil,bil,bel,bei
+4	brot	rot,bot,brt,bro
+4	bude	ude,bde,bue,bud
+4	brau	rau,bau,bru,bra
+4	dein	ein,din,den,dei
+4	eins	ins,ens,eis,ein
+4	flug	lug,fug,flg,flu
+4	fein	ein,fin,fen,fei
+4	grau	rau,gau,gru,gra
+4	haie	aie,hie,hae,hai
+4	hais	ais,his,has,hai
+4	hein	ein,hin,hen,hei
+4	heus	eus,hus,hes,heu
+4	haue	aue,hue,hae,hau
+4	kein	ein,kin,ken,kei
+4	leim	eim,lim,lem,lei
+4	molle	olle,mlle,mole,moll
+4	mond	ond,mnd,mod,mon
+4	neid	eid,nid,ned,nei
+4	neue	eue,nue,nee,neu
+4	reue	eue,rue,ree,reu
+4	sarg	arg,srg,sag,sar
+4	saud	aud,sud,sad,sau
+4	stau	tau,sau,stu,sta
+4	agie	gie,aie,age,agi
+4	agis	gis,ais,ags,agi
+4	agit	git,ait,agt,agi
+4	aida	ida,ada,aia,aid
+4	aile	ile,ale,aie,ail
+4	aire	ire,are,aie,air
+4	aise	ise,ase,aie,ais
+4	bain	ain,bin,ban,bai
+4	bais	ais,bis,bas,bai
+4	chue	hue,cue,che,chu
+4	coud	oud,cud,cod,cou
+4	dira	ira,dra,dia,dir
+4	flou	lou,fou,flu,flo
+4	foie	oie,fie,foe,foi
+4	foui	oui,fui,foi,fou
+4	fout	out,fut,fot,fou
+4	gaie	aie,gie,gae,gai
+4	gais	ais,gis,gas,gai
+4	lais	ais,lis,las,lai
+4	lait	ait,lit,lat,lai
+4	malle	alle,mlle,male,mall
+4	meut	eut,mut,met,meu
+4	moud	oud,mud,mod,mou
+4	muer	uer,mer,mur,mue
+4	peut	eut,put,pet,peu
+4	pire	ire,pre,pie,pir
+4	poil	oil,pil,pol,poi
+4	saie	aie,sie,sae,sai
+4	sait	ait,sit,sat,sai
+4	sape	ape,spe,sae,sap
+4	saur	aur,sur,sar,sau
+4	taie	aie,tie,tae,tai
+4	taux	aux,tux,tax,tau
+4	tuer	uer,ter,tur,tue
+3	aahs	ahs,aas,aah
+3	aals	als,aas,aal
+3	aba	ba,aa,ab
+3	aby	by,ay,ab
+3	ace	ce,ae,ac
+3	ach	ch,ah,ac
+3	aft	ft,at,af
+3	aga	ga,aa,ag
+3	aha	ha,aa,ah
+3	ahi	hi,ai,ah
+3	aid	id,ad,ai
+3	ail	il,al,ai
+3	aim	im,am,ai
+3	ain	in,an,ai
+3	air	ir,ar,ai
+3	ais	is,as,ai
+3	ait	it,at,ai
+3	aka	ka,aa,ak
+3	ala	la,aa,al
+3	ale	le,ae,al
+3	alp	lp,ap,al
+3	ama	ma,aa,am
+3	ami	mi,ai,am
+3	amu	mu,au,am
+3	ana	na,aa,an
+3	and	nd,ad,an
+3	ane	ne,ae,an
+3	ani	ni,ai,an
+3	ant	nt,at,an
+3	any	ny,ay,an
+3	ape	pe,ae,ap
+3	apt	pt,at,ap
+3	ard	rd,ad,ar
+3	are	re,ae,ar
+3	arm	rm,am,ar
+3	ary	ry,ay,ar
+3	ash	sh,ah,as
+3	ate	te,ae,at
+3	auf	uf,af,au
+3	ava	va,aa,av
+3	ave	ve,ae,av
+3	awe	we,ae,aw
+3	aye	ye,ae,ay
+3	ayu	yu,au,ay
+3	baal	aal,bal,baa
+3	baas	aas,bas,baa
+3	bah	ah,bh,ba
+3	bal	al,bl,ba
+3	bap	ap,bp,ba
+3	bat	at,bt,ba
+3	bay	ay,by,ba
+3	been	een,ben,bee
+3	bel	el,bl,be
+3	bet	et,bt,be
+3	bio	io,bo,bi
+3	bit	it,bt,bi
+3	blee	lee,bee,ble
+3	boh	oh,bh,bo
+3	boi	oi,bi,bo
+3	booh	ooh,boh,boo
+3	boom	oom,bom,boo
+3	boon	oon,bon,boo
+3	boor	oor,bor,boo
+3	boos	oos,bos,boo
+3	boot	oot,bot,boo
+3	bop	op,bp,bo
+3	boy	oy,by,bo
+3	bree	ree,bee,bre
+3	broo	roo,boo,bro
+3	but	ut,bt,bu
+3	bye	ye,be,by
+3	caas	aas,cas,caa
+3	cad	ad,cd,ca
+3	cam	am,cm,ca
+3	cel	el,cl,ce
+3	cha	ha,ca,ch
+3	che	he,ce,ch
+3	chi	hi,ci,ch
+3	cid	id,cd,ci
+3	cod	od,cd,co
+3	col	ol,cl,co
+3	coon	oon,con,coo
+3	coop	oop,cop,coo
+3	coos	oos,cos,coo
+3	coot	oot,cot,coo
+3	cud	ud,cd,cu
+3	cum	um,cm,cu
+3	dab	ab,db,da
+3	dae	ae,de,da
+3	dak	ak,dk,da
+3	dal	al,dl,da
+3	dam	am,dm,da
+3	day	ay,dy,da
+3	deen	een,den,dee
+3	dei	ei,di,de
+3	del	el,dl,de
+3	dib	ib,db,di
+3	dim	im,dm,di
+3	dob	ob,db,do
+3	doe	oe,de,do
+3	dol	ol,dl,do
+3	dom	om,dm,do
+3	doom	oom,dom,doo
+3	doon	oon,don,doo
+3	door	oor,dor,doo
+3	doos	oos,dos,doo
+3	dor	or,dr,do
+3	doy	oy,dy,do
+3	dry	ry,dy,dr
+3	dub	ub,db,du
+3	dye	ye,de,dy
+3	ean	an,en,ea
+3	ear	ar,er,ea
+3	eas	as,es,ea
+3	eat	at,et,ea
+3	eau	au,eu,ea
+3	eft	ft,et,ef
+3	eme	me,ee,em
+3	ems	ms,es,em
+3	emu	mu,eu,em
+3	end	nd,ed,en
+3	ene	ne,ee,en
+3	ens	ns,es,en
+3	era	ra,ea,er
+3	ere	re,ee,er
+3	est	st,et,es
+3	eta	ta,ea,et
+3	eth	th,eh,et
+3	faas	aas,fas,faa
+3	fae	ae,fe,fa
+3	fag	ag,fg,fa
+3	fan	an,fn,fa
+3	far	ar,fr,fa
+3	fat	at,ft,fa
+3	fax	ax,fx,fa
+3	fay	ay,fy,fa
+3	feen	een,fen,fee
+3	feg	eg,fg,fe
+3	fem	em,fm,fe
+3	fen	en,fn,fe
+3	fer	er,fr,fe
+3	fet	et,ft,fe
+3	feu	eu,fu,fe
+3	fig	ig,fg,fi
+3	fil	il,fl,fi
+3	fin	in,fn,fi
+3	fir	ir,fr,fi
+3	fit	it,ft,fi
+3	fix	ix,fx,fi
+3	flu	lu,fu,fl
+3	fly	ly,fy,fl
+3	fra	ra,fa,fr
+3	fry	ry,fy,fr
+3	fug	ug,fg,fu
+3	fum	um,fm,fu
+3	fun	un,fn,fu
+3	fur	ur,fr,fu
+3	gab	ab,gb,ga
+3	gal	al,gl,ga
+3	gau	au,gu,ga
+3	gib	ib,gb,gi
+3	gio	io,go,gi
+3	glee	lee,gee,gle
+3	gob	ob,gb,go
+3	goon	oon,gon,goo
+3	goor	oor,gor,goo
+3	goos	oos,gos,goo
+3	gree	ree,gee,gre
+3	gub	ub,gb,gu
+3	gul	ul,gl,gu
+3	had	ad,hd,ha
+3	hae	ae,he,ha
+3	ham	am,hm,ha
+3	hat	at,ht,ha
+3	hem	em,hm,he
+3	her	er,hr,he
+3	het	et,ht,he
+3	hid	id,hd,hi
+3	him	im,hm,hi
+3	hit	it,ht,hi
+3	hob	ob,hb,ho
+3	hod	od,hd,ho
+3	hoe	oe,he,ho
+3	hoi	oi,hi,ho
+3	hom	om,hm,ho
+3	hoof	oof,hof,hoo
+3	hoon	oon,hon,hoo
+3	hoop	oop,hop,hoo
+3	hoot	oot,hot,hoo
+3	hub	ub,hb,hu
+3	hum	um,hm,hu
+3	hut	ut,ht,hu
+3	ich	ch,ih,ic
+3	ins	ns,is,in
+3	ion	on,in,io
+3	ios	os,is,io
+3	ish	sh,ih,is
+3	iso	so,io,is
+3	jar	ar,jr,ja
+3	joe	oe,je,jo
+3	jor	or,jr,jo
+3	kab	ab,kb,ka
+3	kai	ai,ki,ka
+3	kam	am,km,ka
+3	kaw	aw,kw,ka
+3	kay	ay,ky,ka
+3	kin	in,kn,ki
+3	kir	ir,kr,ki
+3	kob	ob,kb,ko
+3	koi	oi,ki,ko
+3	kon	on,kn,ko
+3	kop	op,kp,ko
+3	kor	or,kr,ko
+3	kow	ow,kw,ko
+3	kyu	yu,ku,ky
+3	lah	ah,lh,la
+3	lap	ap,lp,la
+3	lay	ay,ly,la
+3	lea	ea,la,le
+3	leek	eek,lek,lee
+3	lei	ei,li,le
+3	lep	ep,lp,le
+3	leu	eu,lu,le
+3	loof	oof,lof,loo
+3	loom	oom,lom,loo
+3	loon	oon,lon,loo
+3	loop	oop,lop,loo
+3	loor	oor,lor,loo
+3	loos	oos,los,loo
+3	loot	oot,lot,loo
+3	lop	op,lp,lo
+3	lou	ou,lu,lo
+3	loy	oy,ly,lo
+3	lye	ye,le,ly
+3	maas	aas,mas,maa
+3	mac	ac,mc,ma
+3	mad	ad,md,ma
+3	mae	ae,me,ma
+3	mag	ag,mg,ma
+3	mal	al,ml,ma
+3	mam	am,mm,ma
+3	mar	ar,mr,ma
+3	mas	as,ms,ma
+3	mat	at,mt,ma
+3	max	ax,mx,ma
+3	may	ay,my,ma
+3	med	ed,md,me
+3	meek	eek,mek,mee
+3	meg	eg,mg,me
+3	mel	el,ml,me
+3	mem	em,mm,me
+3	mes	es,ms,me
+3	met	et,mt,me
+3	meu	eu,mu,me
+3	mib	ib,mb,mi
+3	mic	ic,mc,mi
+3	mid	id,md,mi
+3	mig	ig,mg,mi
+3	mil	il,ml,mi
+3	mim	im,mm,mi
+3	mir	ir,mr,mi
+3	mis	is,ms,mi
+3	mix	ix,mx,mi
+3	mob	ob,mb,mo
+3	moc	oc,mc,mo
+3	mod	od,md,mo
+3	moe	oe,me,mo
+3	mog	og,mg,mo
+3	moi	oi,mi,mo
+3	mol	ol,ml,mo
+3	mom	om,mm,mo
+3	moon	oon,mon,moo
+3	moop	oop,mop,moo
+3	moor	oor,mor,moo
+3	moos	oos,mos,moo
+3	moot	oot,mot,moo
+3	mor	or,mr,mo
+3	mos	os,ms,mo
+3	mou	ou,mu,mo
+3	moy	oy,my,mo
+3	mud	ud,md,mu
+3	mug	ug,mg,mu
+3	mum	um,mm,mu
+3	mus	us,ms,mu
+3	mut	ut,mt,mu
+3	nab	ab,nb,na
+3	nae	ae,ne,na
+3	nan	an,nn,na
+3	nas	as,ns,na
+3	nat	at,nt,na
+3	nay	ay,ny,na
+3	ned	ed,nd,ne
+3	net	et,nt,ne
+3	nib	ib,nb,ni
+3	nid	id,nd,ni
+3	nil	il,nl,ni
+3	nis	is,ns,ni
+3	nit	it,nt,ni
+3	nob	ob,nb,no
+3	nod	od,nd,no
+3	non	on,nn,no
+3	noon	oon,non,noo
+3	nos	os,ns,no
+3	noy	oy,ny,no
+3	nub	ub,nb,nu
+3	nun	un,nn,nu
+3	nus	us,ns,nu
+3	nut	ut,nt,nu
+3	nye	ye,ne,ny
+3	obe	be,oe,ob
+3	obi	bi,oi,ob
+3	obo	bo,oo,ob
+3	och	ch,oh,oc
+3	ode	de,oe,od
+3	oes	es,os,oe
+3	ohm	hm,om,oh
+3	oho	ho,oo,oh
+3	oil	il,ol,oi
+3	ole	le,oe,ol
+3	oms	ms,os,om
+3	one	ne,oe,on
+3	ono	no,oo,on
+3	ons	ns,os,on
+3	ony	ny,oy,on
+3	oohs	ohs,oos,ooh
+3	ooms	oms,oos,oom
+3	oons	ons,oos,oon
+3	oont	ont,oot,oon
+3	oops	ops,oos,oop
+3	ope	pe,oe,op
+3	ops	ps,os,op
+3	ord	rd,od,or
+3	ore	re,oe,or
+3	ose	se,oe,os
+3	oud	ud,od,ou
+3	oup	up,op,ou
+3	our	ur,or,ou
+3	ous	us,os,ou
+3	owe	we,oe,ow
+3	oye	ye,oe,oy
+3	pac	ac,pc,pa
+3	pad	ad,pd,pa
+3	pah	ah,ph,pa
+3	pam	am,pm,pa
+3	pap	ap,pp,pa
+3	par	ar,pr,pa
+3	pas	as,ps,pa
+3	pat	at,pt,pa
+3	pav	av,pv,pa
+3	pea	ea,pa,pe
+3	ped	ed,pd,pe
+3	peek	eek,pek,pee
+3	peen	een,pen,pee
+3	peh	eh,ph,pe
+3	pep	ep,pp,pe
+3	per	er,pr,pe
+3	pes	es,ps,pe
+3	pet	et,pt,pe
+3	phi	hi,pi,ph
+3	pho	ho,po,ph
+3	pht	ht,pt,ph
+3	pic	ic,pc,pi
+3	pir	ir,pr,pi
+3	pis	is,ps,pi
+3	pit	it,pt,pi
+3	pod	od,pd,po
+3	poh	oh,ph,po
+3	poi	oi,pi,po
+3	pom	om,pm,po
+3	poof	oof,pof,poo
+3	pooh	ooh,poh,poo
+3	poop	oop,pop,poo
+3	poos	oos,pos,poo
+3	poot	oot,pot,poo
+3	pop	op,pp,po
+3	pos	os,ps,po
+3	pre	re,pe,pr
+3	pree	ree,pee,pre
+3	pro	ro,po,pr
+3	proo	roo,poo,pro
+3	psi	si,pi,ps
+3	pst	st,pt,ps
+3	pud	ud,pd,pu
+3	puh	uh,ph,pu
+3	pup	up,pp,pu
+3	pur	ur,pr,pu
+3	pus	us,ps,pu
+3	put	ut,pt,pu
+3	rad	ad,rd,ra
+3	rai	ai,ri,ra
+3	ram	am,rm,ra
+3	ray	ay,ry,ra
+3	red	ed,rd,re
+3	reek	eek,rek,ree
+3	reen	een,ren,ree
+3	rei	ei,ri,re
+3	rem	em,rm,re
+3	rid	id,rd,ri
+3	rim	im,rm,ri
+3	rod	od,rd,ro
+3	roe	oe,re,ro
+3	rom	om,rm,ro
+3	room	oom,rom,roo
+3	roop	oop,rop,roo
+3	roos	oos,ros,roo
+3	root	oot,rot,roo
+3	rud	ud,rd,ru
+3	rum	um,rm,ru
+3	rya	ya,ra,ry
+3	rye	ye,re,ry
+3	sab	ab,sb,sa
+3	sad	ad,sd,sa
+3	sae	ae,se,sa
+3	sai	ai,si,sa
+3	sat	at,st,sa
+3	sau	au,su,sa
+3	sav	av,sv,sa
+3	say	ay,sy,sa
+3	sea	ea,sa,se
+3	sed	ed,sd,se
+3	seek	eek,sek,see
+3	seel	eel,sel,see
+3	seen	een,sen,see
+3	sei	ei,si,se
+3	set	et,st,se
+3	sha	ha,sa,sh
+3	she	he,se,sh
+3	sib	ib,sb,si
+3	sif	if,sf,si
+3	sis	is,ss,si
+3	sit	it,st,si
+3	slee	lee,see,sle
+3	snee	nee,see,sne
+3	sob	ob,sb,so
+3	sod	od,sd,so
+3	soh	oh,sh,so
+3	sos	os,ss,so
+3	sou	ou,su,so
+3	soy	oy,sy,so
+3	sty	ty,sy,st
+3	sub	ub,sb,su
+3	sud	ud,sd,su
+3	sus	us,ss,su
+3	sye	ye,se,sy
+3	tab	ab,tb,ta
+3	tad	ad,td,ta
+3	tae	ae,te,ta
+3	tag	ag,tg,ta
+3	tai	ai,ti,ta
+3	tak	ak,tk,ta
+3	tau	au,tu,ta
+3	tav	av,tv,ta
+3	tay	ay,ty,ta
+3	tea	ea,ta,te
+3	ted	ed,td,te
+3	teel	eel,tel,tee
+3	teen	een,ten,tee
+3	tef	ef,tf,te
+3	teg	eg,tg,te
+3	the	he,te,th
+3	tho	ho,to,th
+3	tid	id,td,ti
+3	tig	ig,tg,ti
+3	tod	od,td,to
+3	toe	oe,te,to
+3	tog	og,tg,to
+3	toom	oom,tom,too
+3	toon	oon,ton,too
+3	toot	oot,tot,too
+3	toy	oy,ty,to
+3	tree	ree,tee,tre
+3	tub	ub,tb,tu
+3	tug	ug,tg,tu
+3	tye	ye,te,ty
+3	uns	ns,us,un
+3	ups	ps,us,up
+3	urd	rd,ud,ur
+3	vae	ae,ve,va
+3	vag	ag,vg,va
+3	vas	as,vs,va
+3	vat	at,vt,va
+3	vau	au,vu,va
+3	vaw	aw,vw,va
+3	veg	eg,vg,ve
+3	vet	et,vt,ve
+3	vig	ig,vg,vi
+3	vim	im,vm,vi
+3	vis	is,vs,vi
+3	vug	ug,vg,vu
+3	vum	um,vm,vu
+3	ween	een,wen,wee
+3	wem	em,wm,we
+3	woe	oe,we,wo
+3	woof	oof,wof,woo
+3	woon	oon,won,woo
+3	woos	oos,wos,woo
+3	woot	oot,wot,woo
+3	yae	ae,ye,ya
+3	yar	ar,yr,ya
+3	yea	ea,ya,ye
+3	yett	ett,ytt,yet
+3	you	ou,yu,yo
+3	zoos	oos,zos,zoo
+3	aer	er,ar,ae
+3	amt	mt,at,am
+3	apa	pa,aa,ap
+3	ara	ra,aa,ar
+3	ase	se,ae,as
+3	aug	ug,ag,au
+3	aur	ur,ar,au
+3	bai	ai,bi,ba
+3	bil	il,bl,bi
+3	bla	la,ba,bl
+3	ble	le,be,bl
+3	bli	li,bi,bl
+3	bly	ly,by,bl
+3	blø	lø,bø,bl
+3	bol	ol,bl,bo
+3	bøy	øy,by,bø
+3	dar	ar,dr,da
+3	dau	au,du,da
+3	dem	em,dm,de
+3	der	er,dr,de
+3	dra	ra,da,dr
+3	dum	um,dm,du
+3	dur	ur,dr,du
+3	dyr	yr,dr,dy
+3	døl	øl,dl,dø
+3	dør	ør,dr,dø
+3	ega	ga,ea,eg
+3	eid	id,ed,ei
+3	eim	im,em,ei
+3	eir	ir,er,ei
+3	ese	se,ee,es
+3	ete	te,ee,et
+3	etg	tg,eg,et
+3	fei	ei,fi,fe
+3	fli	li,fi,fl
+3	flø	lø,fø,fl
+3	flå	lå,få,fl
+3	fnl	nl,fl,fn
+3	fri	ri,fi,fr
+3	fru	ru,fu,fr
+3	ful	ul,fl,fu
+3	fut	ut,ft,fu
+3	fyr	yr,fr,fy
+3	føl	øl,fl,fø
+3	før	ør,fr,fø
+3	får	år,fr,få
+3	gla	la,ga,gl
+3	gli	li,gi,gl
+3	glo	lo,go,gl
+3	glø	lø,gø,gl
+3	gol	ol,gl,go
+3	hai	ai,hi,ha
+3	hal	al,hl,ha
+3	har	ar,hr,ha
+3	hau	au,hu,ha
+3	hei	ei,hi,he
+3	hel	el,hl,he
+3	hol	ol,hl,ho
+3	hor	or,hr,ho
+3	hud	ud,hd,hu
+3	hul	ul,hl,hu
+3	høl	øl,hl,hø
+3	hør	ør,hr,hø
+3	hål	ål,hl,hå
+3	hår	år,hr,hå
+3	ilo	lo,io,il
+3	ist	st,it,is
+3	jfr	fr,jr,jf
+3	kan	an,kn,ka
+3	kar	ar,kr,ka
+3	kim	im,km,ki
+3	kli	li,ki,kl
+3	klo	lo,ko,kl
+3	klø	lø,kø,kl
+3	kna	na,ka,kn
+3	kny	ny,ky,kn
+3	kol	ol,kl,ko
+3	kom	om,km,ko
+3	kro	ro,ko,kr
+3	kry	ry,ky,kr
+3	kul	ul,kl,ku
+3	kum	um,km,ku
+3	kun	un,kn,ku
+3	kur	ur,kr,ku
+3	kyr	yr,kr,ky
+3	køy	øy,ky,kø
+3	løy	øy,ly,lø
+3	mai	ai,mi,ma
+3	mav	av,mv,ma
+3	mei	ei,mi,me
+3	mer	er,mr,me
+3	mit	it,mt,mi
+3	mur	ur,mr,mu
+3	mye	ye,me,my
+3	myr	yr,mr,my
+3	mål	ål,ml,må
+3	mår	år,mr,må
+3	nav	av,nv,na
+3	nei	ei,ni,ne
+3	nes	es,ns,ne
+3	noe	oe,ne,no
+3	nsb	sb,nb,ns
+3	nsu	su,nu,ns
+3	ntb	tb,nb,nt
+3	nål	ål,nl,nå
+3	obl	bl,ol,ob
+3	ond	nd,od,on
+3	orm	rm,om,or
+3	pai	ai,pi,pa
+3	rau	au,ru,ra
+3	rio	io,ro,ri
+3	sas	as,ss,sa
+3	ses	es,ss,se
+3	sid	id,sd,si
+3	siv	iv,sv,si
+3	sta	ta,sa,st
+3	ste	te,se,st
+3	sti	ti,si,st
+3	stu	tu,su,st
+3	stø	tø,sø,st
+3	stå	tå,så,st
+3	sut	ut,st,su
+3	sva	va,sa,sv
+3	sve	ve,se,sv
+3	svi	vi,si,sv
+3	sås	ås,ss,så
+3	tok	ok,tk,to
+3	tvi	vi,ti,tv
+3	tøv	øv,tv,tø
+3	tøy	øy,ty,tø
+3	tåk	åk,tk,tå
+3	unt	nt,ut,un
+3	vei	ei,vi,ve
+3	vit	it,vt,vi
+3	yle	le,ye,yl
+3	yre	re,ye,yr
+3	øyr	yr,ør,øy
+3	abe	be,ae,ab
+3	ada	da,aa,ad
+3	aps	ps,as,ap
+3	aud	ud,ad,au
+3	buh	uh,bh,bu
+3	dok	ok,dk,do
+3	eus	us,es,eu
+3	fif	if,ff,fi
+3	hed	ed,hd,he
+3	hil	il,hl,hi
+3	ind	nd,id,in
+3	jer	er,jr,je
+3	kap	ap,kp,ka
+3	kgl	gl,kl,kg
+3	kig	ig,kg,ki
+3	kør	ør,kr,kø
+3	mio	io,mo,mi
+3	nul	ul,nl,nu
+3	nås	ås,ns,nå
+3	puf	uf,pf,pu
+3	roy	oy,ry,ro
+3	thi	hi,ti,th
+3	uth	th,uh,ut
+3	xiv	iv,xv,xi
+3	xix	ix,xx,xi
+3	xvi	vi,xi,xv
+3	xvii	vii,xii,xvi
+3	xviii	viii,xiii,xvii
+3	abt	bt,at,ab
+3	ast	st,at,as
+3	ade	de,ae,ad
+3	ans	ns,as,an
+3	aus	us,as,au
+3	bau	au,bu,ba
+3	bei	ei,bi,be
+3	cdu	du,cu,cd
+3	cal	al,cl,ca
+3	dir	ir,dr,di
+3	eil	il,el,ei
+3	ehe	he,ee,eh
+3	ein	in,en,ei
+3	eis	is,es,ei
+3	hab	ab,hb,ha
+3	heu	eu,hu,he
+3	ido	do,io,id
+3	ici	ci,ii,ic
+3	ihm	hm,im,ih
+3	ihr	hr,ir,ih
+3	imi	mi,ii,im
+3	kgb	gb,kb,kg
+3	kau	au,ku,ka
+3	lau	au,lu,la
+3	nst	st,nt,ns
+3	neu	eu,nu,ne
+3	ohr	hr,or,oh
+3	patt	att,ptt,pat
+3	peu	eu,pu,pe
+3	pof	of,pf,po
+3	reu	eu,ru,re
+3	sdi	di,si,sd
+3	sah	ah,sh,sa
+3	uhr	hr,ur,uh
+3	ums	ms,us,um
+3	und	nd,ud,un
+3	sto	to,so,st
+3	agi	gi,ai,ag
+3	api	pi,ai,ap
+3	chu	hu,cu,ch
+3	cil	il,cl,ci
+3	coi	oi,ci,co
+3	cou	ou,cu,co
+3	cul	ul,cl,cu
+3	dru	ru,du,dr
+3	euh	uh,eh,eu
+3	eut	ut,et,eu
+3	gai	ai,gi,ga
+3	glu	lu,gu,gl
+3	lai	ai,li,la
+3	loi	oi,li,lo
+3	mea	ea,ma,me
+3	ouf	uf,of,ou
+3	paf	af,pf,pa
+3	pif	if,pf,pi
+3	pou	ou,pu,po
+3	roi	oi,ri,ro
+3	soi	oi,si,so
+3	toi	oi,ti,to
+3	tuf	uf,tf,tu
+3	vus	us,vs,vu
+2	aah	ah,aa
+2	aal	al,aa
+2	aas	as,aa
+2	aff	ff,af
+2	ann	nn,an
+2	app	pp,ap
+2	ass	ss,as
+2	baa	aa,ba
+2	bee	ee,be
+2	boo	oo,bo
+2	caa	aa,ca
+2	cee	ee,ce
+2	coo	oo,co
+2	dee	ee,de
+2	doo	oo,do
+2	eel	el,ee
+2	een	en,ee
+2	eff	ff,ef
+2	ess	ss,es
+2	faa	aa,fa
+2	fee	ee,fe
+2	goo	oo,go
+2	hmm	mm,hm
+2	hoo	oo,ho
+2	iff	ff,if
+2	inn	nn,in
+2	jee	ee,je
+2	lee	ee,le
+2	loo	oo,lo
+2	maa	aa,ma
+2	mee	ee,me
+2	moo	oo,mo
+2	nee	ee,ne
+2	noo	oo,no
+2	off	ff,of
+2	oof	of,oo
+2	ooh	oh,oo
+2	oom	om,oo
+2	oon	on,oo
+2	oop	op,oo
+2	oor	or,oo
+2	oos	os,oo
+2	pee	ee,pe
+2	poo	oo,po
+2	ree	ee,re
+2	roo	oo,ro
+2	see	ee,se
+2	tee	ee,te
+2	too	oo,to
+2	umm	mm,um
+2	vee	ee,ve
+2	wee	ee,we
+2	woo	oo,wo
+2	zoo	oo,zo
+2	enn	nn,en
+2	onn	nn,on
+2	opp	pp,op
+2	oss	ss,os
+2	uff	ff,uf
+2	vii	ii,vi
+2	viii	iii,vii
+2	xii	ii,xi
+2	xiii	iii,xii
+2	ssd	sd,ss
+2	mme	me,mm
+1	iii	ii
