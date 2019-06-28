@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Text;
 
 namespace WordsWithinWords
 {
@@ -54,6 +56,16 @@ namespace WordsWithinWords
             }
 
             return null;
+        }
+
+        public void AppendOutput(string text)
+        {
+            Console.WriteLine(text);
+            if (!text.EndsWith("\n"))
+            {
+                text = text + "\n";
+            }
+            File.AppendAllText(OutputPath,text,Encoding.UTF8);
         }
     }
 }
