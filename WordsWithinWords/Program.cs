@@ -6,7 +6,7 @@ namespace WordsWithinWords
     {
         private static void Main(string[] args)
         {
-            RunAll();
+           // RunAll();
 
             //GetAllRearrangedStrings("test");
 
@@ -21,8 +21,8 @@ namespace WordsWithinWords
             //    analyser3.Start();
             //}
 
-            var analyser4 = Analyser.GetAnalyser(wordLists, AnalysisType.Alphabetical, Language.English);
-            analyser4.Start();
+            //Analyser.GetAnalyser(wordLists, AnalysisType.Alphabetical, Language.EnglishGeneral).Start();
+            Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWordsRecursive, Language.EnglishSowpods).Start();
 
             Console.WriteLine("All done");
             Console.ReadLine();
@@ -42,9 +42,7 @@ namespace WordsWithinWords
                 {
                     Console.WriteLine(analysisType.ToString() + " " + language.ToString());
 
-                    var analyser = Analyser.GetAnalyser(wordLists, analysisType, language);
-                    analyser.Start();
-
+                    Analyser.GetAnalyser(wordLists, analysisType, language).Start();
                 }
 
             }

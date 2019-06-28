@@ -17,7 +17,7 @@ namespace WordsWithinWords
         public void Start()
         {
             Sw.Start();
-
+            File.WriteAllText(OutputPath, "");
 
             var index = 0;
             foreach (var word in WordSet)
@@ -42,14 +42,14 @@ namespace WordsWithinWords
 
             Console.WriteLine($"Writing output {OutputPath}");
 
-            File.WriteAllText(OutputPath, "");
+            
             WordWithinWords = WordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
 
             foreach (var word in WordWithinWords)
             {
                 if (word.HasAll)
                 {
-                    File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
+                 //   File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
                 }
             }
 
@@ -90,12 +90,20 @@ namespace WordsWithinWords
             WordNodesAndEdges.Build(WordWithinWords, Dictionaries);
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
+            AppendOutput($"{wdepthList.Count} word chains found");
+
+            wdepthList = wdepthList.Take(20).ToList();
 
             foreach (var word in wdepthList)
             {
                 var wordChain = word.GetWordChain();
 
-                //todo write to file
+                var wordChainOutput = wordChain.Count + "\t" + word.Word + "\t" + string.Join(",", wordChain) + "\n";
+
+
+                //File.AppendAllText(OutputPath, word.Word + "\t" + string.Join(",", wordChain) + "\n", Encoding.UTF8);
+                AppendOutput(wordChainOutput);
+                
 
                 Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
             }
