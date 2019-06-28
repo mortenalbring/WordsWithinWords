@@ -16,6 +16,16 @@ namespace WordsWithinWords
             WordSet = new HashSet<string>();
             foreach (var w in allWords)
             {
+                if (w.Contains(" "))
+                {
+                    continue;
+                }
+
+                if (WordSet.Contains(w.ToLower()))
+                {
+                    continue;
+                }
+
                 WordSet.Add(w.ToLower());
             }
         }
