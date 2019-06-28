@@ -1,396 +1,403 @@
-﻿System.Collections.Generic.List`1[System.String] total words in dictionary
-addert
-begikk
-forstå
-oppstå
-abbor
-abort
-allmu
-alnor
-begir
-beglo
-behov
-beins
-beint
-beist
-bestå
-bistå
-blott
-cello
-chips
-dekor
-fikst
-films
-first
-fjott
-flott
-forså
-gjort
-hikst
-hilst
-hjort
-innpå
-innså
-klopp
-klort
-kloss
-knopp
-knott
-aber
-adel
-adjø
-amor
-anno
-anså
-begi
-begå
-behå
-bein
-beis
-beit
-bekk
-belt
-bens
-bent
-bert
-berå
-best
-bety
-bikk
-bill
-bilt
-bitt
-blot
-blow
-bort
-boss
-ciss
-city
-clou
-crux
-deis
-dekk
-dels
-delt
-dens
-dert
-dess
-dett
-dikt
-dill
-dimt
-ditt
-dory
-dott
-ekko
-ennå
-fikk
-fiks
-film
-filt
-finn
-fins
-fint
-fiss
-fjor
-flor
-fort
-foss
-gikk
-gikt
-gips
-giss
-gitt
-glor
-gorr
-gott
-hill
-hils
-hint
-hipp
-hist
-hitt
-hopp
-hors
-imot
-inst
-klor
-klov
-klux
-knop
-knot
-kopp
-kors
-kort
-kost
-kott
-lort
-loss
-lott
-mopp
-mops
-mors
-mort
-moss
-most
-mott
-oppå
-stuv
-abc
-aer
-agg
-agn
-akk
-aks
-akt
-all
-alm
-alt
-alv
-amp
-amt
-ant
-apt
-arr
-art
-arv
-att
-bbc
-bek
-bel
-ben
-ber
-bet
-bil
-bit
-bly
-blø
-blå
-bor
-bos
-bot
-bru
-bry
-brå
-ccm
-cen
-cos
-cox
-ddr
-ddt
-deg
-del
-dem
-den
-der
-det
-dim
-din
-dis
-dit
-dor
-egg
-egn
-ego
-eik
-eim
-eir
-eks
-elv
-enn
-ens
-ert
-ess
-ett
-fhv
-fik
-fil
-fin
-fis
-flo
-fls
-flu
-fly
-flø
-flå
-for
-fos
-fot
-fru
-frø
-gir
-gis
-giv
-gjø
-glo
-glø
-gnr
-gnu
-gny
-gru
-grå
-hin
-hit
-hiv
-hop
-hor
-hos
-hov
-ilo
-inn
-irr
-ist
-juv
-klo
-klø
-klå
-kny
-kos
-kov
-kry
-krå
-kst
-los
-lot
-lov
-luv
-lux
-mor
-mos
-mot
-mrs
-nor
-not
-nov
-nsu
-opp
-orv
-oss
-ost
-pst
-ruv
-stu
-stø
-stå
-ab
-ad
-ag
-ah
-ai
-an
-ap
-ar
-at
-au
-av
-be
-bo
-bu
-by
-bø
-cd
-cm
-co
-de
-di
-dl
-dm
-do
-dr
-du
-dy
-dø
-ef
-ei
-el
-em
-en
-er
-ex
-fl
-fm
-fn
-fy
-fø
-få
-gi
-gå
-hi
-hk
-ho
-hr
-hu
-hø
-hå
-il
-in
-iq
-is
-jo
-jr
-kl
-km
-kr
-ku
-kw
-kø
-lo
-lp
-ly
-lø
-lå
-mm
-mo
-mr
-ms
-må
-nn
-nu
-ny
-nø
-nå
-or
-os
-pr
-ps
-pv
-på
-ru
-ry
-rå
-su
-sv
-sy
-så
-tv
-ty
-tø
-tå
-vw
-ø
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-o
-p
-q
-r
-s
-t
-u
-v
-w
-x
-å
-
+﻿61,414 total words in dictionary
+There are 1 words with the most number of distinct characters (14) with no repeats
+godtkjøpsvaren
+There are 3 words with the most number of letters (21)
+forretningsmuligheter
+overbevisningsgrunner
+skilsmissebevillingen
+There are 395 with all letters in alphabetical order
+6	addert
+6	begikk
+6	forstå
+6	oppstå
+5	abbor
+5	abort
+5	allmu
+5	alnor
+5	begir
+5	beglo
+5	behov
+5	beins
+5	beint
+5	beist
+5	bestå
+5	bistå
+5	blott
+5	cello
+5	chips
+5	dekor
+5	fikst
+5	films
+5	first
+5	fjott
+5	flott
+5	forså
+5	gjort
+5	hikst
+5	hilst
+5	hjort
+5	innpå
+5	innså
+5	klopp
+5	klort
+5	kloss
+5	knopp
+5	knott
+4	aber
+4	adel
+4	adjø
+4	amor
+4	anno
+4	anså
+4	begi
+4	begå
+4	behå
+4	bein
+4	beis
+4	beit
+4	bekk
+4	belt
+4	bens
+4	bent
+4	bert
+4	berå
+4	best
+4	bety
+4	bikk
+4	bill
+4	bilt
+4	bitt
+4	blot
+4	blow
+4	bort
+4	boss
+4	ciss
+4	city
+4	clou
+4	crux
+4	deis
+4	dekk
+4	dels
+4	delt
+4	dens
+4	dert
+4	dess
+4	dett
+4	dikt
+4	dill
+4	dimt
+4	ditt
+4	dory
+4	dott
+4	ekko
+4	ennå
+4	fikk
+4	fiks
+4	film
+4	filt
+4	finn
+4	fins
+4	fint
+4	fiss
+4	fjor
+4	flor
+4	fort
+4	foss
+4	gikk
+4	gikt
+4	gips
+4	giss
+4	gitt
+4	glor
+4	gorr
+4	gott
+4	hill
+4	hils
+4	hint
+4	hipp
+4	hist
+4	hitt
+4	hopp
+4	hors
+4	imot
+4	inst
+4	klor
+4	klov
+4	klux
+4	knop
+4	knot
+4	kopp
+4	kors
+4	kort
+4	kost
+4	kott
+4	lort
+4	loss
+4	lott
+4	mopp
+4	mops
+4	mors
+4	mort
+4	moss
+4	most
+4	mott
+4	oppå
+4	stuv
+3	abc
+3	aer
+3	agg
+3	agn
+3	akk
+3	aks
+3	akt
+3	all
+3	alm
+3	alt
+3	alv
+3	amp
+3	amt
+3	ant
+3	apt
+3	arr
+3	art
+3	arv
+3	att
+3	bbc
+3	bek
+3	bel
+3	ben
+3	ber
+3	bet
+3	bil
+3	bit
+3	bly
+3	blø
+3	blå
+3	bor
+3	bos
+3	bot
+3	bru
+3	bry
+3	brå
+3	ccm
+3	cen
+3	cos
+3	cox
+3	ddr
+3	ddt
+3	deg
+3	del
+3	dem
+3	den
+3	der
+3	det
+3	dim
+3	din
+3	dis
+3	dit
+3	dor
+3	egg
+3	egn
+3	ego
+3	eik
+3	eim
+3	eir
+3	eks
+3	elv
+3	enn
+3	ens
+3	ert
+3	ess
+3	ett
+3	fhv
+3	fik
+3	fil
+3	fin
+3	fis
+3	flo
+3	fls
+3	flu
+3	fly
+3	flø
+3	flå
+3	for
+3	fos
+3	fot
+3	fru
+3	frø
+3	gir
+3	gis
+3	giv
+3	gjø
+3	glo
+3	glø
+3	gnr
+3	gnu
+3	gny
+3	gru
+3	grå
+3	hin
+3	hit
+3	hiv
+3	hop
+3	hor
+3	hos
+3	hov
+3	ilo
+3	inn
+3	irr
+3	ist
+3	juv
+3	klo
+3	klø
+3	klå
+3	kny
+3	kos
+3	kov
+3	kry
+3	krå
+3	kst
+3	los
+3	lot
+3	lov
+3	luv
+3	lux
+3	mor
+3	mos
+3	mot
+3	mrs
+3	nor
+3	not
+3	nov
+3	nsu
+3	opp
+3	orv
+3	oss
+3	ost
+3	pst
+3	ruv
+3	stu
+3	stø
+3	stå
+2	ab
+2	ad
+2	ag
+2	ah
+2	ai
+2	an
+2	ap
+2	ar
+2	at
+2	au
+2	av
+2	be
+2	bo
+2	bu
+2	by
+2	bø
+2	cd
+2	cm
+2	co
+2	de
+2	di
+2	dl
+2	dm
+2	do
+2	dr
+2	du
+2	dy
+2	dø
+2	ef
+2	ei
+2	el
+2	em
+2	en
+2	er
+2	ex
+2	fl
+2	fm
+2	fn
+2	fy
+2	fø
+2	få
+2	gi
+2	gå
+2	hi
+2	hk
+2	ho
+2	hr
+2	hu
+2	hø
+2	hå
+2	il
+2	in
+2	iq
+2	is
+2	jo
+2	jr
+2	kl
+2	km
+2	kr
+2	ku
+2	kw
+2	kø
+2	lo
+2	lp
+2	ly
+2	lø
+2	lå
+2	mm
+2	mo
+2	mr
+2	ms
+2	må
+2	nn
+2	nu
+2	ny
+2	nø
+2	nå
+2	or
+2	os
+2	pr
+2	ps
+2	pv
+2	på
+2	ru
+2	ry
+2	rå
+2	su
+2	sv
+2	sy
+2	så
+2	tv
+2	ty
+2	tø
+2	tå
+2	vw
+1	ø
+1	a
+1	b
+1	c
+1	d
+1	e
+1	f
+1	g
+1	h
+1	i
+1	j
+1	k
+1	l
+1	m
+1	n
+1	o
+1	p
+1	q
+1	r
+1	s
+1	t
+1	u
+1	v
+1	w
+1	x
+1	å
+0	

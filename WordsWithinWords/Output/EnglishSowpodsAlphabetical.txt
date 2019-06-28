@@ -1,5 +1,8 @@
 ﻿267,753 total words in dictionary
 There are 861 with all letters in alphabetical order
+There are 2 words with the most number of distinct characters (15)
+dermatoglyphics
+uncopyrightable
 7	addeems
 7	beefily
 7	billowy

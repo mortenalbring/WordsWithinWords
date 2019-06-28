@@ -1,301 +1,308 @@
-﻿System.Collections.Generic.List`1[System.String] total words in dictionary
-accentué
-abdiqué
-abhorré
-accepté
-accosté
-achoppé
-accent
-accoté
-adopté
-adossé
-affilé
-affiné
-afflué
-afflux
-agioté
-alloué
-annoté
-appuyé
-bijoux
-billot
-bloqué
-chiqué
-chloré
-choqué
-cloqué
-dehors
-effilé
-effort
-ennuyé
-essuyé
-flotté
-innové
-aboyé
-accru
-adoré
-agité
-agréé
-aillé
-alors
-bijou
-bissé
-bossé
-bossu
-botté
-ceins
-ceint
-censé
-cessé
-chiné
-chiot
-chipé
-choux
-choyé
-cillé
-cloué
-corsé
-cossu
-couvé
-degré
-denté
-dilué
-filmé
-films
-filou
-floué
-fossé
-glosé
-inouï
-moqué
-abbé
-accu
-acné
-afin
-agio
-agir
-agis
-agit
-ailé
-ails
-aimé
-airs
-aisé
-allé
-allô
-best
-biné
-boxé
-brrr
-celé
-cens
-cent
-ceps
-ceux
-chou
-cils
-ciné
-cinq
-ciré
-cité
-clos
-clou
-coqs
-cors
-coté
-créé
-cuvé
-delà
-dent
-deux
-dopé
-doré
-dors
-dort
-dosé
-doté
-doué
-doux
-enté
-erré
-esté
-filé
-film
-fils
-fins
-fixé
-flot
-flou
-flux
-foré
-fors
-fort
-gréé
-inné
-inox
-insu
-issu
-joué
-lors
-loué
-lové
-luxé
-mors
-mort
-noté
-noué
-noyé
-opté
-agi
-ail
-air
-ais
-ait
-ans
-art
-aux
-avé
-axé
-bel
-bis
-bit
-blé
-bot
-bow
-box
-boy
-bru
-cep
-ces
-cet
-chu
-cil
-clé
-coq
-cor
-cou
-cow
-cru
-crû
-der
-des
-dis
-dit
-dix
-dos
-dot
-dru
-est
-eux
-fié
-fil
-fin
-fis
-fit
-for
-fou
-fox
-gin
-gis
-glu
-gré
-gué
-hit
-hlm
-hot
-ils
-lot
-lux
-mot
-mou
-mué
-nos
-osé
-ouï
-pré
-pué
-puy
-rué
-sué
-tué
-ab
-ad
-ah
-ai
-an
-as
-au
-bi
-bu
-ce
-cf
-ci
-cu
-de
-dé
-do
-du
-dû
-eh
-en
-es
-et
-eu
-ex
-fi
-go
-il
-in
-là
-lé
-lu
-mm
-mo
-mû
-né
-nt
-nu
-or
-os
-pu
-qu
-ré
-ru
-su
-té
-tu
-xx
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-o
-p
-q
-r
-s
-t
-u
-v
-w
-x
-y
-z
-é
-ç
-à
-â
-è
-ê
-ô
-
+﻿206,966 total words in dictionary
+There are 3 words with the most number of distinct characters (14) with no repeats
+démographiques
+problématiques
+sténographique
+There are 1 words with the most number of letters (25)
+anticonstitutionnellement
+There are 300 with all letters in alphabetical order
+8	accentué
+7	abdiqué
+7	abhorré
+7	accepté
+7	accosté
+7	achoppé
+6	accent
+6	accoté
+6	adopté
+6	adossé
+6	affilé
+6	affiné
+6	afflué
+6	afflux
+6	agioté
+6	alloué
+6	annoté
+6	appuyé
+6	bijoux
+6	billot
+6	bloqué
+6	chiqué
+6	chloré
+6	choqué
+6	cloqué
+6	dehors
+6	effilé
+6	effort
+6	ennuyé
+6	essuyé
+6	flotté
+6	innové
+5	aboyé
+5	accru
+5	adoré
+5	agité
+5	agréé
+5	aillé
+5	alors
+5	bijou
+5	bissé
+5	bossé
+5	bossu
+5	botté
+5	ceins
+5	ceint
+5	censé
+5	cessé
+5	chiné
+5	chiot
+5	chipé
+5	choux
+5	choyé
+5	cillé
+5	cloué
+5	corsé
+5	cossu
+5	couvé
+5	degré
+5	denté
+5	dilué
+5	filmé
+5	films
+5	filou
+5	floué
+5	fossé
+5	glosé
+5	inouï
+5	moqué
+4	abbé
+4	accu
+4	acné
+4	afin
+4	agio
+4	agir
+4	agis
+4	agit
+4	ailé
+4	ails
+4	aimé
+4	airs
+4	aisé
+4	allé
+4	allô
+4	best
+4	biné
+4	boxé
+4	brrr
+4	celé
+4	cens
+4	cent
+4	ceps
+4	ceux
+4	chou
+4	cils
+4	ciné
+4	cinq
+4	ciré
+4	cité
+4	clos
+4	clou
+4	coqs
+4	cors
+4	coté
+4	créé
+4	cuvé
+4	delà
+4	dent
+4	deux
+4	dopé
+4	doré
+4	dors
+4	dort
+4	dosé
+4	doté
+4	doué
+4	doux
+4	enté
+4	erré
+4	esté
+4	filé
+4	film
+4	fils
+4	fins
+4	fixé
+4	flot
+4	flou
+4	flux
+4	foré
+4	fors
+4	fort
+4	gréé
+4	inné
+4	inox
+4	insu
+4	issu
+4	joué
+4	lors
+4	loué
+4	lové
+4	luxé
+4	mors
+4	mort
+4	noté
+4	noué
+4	noyé
+4	opté
+3	agi
+3	ail
+3	air
+3	ais
+3	ait
+3	ans
+3	art
+3	aux
+3	avé
+3	axé
+3	bel
+3	bis
+3	bit
+3	blé
+3	bot
+3	bow
+3	box
+3	boy
+3	bru
+3	cep
+3	ces
+3	cet
+3	chu
+3	cil
+3	clé
+3	coq
+3	cor
+3	cou
+3	cow
+3	cru
+3	crû
+3	der
+3	des
+3	dis
+3	dit
+3	dix
+3	dos
+3	dot
+3	dru
+3	est
+3	eux
+3	fié
+3	fil
+3	fin
+3	fis
+3	fit
+3	for
+3	fou
+3	fox
+3	gin
+3	gis
+3	glu
+3	gré
+3	gué
+3	hit
+3	hlm
+3	hot
+3	ils
+3	lot
+3	lux
+3	mot
+3	mou
+3	mué
+3	nos
+3	osé
+3	ouï
+3	pré
+3	pué
+3	puy
+3	rué
+3	sué
+3	tué
+2	ab
+2	ad
+2	ah
+2	ai
+2	an
+2	as
+2	au
+2	bi
+2	bu
+2	ce
+2	cf
+2	ci
+2	cu
+2	de
+2	dé
+2	do
+2	du
+2	dû
+2	eh
+2	en
+2	es
+2	et
+2	eu
+2	ex
+2	fi
+2	go
+2	il
+2	in
+2	là
+2	lé
+2	lu
+2	mm
+2	mo
+2	mû
+2	né
+2	nt
+2	nu
+2	or
+2	os
+2	pu
+2	qu
+2	ré
+2	ru
+2	su
+2	té
+2	tu
+2	xx
+1	a
+1	b
+1	c
+1	d
+1	e
+1	f
+1	g
+1	h
+1	i
+1	j
+1	k
+1	l
+1	m
+1	n
+1	o
+1	p
+1	q
+1	r
+1	s
+1	t
+1	u
+1	v
+1	w
+1	x
+1	y
+1	z
+1	é
+1	ç
+1	à
+1	â
+1	è
+1	ê
+1	ô
+0	

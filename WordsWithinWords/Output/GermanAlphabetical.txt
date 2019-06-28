@@ -1,293 +1,304 @@
-﻿System.Collections.Generic.List`1[System.String] total words in dictionary
-beehrst
-beeilst
-beginnt
-beirrst
-abgott
-adelst
-beehrt
-beeilt
-beginn
-begoss
-beirrt
-bellst
-chintz
-chlors
-dehnst
-floppy
-filmst
-abort
-addis
-adels
-amors
-adeln
-adelt
-bellt
-bisst
-chips
-chors
-chlor
-dekor
-delos
-demos
-dills
-dehnt
-ehrst
-eilst
-einst
-films
-filou
-first
-forst
-filmt
-floss
-flott
-foppt
-hisst
-hopst
-irrst
-klops
-klotz
-knorz
-aals
-abis
-adel
-ader
-agio
-akku
-alls
-amor
-aber
-acht
-agil
-ahmt
-ahnt
-anno
-beet
-beil
-bein
-benn
-bett
-boot
-boss
-beim
-biss
-bist
-bloß
-cent
-chip
-chor
-city
-clou
-cruz
-demo
-dill
-dein
-denn
-dipp
-dort
-ehrt
-eilt
-eins
-erst
-esst
-flop
-flor
-floß
-foot
-film
-filz
-fort
-gott
-gruß
-gilt
-gips
-hinz
-hirt
-hort
-hipp
-isst
-klos
-kost
-lost
-moor
-moos
-most
-mops
-aal
-abs
-abc
-abo
-abt
-air
-akt
-alm
-alp
-amt
-art
-ast
-aas
-ach
-ade
-all
-als
-alt
-ans
-atü
-bbc
-bde
-bio
-bit
-bmw
-bor
-boy
-brt
-bei
-bin
-bis
-bot
-box
-cdu
-csu
-ddr
-deo
-din
-dkp
-dns
-dem
-den
-der
-des
-dir
-dis
-dos
-ego
-eil
-erz
-ein
-eis
-etw
-fkk
-fuß
-fit
-fix
-gin
-gst
-hit
-hin
-ios
-itt
-iii
-ins
-irr
-ist
-jux
-klm
-klo
-kot
-lot
-los
-not
-nst
-nsu
-ort
-ost
-ptt
-ag
-ai
-ar
-as
-ab
-ad
-ah
-am
-an
-aß
-au
-bö
-bp
-bi
-bz
-co
-cd
-cl
-cm
-de
-dm
-du
-eg
-eh
-ei
-er
-es
-et
-ex
-fg
-fm
-fr
-ft
-gi
-hr
-hl
-ho
-iq
-ir
-is
-iv
-ii
-il
-im
-in
-ix
-kp
-kw
-kz
-km
-kn
-mo
-mr
-ms
-mt
-mm
-mx
-no
-ns
-nu
-pr
-pu
-pö
-pp
-ss
-st
-tu
-vw
-a
-ä
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-o
-ö
-p
-q
-r
-s
-t
-u
-ü
-v
-w
-x
-y
-z
-
+﻿165,932 total words in dictionary
+There are 6 words with the most number of distinct characters (15) with no repeats
+bildungsprojekt
+grundsätzlichem
+kaltschnäuziger
+machtverfilzung
+olympiageschäft
+prämienzuschlag
+There are 2 words with the most number of letters (30)
+geschwindigkeitsbeschränkungen
+geschwindigkeitsüberschreitung
+There are 292 with all letters in alphabetical order
+7	beehrst
+7	beeilst
+7	beginnt
+7	beirrst
+6	abgott
+6	adelst
+6	beehrt
+6	beeilt
+6	beginn
+6	begoss
+6	beirrt
+6	bellst
+6	chintz
+6	chlors
+6	dehnst
+6	floppy
+6	filmst
+5	abort
+5	addis
+5	adels
+5	amors
+5	adeln
+5	adelt
+5	bellt
+5	bisst
+5	chips
+5	chors
+5	chlor
+5	dekor
+5	delos
+5	demos
+5	dills
+5	dehnt
+5	ehrst
+5	eilst
+5	einst
+5	films
+5	filou
+5	first
+5	forst
+5	filmt
+5	floss
+5	flott
+5	foppt
+5	hisst
+5	hopst
+5	irrst
+5	klops
+5	klotz
+5	knorz
+4	aals
+4	abis
+4	adel
+4	ader
+4	agio
+4	akku
+4	alls
+4	amor
+4	aber
+4	acht
+4	agil
+4	ahmt
+4	ahnt
+4	anno
+4	beet
+4	beil
+4	bein
+4	benn
+4	bett
+4	boot
+4	boss
+4	beim
+4	biss
+4	bist
+4	bloß
+4	cent
+4	chip
+4	chor
+4	city
+4	clou
+4	cruz
+4	demo
+4	dill
+4	dein
+4	denn
+4	dipp
+4	dort
+4	ehrt
+4	eilt
+4	eins
+4	erst
+4	esst
+4	flop
+4	flor
+4	floß
+4	foot
+4	film
+4	filz
+4	fort
+4	gott
+4	gruß
+4	gilt
+4	gips
+4	hinz
+4	hirt
+4	hort
+4	hipp
+4	isst
+4	klos
+4	kost
+4	lost
+4	moor
+4	moos
+4	most
+4	mops
+3	aal
+3	abs
+3	abc
+3	abo
+3	abt
+3	air
+3	akt
+3	alm
+3	alp
+3	amt
+3	art
+3	ast
+3	aas
+3	ach
+3	ade
+3	all
+3	als
+3	alt
+3	ans
+3	atü
+3	bbc
+3	bde
+3	bio
+3	bit
+3	bmw
+3	bor
+3	boy
+3	brt
+3	bei
+3	bin
+3	bis
+3	bot
+3	box
+3	cdu
+3	csu
+3	ddr
+3	deo
+3	din
+3	dkp
+3	dns
+3	dem
+3	den
+3	der
+3	des
+3	dir
+3	dis
+3	dos
+3	ego
+3	eil
+3	erz
+3	ein
+3	eis
+3	etw
+3	fkk
+3	fuß
+3	fit
+3	fix
+3	gin
+3	gst
+3	hit
+3	hin
+3	ios
+3	itt
+3	iii
+3	ins
+3	irr
+3	ist
+3	jux
+3	klm
+3	klo
+3	kot
+3	lot
+3	los
+3	not
+3	nst
+3	nsu
+3	ort
+3	ost
+3	ptt
+2	ag
+2	ai
+2	ar
+2	as
+2	ab
+2	ad
+2	ah
+2	am
+2	an
+2	aß
+2	au
+2	bö
+2	bp
+2	bi
+2	bz
+2	co
+2	cd
+2	cl
+2	cm
+2	de
+2	dm
+2	du
+2	eg
+2	eh
+2	ei
+2	er
+2	es
+2	et
+2	ex
+2	fg
+2	fm
+2	fr
+2	ft
+2	gi
+2	hr
+2	hl
+2	ho
+2	iq
+2	ir
+2	is
+2	iv
+2	ii
+2	il
+2	im
+2	in
+2	ix
+2	kp
+2	kw
+2	kz
+2	km
+2	kn
+2	mo
+2	mr
+2	ms
+2	mt
+2	mm
+2	mx
+2	no
+2	ns
+2	nu
+2	pr
+2	pu
+2	pö
+2	pp
+2	ss
+2	st
+2	tu
+2	vw
+1	a
+1	ä
+1	b
+1	c
+1	d
+1	e
+1	f
+1	g
+1	h
+1	i
+1	j
+1	k
+1	l
+1	m
+1	n
+1	o
+1	ö
+1	p
+1	q
+1	r
+1	s
+1	t
+1	u
+1	ü
+1	v
+1	w
+1	x
+1	y
+1	z
+0	

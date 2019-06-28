@@ -1,0 +1,21 @@
+﻿49458 word chains found
+9	choreologies	choreologies,chorologies,horologies,orologies,oologies,ologies,logies,loges,logs
+8	austringers	austringers,astringers,stringers,stingers,singers,singes,sines,sies
+8	breastfeeds	breastfeeds,breastfeed,breastfed,breasted,reasted,easted,eased,ease
+8	carabineers	carabineers,carabiners,carabines,carbines,carbies,caries,cries,cris
+8	carabineros	carabineros,carabiners,carabines,carbines,carbies,caries,cries,cris
+8	carabiniers	carabiniers,carabiners,carabines,carbines,carbies,caries,cries,cris
+8	chorologies	chorologies,horologies,orologies,oologies,ologies,logies,loges,logs
+8	complecting	complecting,completing,competing,compting,comping,coping,oping,ping
+8	housellings	housellings,houselling,houseling,housling,housing,hosing,hoing,hing
+8	nostologies	nostologies,nosologies,noologies,oologies,ologies,logies,loges,logs
+8	scratchiest	scratchiest,scratchies,scratches,cratches,ratches,raches,aches,aces
+8	streamlings	streamlings,streamings,steamings,teamings,tamings,tamins,amins,ains
+8	unpreaching	unpreaching,upreaching,preaching,peaching,peching,eching,ehing,hing
+7	anorectics	anorectics,anoretics,anoretic,anoetic,anetic,antic,anti
+7	astounding	astounding,stounding,stouning,stoning,toning,toing,ting
+7	astringers	astringers,stringers,stingers,singers,singes,sines,sies
+7	austringer	austringer,astringer,stringer,stinger,singer,singe,sine
+7	balustered	balustered,blustered,lustered,lustred,lusted,luted,lute
+7	barrelling	barrelling,barreling,barreing,barring,baring,bring,ring
+7	bleachings	bleachings,leachings,leaching,leching,eching,ehing,hing
