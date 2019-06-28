@@ -6,6 +6,11 @@ namespace WordsWithinWords
 {
     public class WordList
     {
+        public WordList(Language language)
+        {
+            Language = language;
+
+        }
         public WordList(string inputPath, Language language)
         {
             InputPath = inputPath;

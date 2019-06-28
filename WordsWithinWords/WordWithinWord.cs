@@ -76,6 +76,11 @@ namespace WordsWithinWords
 
                 if (subdeep == null)
                 {
+                    var wordsWithin = mostDeepWord.WordsWithinWord.FirstOrDefault();
+                    if (wordsWithin != null)
+                    {
+                        deepWords.Add(wordsWithin);
+                    }
                     d = 0;
                     break;
                 }

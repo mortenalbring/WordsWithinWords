@@ -23,7 +23,7 @@ namespace WordsWithinWords
             foreach (var word in WordSet)
             {
                 index++;
-                if (word.Length <= 2)
+                if (word.Length <= 1)
                 {
                     continue;
                 }
@@ -90,16 +90,15 @@ namespace WordsWithinWords
             WordNodesAndEdges.Build(WordWithinWords, Dictionaries);
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
-            AppendOutput($"{wdepthList.Count} word chains found");
+            AppendOutput($"{wdepthList.Count:N0} word chains found");
 
-            wdepthList = wdepthList.Take(20).ToList();
+            wdepthList = wdepthList.Where(e => e.Depth > 2).ToList();
 
             foreach (var word in wdepthList)
             {
                 var wordChain = word.GetWordChain();
 
                 var wordChainOutput = wordChain.Count + "\t" + word.Word + "\t" + string.Join(",", wordChain) + "\n";
-
 
                 //File.AppendAllText(OutputPath, word.Word + "\t" + string.Join(",", wordChain) + "\n", Encoding.UTF8);
                 AppendOutput(wordChainOutput);

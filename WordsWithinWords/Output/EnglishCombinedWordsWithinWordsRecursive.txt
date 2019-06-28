@@ -1,0 +1,21 @@
+﻿82,386 word chains found
+9	choreologies	choreologies,chorologies,horologies,orologies,oologies,ologies,logies,loges,logs
+8	abranchiate	abranchiate,branchiate,branchiae,branchia,branchi,branch,ranch,rach
+8	austringers	austringers,astringers,stringers,stingers,singers,singes,sines,sies
+8	brahmanisms	brahmanisms,brahmanism,brahmanis,brahmans,brahmas,brahms,brahm,bram
+8	brahmanists	brahmanists,brahmanist,brahmanis,brahmans,brahmas,brahms,brahm,bram
+8	brandishers	brandishers,brandishes,brandises,brandies,bandies,bandie,bande,ande
+8	breastfeeds	breastfeeds,breastfeed,breastfed,breasted,reasted,easted,eased,ease
+8	butteriness	butteriness,butterines,butteries,butteris,butters,buttes,butes,utes
+8	cantharides	cantharides,cantharids,cantharis,canthari,cathari,cathar,athar,thar
+8	carabineers	carabineers,carabiners,carabines,carbines,carbies,caries,aries,ries
+8	carabineros	carabineros,carabiners,carabines,carbines,carbies,caries,aries,ries
+8	carabiniere	carabiniere,carabinier,carabiner,carabine,arabine,arabin,rabin,rain
+8	carabinieri	carabinieri,carabinier,carabiner,carabine,arabine,arabin,rabin,rain
+8	carabiniers	carabiniers,carabiners,carabines,carbines,carbies,caries,aries,ries
+8	chorologies	chorologies,horologies,orologies,oologies,ologies,logies,loges,logs
+8	complecting	complecting,completing,competing,compting,comping,coping,oping,ping
+8	compositing	compositing,composting,composing,compoing,comping,coping,oping,ping
+8	dealbations	dealbations,dealations,delations,elations,elation,lation,latin,lain
+8	desquamated	desquamated,desquamate,esquamate,squamate,squamae,squame,squam,quam
+8	desquamates	desquamates,desquamate,esquamate,squamate,squamae,squame,squam,quam
