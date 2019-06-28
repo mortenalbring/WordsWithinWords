@@ -78,11 +78,19 @@ namespace WordsWithinWords
             {
                 if (w.WordSet.Contains(word))
                 {
-                    output.Add(w.Language);
+                    if (w.Language == Language.EnglishCollins || w.Language == Language.EnglishCombined || w.Language == Language.EnglishSowpods || w.Language == Language.EnglishGeneral)
+                    {
+                        output.Add(Language.EnglishGeneral);
+                    }
+                    else
+                    {
+                        output.Add(w.Language);
+                    }
+                    
                 }
             }
 
-            return output;
+            return output.Distinct().ToList();
 
         }
 

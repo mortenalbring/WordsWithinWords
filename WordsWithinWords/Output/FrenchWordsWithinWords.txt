@@ -1,6 +1,6 @@
-﻿208914 total words in dictionary
-120339 total words with words 57.60217 %
-88575 total words without words 42.39783 %
+﻿206966 total words in dictionary
+119336 total words with words 57.65971 %
+87630 total words without words 42.34029 %
 6	paires	aires,pires,pares,paies,pairs,paire
 6	raides	aides,rides,rades,raies,raids,raide
 5	baise	aise,bise,base,baie,bais

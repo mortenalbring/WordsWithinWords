@@ -1,6 +1,6 @@
-﻿165819 total words in dictionary
-84197 total words with words 50.77645 %
-81622 total words without words 49.22355 %
+﻿165811 total words in dictionary
+84196 total words with words 50.7783 %
+81615 total words without words 49.2217 %
 4	bart	art,brt,bat,bar
 3	aals	als,aas,aal
 3	air	ir,ar,ai

@@ -10,8 +10,10 @@ namespace WordsWithinWords
     {
         public AnalyserRecursive(Dictionaries dictionaries, Language language) : base(dictionaries, AnalysisType.WordsWithinWordsRecursive, language)
         {
+            this._language = language;
         }
 
+        private Language _language;
         private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
 
         public void Start()
@@ -87,7 +89,7 @@ namespace WordsWithinWords
             }
 
 
-            WordNodesAndEdges.Build(WordWithinWords, Dictionaries);
+            WordNodesAndEdges.Build(this._language, WordWithinWords, Dictionaries);
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
             AppendOutput($"{wdepthList.Count:N0} word chains found");
@@ -101,10 +103,12 @@ namespace WordsWithinWords
                 var wordChainOutput = wordChain.Count + "\t" + word.Word + "\t" + string.Join(",", wordChain) + "\n";
 
                 //File.AppendAllText(OutputPath, word.Word + "\t" + string.Join(",", wordChain) + "\n", Encoding.UTF8);
-                AppendOutput(wordChainOutput);
+
+
+                //AppendOutput(wordChainOutput);
                 
 
-                Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
+               // Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
             }
 
 

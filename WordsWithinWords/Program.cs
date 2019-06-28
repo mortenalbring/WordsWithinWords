@@ -6,7 +6,7 @@ namespace WordsWithinWords
     {
         private static void Main(string[] args)
         {
-           // RunAll();
+        //    RunAll();
 
             //GetAllRearrangedStrings("test");
 
