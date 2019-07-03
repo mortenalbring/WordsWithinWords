@@ -44,15 +44,22 @@ namespace WordsWithinWords
 
             Console.WriteLine($"Writing output {OutputPath}");
 
-            
-            WordWithinWords = WordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
+
+            WordWithinWords = WordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
 
             foreach (var word in WordWithinWords)
             {
-                if (word.HasAll)
+                var str = word.Depth + "\t" + word.Word + "\t";
+                var wordChain = word.GetWordChain();
+
+                foreach (var w in wordChain)
                 {
-                 //   File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
+                    str = str + w + "\t";
                 }
+
+                str += "\n";
+
+                File.AppendAllText(OutputPath, str, Encoding.UTF8);
             }
 
             Console.WriteLine($"Done writing output {OutputPath}");
@@ -106,9 +113,9 @@ namespace WordsWithinWords
 
 
                 //AppendOutput(wordChainOutput);
-                
 
-               // Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
+
+                // Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
             }
 
 
