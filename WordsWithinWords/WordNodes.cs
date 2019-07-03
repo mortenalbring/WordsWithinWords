@@ -56,19 +56,46 @@ namespace WordsWithinWords
                 foreach (var node in startNodes)
                 {
                     var wnode = nodeDict.FirstOrDefault(e => e.Value.ID == node.StartNode);
+
+                    if (wnode.Key == "chores")
+                    {
+                        var xxx = 42;
+                    }
+
                     if (!interestingNodes.ContainsKey(wnode.Key))
                     {
-                        interestingNodes.Add(wnode.Key, wnode.Value);
-
                         var relevantEdges = edges.Where(e => e.StartNode == wnode.Value.ID || e.EndNode == wnode.Value.ID).ToList();
 
-                        foreach (var e in relevantEdges)
+                        if (relevantEdges.Count > 0)
                         {
-                            if (!interestingEdges.Contains(e))
+                            interestingNodes.Add(wnode.Key, wnode.Value);
+
+                            foreach (var relevantEdge in relevantEdges)
                             {
-                                interestingEdges.Add(e);
+                                var relevantNode = nodeDict.FirstOrDefault(e => e.Value.ID == relevantEdge.StartNode);
+                                if (!interestingNodes.ContainsKey(relevantNode.Key))
+                                {
+                                    interestingNodes.Add(relevantNode.Key,relevantNode.Value);
+                                }
+
+                                var relevantNode2 = nodeDict.FirstOrDefault(e => e.Value.ID == relevantEdge.EndNode);
+                                if (!interestingNodes.ContainsKey(relevantNode2.Key))
+                                {
+                                    interestingNodes.Add(relevantNode2.Key, relevantNode2.Value);
+                                }
+
+
+                                if (!interestingEdges.Contains(relevantEdge))
+                                {
+                                    interestingEdges.Add(relevantEdge);
+                                }
                             }
                         }
+                        else
+                        {
+                            var xx = 42;
+                        }
+
                     }
                 }
             }
@@ -91,7 +118,15 @@ namespace WordsWithinWords
                 index++;
                 var languages = dictionaries.FindLanguages(node.Key);
 
-                var str = "{ \"ID\": " + node.Value.ID + ", \"name\":\"" + node.Value.Name + "\", \"languages\": \"" + string.Join(",", languages) + "\"}, \n";
+                var str = "{ \"ID\": " + node.Value.ID + ", \"name\":\"" + node.Value.Name + "\", \"languages\": \"" + string.Join(",", languages) + "\"}";
+
+                if (index < nodeDict.Count)
+                {
+                    str += ",";
+                }
+                str += "\n";
+
+
                 File.AppendAllText(outputFile, str);
                 Progress.OutputTimeRemaining(index, nodeDict.Count, sw, "Writing nodes");
             }
@@ -120,14 +155,19 @@ namespace WordsWithinWords
                 var startNodeIndx = nodeIndex[startNode.Name];
                 var endNodeIndx = nodeIndex[endNode.Name];
 
-                var str2 = "{\"source\":" + startNodeIndx + ",\"target\":" + endNodeIndx + "}, \n";
+                var str2 = "{\"source\":" + startNodeIndx + ",\"target\":" + endNodeIndx + "}";
 
+                if (index < edgeshs.Count)
+                {
+                    str2 += ",";
+                }
+                str2 += "\n";
 
                 File.AppendAllText(outputFile, str2);
                 Progress.OutputTimeRemaining(index, nodeDict.Count, sw, "Writing edges");
             }
 
-            File.AppendAllText(outputFile, "],\n }");
+            File.AppendAllText(outputFile, "]\n }");
         }
 
         private static WordNode GetNode(Dictionary<string, WordNode> nodeDict, string word)
