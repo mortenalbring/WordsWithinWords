@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace WordsWithinWords
 {
-    internal class Progress
+    internal static class Progress
     {
         public static void OutputTimeRemaining(int index, int max, Stopwatch sw, string message = null)
         {
@@ -17,7 +17,7 @@ namespace WordsWithinWords
 
             if (index % 1000 == 0)
             {
-                Console.WriteLine($"{percentageDone} %  - {timeRemainingMins} mins remaining \t {message}");
+                Console.WriteLine($"{index} / {max} \t {percentageDone} % \t {timeRemainingMins} mins remaining \t {message}");
             }
         }
     }
