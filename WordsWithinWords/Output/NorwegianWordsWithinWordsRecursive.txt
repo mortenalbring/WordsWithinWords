@@ -1,1 +1,11 @@
 ﻿150,033 word chains found
+12	utrenskningene	utrenskningene	utrensningene	utrensingene	utrensingen	trensingen	tensingen	tesingen	teingen	tingen	tinen	tien	ten	en	
+11	avspeilingene	avspeilingene	avseilingene	avsilingene	avsilingen	avsiingen	avsingen	avingen	vingen	vinen	vinn	inn	in	
+11	høglendingene	høglendingene	hølendingene	ølendingene	ølendingen	lendingen	ledingen	leingen	lengen	engen	egen	gen	en	
+11	høylendingene	høylendingene	hølendingene	ølendingene	ølendingen	lendingen	ledingen	leingen	lengen	engen	egen	gen	en	
+11	karolingerene	karolingerene	karolingeren	karolineren	karolinere	karoliner	karoline	karolin	kaolin	kolin	klin	lin	in	
+11	krompletterer	krompletterer	kompletterer	komplettere	kompletter	komplette	komplett	komplet	koplet	kolet	kole	ole	le	
+11	krompletteres	krompletteres	kompletteres	komplettere	kompletter	komplette	komplett	komplet	koplet	kolet	kole	ole	le	
+11	krompletterte	krompletterte	kompletterte	komplettere	kompletter	komplette	komplett	komplet	koplet	kolet	kole	ole	le	
+11	påvirkningene	påvirkningene	påvirkingene	påvirkingen	åvirkingen	virkingen	vikingen	viingen	vingen	vinen	vinn	inn	in	
+11	skranglingene	skranglingene	kranglingene	ranglingene	ranglingen	raglingen	ragingen	raingen	ringen	ringe	rige	rie	re	

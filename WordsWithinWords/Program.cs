@@ -22,7 +22,7 @@ namespace WordsWithinWords
             //}
 
             //Analyser.GetAnalyser(wordLists, AnalysisType.Alphabetical, Language.EnglishGeneral).Start();
-            Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWordsRecursive, Language.Norwegian).Start();
+            Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWordsRecursive, Language.EnglishSowpods).Start();
 
             Console.WriteLine("All done");
             Console.ReadLine();
