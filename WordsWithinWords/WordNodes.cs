@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace WordsWithinWords
             var sw = new Stopwatch();
             sw.Start();
             var edges = new List<WordEdge>();
-            wordWithinWords = wordWithinWords.OrderByDescending(e => e.Depth).ToList();
+            wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).ToList();
 
             var nodeDict = new Dictionary<string, WordNode>();
             for (var i = 0; i < wordWithinWords.Count; i++)
@@ -23,8 +24,8 @@ namespace WordsWithinWords
                 var word = wordWithinWords[i];
 
                 var node = GetNode(nodeDict, word.Word);
-
-                foreach (var subWord in word.WordsWithinWord.Distinct())
+                var distinctWords = word.WordsWithinWord.Distinct().ToList();
+                foreach (var subWord in distinctWords)
                 {
                     var subnode = GetNode(nodeDict, subWord);
 

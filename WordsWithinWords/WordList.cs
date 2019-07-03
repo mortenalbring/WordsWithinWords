@@ -16,7 +16,7 @@ namespace WordsWithinWords
             InputPath = inputPath;
             Language = language;
 
-            var allWords = File.ReadAllLines(InputPath, Encoding.GetEncoding(1252));
+            var allWords = File.ReadAllLines(InputPath, Encoding.UTF8);
 
             WordSet = new HashSet<string>();
             foreach (var w in allWords)

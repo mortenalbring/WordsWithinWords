@@ -31,16 +31,21 @@ namespace WordsWithinWords
 
             var totalWordsWith = _wordWithinWords.Count(e => e.WordsWithinWord.Count > 0);
             var totalWordsWithout = _wordWithinWords.Count(e => e.WordsWithinWord.Count == 0);
+            var totalWordsWithAll = _wordWithinWords.Count(e => e.HasAll);
+
             var totalWord = WordSet.Count;
 
             var percentageWith = ((float)totalWordsWith / totalWord) * 100;
             var percentageWithout = ((float)totalWordsWithout / totalWord) * 100;
+
+            var percentageWithall = ((float)totalWordsWithAll / totalWord) * 100;
 
             var total = percentageWith + percentageWithout;
 
             var outstr0 = $"{totalWord} total words in dictionary";
             var outstr1 = $"{totalWordsWith} total words with words {percentageWith} %";
             var outstr2 = $"{totalWordsWithout} total words without words {percentageWithout} %";
+            var outstr3 = $"{totalWordsWithAll} total words with all words {percentageWithall} %";
 
 
             Console.WriteLine(outstr0);
@@ -51,6 +56,7 @@ namespace WordsWithinWords
             outstrs.Add(outstr0);
             outstrs.Add(outstr1);
             outstrs.Add(outstr2);
+            outstrs.Add(outstr3);
 
             File.AppendAllLines(OutputPath, outstrs,Encoding.UTF8);            
 

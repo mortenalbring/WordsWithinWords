@@ -18,8 +18,8 @@ namespace WordsWithinWords
 
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english-collins-scrabble.txt"), Language.EnglishCollins));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english-sowpods.txt"), Language.EnglishSowpods));
-            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "english.txt"), Language.EnglishGeneral));
-            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "norsk.txt"), Language.Norwegian));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "englishwordstest2.txt"), Language.EnglishGeneral));
+            WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "norsk2.txt"), Language.Norwegian));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "dansk.txt"), Language.Danish));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "deutsch.txt"), Language.German));
             WordList.Add(new WordList(Path.Combine(baseDir, "Dictionaries", "swiss.txt"), Language.Swiss));
