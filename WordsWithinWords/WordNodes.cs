@@ -15,24 +15,23 @@ namespace WordsWithinWords
 
             var sw = new Stopwatch();
             sw.Start();
-            var edges = new List<WordEdge>();
+
+            var edges = new HashSet<WordEdge>();
+
             wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).ToList();
 
             var nodeDict = new Dictionary<string, WordNode>();
             for (var i = 0; i < wordWithinWords.Count; i++)
             {
                 var word = wordWithinWords[i];
-
                 var node = GetNode(nodeDict, word.Word);
                 var distinctWords = word.WordsWithinWord.Distinct().ToList();
                 foreach (var subWord in distinctWords)
                 {
-                    var subnode = GetNode(nodeDict, subWord);
-
-                    var edge = new WordEdge { StartNode = node.ID, EndNode = subnode.ID };
+                    var subNode = GetNode(nodeDict, subWord);
+                    var edge = new WordEdge { StartNode = node.ID, EndNode = subNode.ID };
 
                     var exists = edges.Any(e => e.StartNode == edge.StartNode && e.EndNode == edge.EndNode);
-
                     if (!exists)
                     {
                         edges.Add(edge);
@@ -43,19 +42,54 @@ namespace WordsWithinWords
             }
 
 
-            var mostConnected = edges.GroupBy(e => e.EndNode).OrderByDescending(e => e.Count());
+            var mostConnectedA = edges.GroupBy(e => e.EndNode).OrderByDescending(e => e.Count()).Take(50).ToList();
+            var mostConnectedB = edges.GroupBy(e => e.StartNode).OrderByDescending(e => e.Count()).Take(50).ToList();
+
+            var interestingNodes = new Dictionary<string,WordNode>();
+            var interestingEdges = new HashSet<WordEdge>();
+
+            foreach (var m in mostConnectedA)
+            {
+                var endNode = m.Key;
+                var startNodes = m.ToList();
+
+                foreach (var node in startNodes)
+                {
+                    var wnode = nodeDict.FirstOrDefault(e => e.Value.ID == node.StartNode);
+                    if (!interestingNodes.ContainsKey(wnode.Key))
+                    {
+                        interestingNodes.Add(wnode.Key, wnode.Value);
+
+                        var relevantEdges = edges.Where(e => e.StartNode == wnode.Value.ID || e.EndNode == wnode.Value.ID).ToList();
+
+                        foreach (var e in relevantEdges)
+                        {
+                            if (!interestingEdges.Contains(e))
+                            {
+                                interestingEdges.Add(e);
+                            }
+                        }
+                    }
+                }
+            }
+
+            //WriteJsonOutput(dictionaries, outputFile, nodeDict, edges);
+            WriteJsonOutput(dictionaries, outputFile, interestingNodes, interestingEdges);
+        }
+
+        private static void WriteJsonOutput(Dictionaries dictionaries, string outputFile, Dictionary<string, WordNode> nodeDict, HashSet<WordEdge> edgeshs)
+        {
+            var sw = new Stopwatch();
+            sw.Start();
 
             File.WriteAllText(outputFile, "{\"nodes\":[");
-
             var index = 0;
-
-            var nodeIndex = new Dictionary<string,int>();
+            var nodeIndex = new Dictionary<string, int>();
             foreach (var node in nodeDict)
             {
-                
-                nodeIndex.Add(node.Key,index);
+                nodeIndex.Add(node.Key, index);
                 index++;
-                var languages = dictionaries.FindLanguages(node.Key);              
+                var languages = dictionaries.FindLanguages(node.Key);
 
                 var str = "{ \"ID\": " + node.Value.ID + ", \"name\":\"" + node.Value.Name + "\", \"languages\": \"" + string.Join(",", languages) + "\"}, \n";
                 File.AppendAllText(outputFile, str);
@@ -64,16 +98,24 @@ namespace WordsWithinWords
 
             index = 0;
             File.AppendAllText(outputFile, "],\n");
-            sw.Restart();
+
 
             File.AppendAllText(outputFile, "\"links\":[");
-            foreach (var edge in edges)
+            foreach (var edge in edgeshs)
             {
                 index++;
-                var str = "{StartNode:" + edge.StartNode + ",EndNode:" + edge.EndNode + "}, \n";
 
                 var startNode = nodeDict.Values.FirstOrDefault(e => e.ID == edge.StartNode);
                 var endNode = nodeDict.Values.FirstOrDefault(e => e.ID == edge.EndNode);
+
+                if (startNode is null)
+                {
+                    continue;
+                }
+                if (endNode is null) 
+                {
+                    continue;
+                }
 
                 var startNodeIndx = nodeIndex[startNode.Name];
                 var endNodeIndx = nodeIndex[endNode.Name];
