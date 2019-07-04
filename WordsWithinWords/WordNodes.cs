@@ -42,8 +42,8 @@ namespace WordsWithinWords
             }
 
 
-            var mostConnectedA = edges.GroupBy(e => e.EndNode).OrderByDescending(e => e.Count()).Take(50).ToList();
-            var mostConnectedB = edges.GroupBy(e => e.StartNode).OrderByDescending(e => e.Count()).Take(50).ToList();
+            var mostConnectedA = edges.GroupBy(e => e.EndNode).OrderByDescending(e => e.Count()).Take(10).ToList();
+            //var mostConnectedB = edges.GroupBy(e => e.StartNode).OrderByDescending(e => e.Count()).Take(50).ToList();
 
             var interestingNodes = new Dictionary<string,WordNode>();
             var interestingEdges = new HashSet<WordEdge>();
@@ -118,7 +118,7 @@ namespace WordsWithinWords
                 index++;
                 var languages = dictionaries.FindLanguages(node.Key);
 
-                var str = "{ \"ID\": " + node.Value.ID + ", \"name\":\"" + node.Value.Name + "\", \"languages\": \"" + string.Join(",", languages) + "\"}";
+                var str = "{ \"id\": \"" + node.Value.Name + "\", \"index\":\"" + node.Value.ID + "\", \"group\":1, \"languages\": \"" + string.Join(",", languages) + "\"}";
 
                 if (index < nodeDict.Count)
                 {
@@ -155,7 +155,7 @@ namespace WordsWithinWords
                 var startNodeIndx = nodeIndex[startNode.Name];
                 var endNodeIndx = nodeIndex[endNode.Name];
 
-                var str2 = "{\"source\":" + startNodeIndx + ",\"target\":" + endNodeIndx + "}";
+                var str2 = "{\"source\":\"" + startNode.Name + "\",\"target\":\"" + endNode.Name+ "\",\"value\":1}";
 
                 if (index < edgeshs.Count)
                 {
