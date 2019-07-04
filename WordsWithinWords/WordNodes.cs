@@ -16,19 +16,14 @@ namespace WordsWithinWords
             var sw = new Stopwatch();
             sw.Start();
 
-            
+
             wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).Take(10).ToList();
 
             var nodeDict = new Dictionary<string, WordNode>();
 
             var output = MakeWordOutput(wordWithinWords, nodeDict, sw);
 
-
-            
-            //var mostConnectedB = edges.GroupBy(e => e.StartNode).OrderByDescending(e => e.Count()).Take(50).ToList();
-
-            var interestingNodes = new Dictionary<string, WordNode>();
-            var interestingEdges = new HashSet<WordEdge>();
+            var filteredOutput = FilterOutput(output);
 
 
 
@@ -39,33 +34,94 @@ namespace WordsWithinWords
             //WriteJsonOutput(dictionaries, outputFile, interestingNodes, interestingEdges);
         }
 
+        private static WordOutput FilterOutput(WordOutput output)
+        {
+            var filteredOutput = new WordOutput();
+
+
+            var mostConnectedEdges = output.Edges.GroupBy(e => e.StartNode).OrderByDescending(e => e.Count()).Take(50).ToList();
+
+            foreach (var edge in mostConnectedEdges)
+            {
+                var node = new WordNode();
+                node.Name = edge.Key;
+
+                AddNode(filteredOutput, node);
+
+                foreach (var subedge in edge)
+                {
+                    var subnode = new WordNode();
+                    node.Name = subedge.EndNode;
+
+                    AddNode(filteredOutput, subnode);
+
+
+                    AddEdge(filteredOutput, subedge);
+                }
+
+            }
+
+
+            return filteredOutput;
+
+        }
+
+        private static void AddEdge(WordOutput filteredOutput, WordEdge subedge)
+        {
+            if (filteredOutput.Edges is null)
+            {
+                filteredOutput.Edges = new HashSet<WordEdge>();
+            }
+            if (!filteredOutput.Edges.Contains(subedge))
+            {
+                filteredOutput.Edges.Add(subedge);
+            }
+        }
+
+        private static void AddNode(WordOutput filteredOutput, WordNode node)
+        {
+            if (filteredOutput.Nodes is null)
+            {
+                filteredOutput.Nodes = new HashSet<WordNode>();
+            }
+            if (!filteredOutput.Nodes.Contains(node))
+            {
+                filteredOutput.Nodes.Add(node);
+            }
+        }
+
         private static WordOutput MakeWordOutput(List<WordWithinWord> wordWithinWords, Dictionary<string, WordNode> nodeDict, Stopwatch sw)
         {
-            var edges2 = new HashSet<WordEdge2>();
+            var edges2 = new HashSet<WordEdge>();
             var nodes2 = new HashSet<WordNode>();
 
 
             for (var i = 0; i < wordWithinWords.Count; i++)
             {
                 var word = wordWithinWords[i];
-                var node = GetNode(nodeDict, word.Word);
-                var distinctWords = word.WordsWithinWord.Distinct().ToList();
+
+                var node = new WordNode();
+                node.Name = word.Word;
 
                 if (!nodes2.Contains(node))
                 {
                     nodes2.Add(node);
                 }
 
+                var distinctWords = word.WordsWithinWord.Distinct().ToList();
+
                 foreach (var subWord in distinctWords)
                 {
-                    var subNode = GetNode(nodeDict, subWord);
+                    var subNode = new WordNode();
+                    subNode.Name = subWord;
+
 
                     if (!nodes2.Contains(subNode))
                     {
                         nodes2.Add(subNode);
                     }
 
-                    var edge2 = new WordEdge2 { StartNode = node.Name, EndNode = subNode.Name };
+                    var edge2 = new WordEdge { StartNode = node.Name, EndNode = subNode.Name };
 
 
                     var exists2 = edges2.Any(e => e.StartNode == edge2.StartNode && e.EndNode == edge2.EndNode);
@@ -79,9 +135,7 @@ namespace WordsWithinWords
                 Progress.OutputTimeRemaining(i, wordWithinWords.Count, sw, "Making nodes and edges");
             }
 
-            var output = new WordOutput();
-            output.Nodes = nodes2;
-            output.Edges = edges2;
+            var output = new WordOutput { Nodes = nodes2, Edges = edges2 };
 
             return output;
         }
@@ -96,9 +150,9 @@ namespace WordsWithinWords
             var nodeIndex = new Dictionary<string, int>();
             foreach (var node in wordOutput.Nodes)
             {
-              
+
                 index++;
-                
+
 
                 var str = "{ \"id\": \"" + node.Name + "\", \"group\":1}";
 
@@ -138,87 +192,8 @@ namespace WordsWithinWords
 
         }
 
-        private static void WriteJsonOutput(Dictionaries dictionaries, string outputFile, Dictionary<string, WordNode> nodeDict, HashSet<WordEdge> edgeshs)
-        {
-            var sw = new Stopwatch();
-            sw.Start();
-
-            File.WriteAllText(outputFile, "{\"nodes\":[");
-            var index = 0;
-            var nodeIndex = new Dictionary<string, int>();
-            foreach (var node in nodeDict)
-            {
-                nodeIndex.Add(node.Key, index);
-                index++;
-                var languages = dictionaries.FindLanguages(node.Key);
-
-                var str = "{ \"id\": \"" + node.Value.Name + "\", \"index\":\"" + node.Value.ID + "\", \"group\":1, \"languages\": \"" + string.Join(",", languages) + "\"}";
-
-                if (index < nodeDict.Count)
-                {
-                    str += ",";
-                }
-                str += "\n";
 
 
-                File.AppendAllText(outputFile, str);
-                Progress.OutputTimeRemaining(index, nodeDict.Count, sw, "Writing nodes");
-            }
-
-            index = 0;
-            File.AppendAllText(outputFile, "],\n");
-
-
-            File.AppendAllText(outputFile, "\"links\":[");
-            foreach (var edge in edgeshs)
-            {
-                index++;
-
-                var startNode = nodeDict.Values.FirstOrDefault(e => e.ID == edge.StartNode);
-                var endNode = nodeDict.Values.FirstOrDefault(e => e.ID == edge.EndNode);
-
-                if (startNode is null)
-                {
-                    continue;
-                }
-                if (endNode is null)
-                {
-                    continue;
-                }
-
-                var startNodeIndx = nodeIndex[startNode.Name];
-                var endNodeIndx = nodeIndex[endNode.Name];
-
-                var str2 = "{\"source\":\"" + startNode.Name + "\",\"target\":\"" + endNode.Name + "\",\"value\":1}";
-
-                if (index < edgeshs.Count)
-                {
-                    str2 += ",";
-                }
-                str2 += "\n";
-
-                File.AppendAllText(outputFile, str2);
-                Progress.OutputTimeRemaining(index, nodeDict.Count, sw, "Writing edges");
-            }
-
-            File.AppendAllText(outputFile, "]\n }");
-        }
-
-        private static WordNode GetNode(Dictionary<string, WordNode> nodeDict, string word)
-        {
-            WordNode node;
-            if (nodeDict.ContainsKey(word))
-            {
-                node = nodeDict[word];
-            }
-            else
-            {
-                node = new WordNode { ID = nodeDict.Count + 1, Name = word };
-                nodeDict.Add(word, node);
-            }
-
-            return node;
-        }
     }
 
     public class WordNode
@@ -229,14 +204,9 @@ namespace WordsWithinWords
         public string Group { get; set; }
     }
 
+
+
     public class WordEdge
-
-    {
-        public int EndNode;
-        public int StartNode;
-    }
-
-    public class WordEdge2
     {
         public string StartNode { get; set; }
 
@@ -246,6 +216,6 @@ namespace WordsWithinWords
     public class WordOutput
     {
         public HashSet<WordNode> Nodes { get; set; }
-        public HashSet<WordEdge2> Edges { get; set; }
+        public HashSet<WordEdge> Edges { get; set; }
     }
 }
