@@ -5,6 +5,7 @@
         WordsWithinWords,
         WordsWithinWordsRecursive,
         Alphabetical,
-        SwappedLetters
+        SwappedLetters,
+        LengthDistribution
     }
 }

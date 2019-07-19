@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Analyser.cs" />
     <Compile Include="AnalyserAlphabetical.cs" />
+    <Compile Include="AnalyserDistribution.cs" />
     <Compile Include="AnalyserRecursive.cs" />
     <Compile Include="AnalyserSwapper.cs" />
     <Compile Include="AnalyserWordWithinWord.cs" />

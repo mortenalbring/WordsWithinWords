@@ -61,8 +61,6 @@ namespace WordsWithinWords
                     var removedChar = topWord.GetRemovedChar(ww);
 
                     outstr = outstr + "[" + removedChar + "]";
-
-
                 }
 
                 outstr = outstr + "\"";

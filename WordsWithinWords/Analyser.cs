@@ -53,6 +53,8 @@ namespace WordsWithinWords
                     return new AnalyserAlphabetical(wordLists, language);
                 case AnalysisType.SwappedLetters:
                     return new AnalyserSwapper(wordLists, language);
+                case AnalysisType.LengthDistribution:
+                    return new AnalyserDistribution(wordLists,language);
             }
 
             return null;

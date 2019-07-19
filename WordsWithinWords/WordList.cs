@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Runtime.Serialization.Formatters;
 using System.Text;
 
 namespace WordsWithinWords
@@ -21,6 +22,10 @@ namespace WordsWithinWords
             WordSet = new HashSet<string>();
             foreach (var w in allWords)
             {
+                if (w.Length == 0)
+                {
+                    continue;
+                }
                 if (w.Contains(" "))
                 {
                     continue;
