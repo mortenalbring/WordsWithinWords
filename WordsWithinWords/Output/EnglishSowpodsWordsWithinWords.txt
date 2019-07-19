@@ -1,6 +1,9 @@
 ﻿267753 total words in dictionary
 129677 total words with words 48.43158 %
 138076 total words without words 51.56842 %
+339 total words with all words 0.1266092 %
+"dearns	 earns[d] darns[e] derns[a] deans[r] dears[n] dearn[s]","heards	 eards[h] hards[e] herds[a] heads[r] hears[d] heard[s]","spared	 pared[s] sared[p] spred[a] spaed[r] spard[e] spare[d]","yeards	 eards[y] yards[e] yerds[a] yeads[r] years[d] yeard[s]"
+
 6	dearns	earns,darns,derns,deans,dears,dearn
 6	heards	eards,hards,herds,heads,hears,heard
 6	spared	pared,sared,spred,spaed,spard,spare

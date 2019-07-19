@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace WordsWithinWords
 {
@@ -25,6 +27,20 @@ namespace WordsWithinWords
                     NotWords.Add(newWord);
                 }
             }
+        }
+
+        public char GetRemovedChar(string wordWithinWord)
+        {
+            for (int i = 0; i < Word.Length; i++)
+            {
+                var testWord = Word.Remove(i, 1);
+                if (testWord == wordWithinWord)
+                {
+                    return Word[i];
+                }
+            }
+
+            throw new Exception("Cannot find " + wordWithinWord + " within " + Word);
         }
 
         public int Depth

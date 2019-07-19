@@ -29,6 +29,52 @@ namespace WordsWithinWords
             File.WriteAllText(OutputPath, "");
             _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
 
+            WriteTopSummaryText();
+
+            WriteTopWordsOutput();
+
+
+            foreach (var word in _wordWithinWords)
+            {
+                if (word.HasAll)
+                {
+                    File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
+                }
+            }
+
+            Console.WriteLine($"Done writing output {OutputPath}");
+        }
+
+        private void WriteTopWordsOutput()
+        {
+            var maxWordsWithinWords = _wordWithinWords.Where(e => e.HasAll).Select(e => e.WordsWithinWord.Count).Max();
+            var topWords = _wordWithinWords.Where(e => e.HasAll).Where(e => e.WordsWithinWord.Count == maxWordsWithinWords).OrderByDescending(e => e.Word.Length);
+
+            var topWordStrs = new List<string>();
+            foreach (var topWord in topWords)
+            {
+                var outstr = "\"" + topWord.Word + "\t";
+                foreach (var ww in topWord.WordsWithinWord)
+                {
+                    outstr = outstr + " " + ww;
+
+                    var removedChar = topWord.GetRemovedChar(ww);
+
+                    outstr = outstr + "[" + removedChar + "]";
+
+
+                }
+
+                outstr = outstr + "\"";
+                topWordStrs.Add(outstr);
+            }
+
+            var topWordTotalStr = string.Join(",", topWordStrs.ToArray());
+            File.AppendAllText(OutputPath, topWordTotalStr + "\n\n");
+        }
+
+        private void WriteTopSummaryText()
+        {
             var totalWordsWith = _wordWithinWords.Count(e => e.WordsWithinWord.Count > 0);
             var totalWordsWithout = _wordWithinWords.Count(e => e.WordsWithinWord.Count == 0);
             var totalWordsWithAll = _wordWithinWords.Count(e => e.HasAll);
@@ -58,18 +104,7 @@ namespace WordsWithinWords
             outstrs.Add(outstr2);
             outstrs.Add(outstr3);
 
-            File.AppendAllLines(OutputPath, outstrs,Encoding.UTF8);            
-
-
-            foreach (var word in _wordWithinWords)
-            {
-                if (word.HasAll)
-                {
-                    File.AppendAllText(OutputPath, word.Output, Encoding.UTF8);
-                }
-            }
-
-            Console.WriteLine($"Done writing output {OutputPath}");
+            File.AppendAllLines(OutputPath, outstrs, Encoding.UTF8);
         }
     }
 }
