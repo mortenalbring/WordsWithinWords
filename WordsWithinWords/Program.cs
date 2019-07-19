@@ -23,7 +23,7 @@ namespace WordsWithinWords
 
             //Analyser.GetAnalyser(wordLists, AnalysisType.Alphabetical, Language.EnglishGeneral).Start();
             //Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWordsRecursive, Language.EnglishSowpods).Start();
-            Analyser.GetAnalyser(wordLists,AnalysisType.LengthDistribution,Language.EnglishCombined).Start();
+            Analyser.GetAnalyser(wordLists,AnalysisType.LengthDistribution,Language.Norwegian).Start();
 
             Console.WriteLine("All done");
             Console.ReadLine();

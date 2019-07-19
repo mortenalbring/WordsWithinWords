@@ -39,10 +39,10 @@ namespace WordsWithinWords
 
             foreach (var elem in lengthDists)
             {
-                var percentage = ((float)(elem.Key) / WordSet.Count) * 100;
+                var percentage = ((float)elem.Value / WordSet.Count) * 100;
 
 
-                File.AppendAllText(OutputPath,elem.Key + "," + elem.Value + "," + percentage + "\n");
+                File.AppendAllText(OutputPath,"\"" + elem.Key + "," + elem.Value + "," + percentage + "\",\n");
             }
 
         }
