@@ -8,16 +8,16 @@ namespace WordsWithinWords
 {
     public class WordNodesAndEdges
     {
-        public static void Build(Language language, List<WordWithinWord> wordWithinWords, Dictionaries dictionaries)
+        public static void Build(Language language, List<WordWithinWord> wordWithinWords, Dictionaries dictionaries, string filename)
         {
-            var outputFilename = language.ToString() + "WordNodesRecursiveJson.json";
+            var outputFilename = language.ToString() + filename + ".json";
             var outputFile = Path.Combine(dictionaries.OutputDirectory, outputFilename);
 
             var sw = new Stopwatch();
             sw.Start();
 
 
-            wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).Take(10).ToList();
+          //  wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).Take(10).ToList();
 
             var nodeDict = new Dictionary<string, WordNode>();
 
@@ -92,20 +92,28 @@ namespace WordsWithinWords
 
         private static WordOutput MakeWordOutput(List<WordWithinWord> wordWithinWords, Dictionary<string, WordNode> nodeDict, Stopwatch sw)
         {
-            var edges2 = new HashSet<WordEdge>();
-            var nodes2 = new HashSet<WordNode>();
-
-
+            var edgeSet = new HashSet<WordEdge>();
+            var nodesSet = new HashSet<WordNode>();
+            
             for (var i = 0; i < wordWithinWords.Count; i++)
             {
                 var word = wordWithinWords[i];
 
                 var node = new WordNode();
-                node.Name = word.Word;
-
-                if (!nodes2.Contains(node))
+                
+                var exists = nodesSet.FirstOrDefault(e => e.Name == word.Word);
+                if (exists != null)
                 {
-                    nodes2.Add(node);
+                    node = exists;
+                }
+                else
+                {
+                    node.Name = word.Word;    
+                }
+                
+                if (!nodesSet.Contains(node))
+                {
+                    nodesSet.Add(node);
                 }
 
                 var distinctWords = word.WordsWithinWord.Distinct().ToList();
@@ -113,21 +121,29 @@ namespace WordsWithinWords
                 foreach (var subWord in distinctWords)
                 {
                     var subNode = new WordNode();
-                    subNode.Name = subWord;
-
-
-                    if (!nodes2.Contains(subNode))
+                   
+                    var subexists = nodesSet.FirstOrDefault(e => e.Name == subWord);
+                    if (subexists != null)
                     {
-                        nodes2.Add(subNode);
+                        subNode = subexists;
+                    }
+                    else
+                    {
+                        subNode.Name = subWord;    
+                    }
+
+                    if (!nodesSet.Contains(subNode))
+                    {
+                        nodesSet.Add(subNode);
                     }
 
                     var edge2 = new WordEdge { StartNode = node.Name, EndNode = subNode.Name };
 
 
-                    var exists2 = edges2.Any(e => e.StartNode == edge2.StartNode && e.EndNode == edge2.EndNode);
+                    var exists2 = edgeSet.Any(e => e.StartNode == edge2.StartNode && e.EndNode == edge2.EndNode);
                     if (!exists2)
                     {
-                        edges2.Add(edge2);
+                        edgeSet.Add(edge2);
                     }
                 }
 
@@ -135,7 +151,7 @@ namespace WordsWithinWords
                 Progress.OutputTimeRemaining(i, wordWithinWords.Count, sw, "Making nodes and edges");
             }
 
-            var output = new WordOutput { Nodes = nodes2, Edges = edges2 };
+            var output = new WordOutput { Nodes = nodesSet, Edges = edgeSet };
 
             return output;
         }

@@ -82,7 +82,7 @@ namespace WordsWithinWords
         public List<string> GetClusters()
         {
             var cluster = new List<string>();
-            cluster.Add(this.Word);
+            cluster.Add(Word);
 
             foreach (var w in this.WordsWithinWordsRecursive)
             {

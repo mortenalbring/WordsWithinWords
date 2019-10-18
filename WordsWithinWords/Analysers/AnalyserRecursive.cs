@@ -90,13 +90,25 @@ namespace WordsWithinWords.Analysers
                 {
                     alreadyNoted.Add(c);
                 }
+
                 if (cluster.Count > biggestCluster.Count)
                 {
                     biggestCluster = cluster;
                     biggestClusterWord = dictKey;
                 }
             }
-            
+
+            var interestingClusters = new List<WordWithinWord>();
+            var topWord = _wordWithinWords.FirstOrDefault(e => e.Word == biggestClusterWord);
+            interestingClusters.Add(topWord);
+            foreach (var bcw in biggestCluster)
+            {
+                var w = _wordWithinWords.FirstOrDefault(e => e.Word == bcw);
+                interestingClusters.Add(w);
+            }
+
+            WordNodesAndEdges.Build(_language, interestingClusters, Dictionaries, "ClusterJson");
+
             Console.WriteLine(clusterInfo.Count + " clusters found");
         }
 
@@ -132,7 +144,7 @@ namespace WordsWithinWords.Analysers
             }
 
 
-            WordNodesAndEdges.Build(this._language, _wordWithinWords, Dictionaries);
+          //  WordNodesAndEdges.Build(this._language, _wordWithinWords, Dictionaries, "WordNodesRecursiveJson");
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
             AppendOutput($"{wdepthList.Count:N0} word chains found");
