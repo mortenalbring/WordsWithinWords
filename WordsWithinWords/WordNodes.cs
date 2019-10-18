@@ -15,7 +15,8 @@ namespace WordsWithinWords
 
             var sw = new Stopwatch();
             sw.Start();
-
+            
+            wordWithinWords = wordWithinWords.Where(e => e.Word.Length > 4).ToList();
 
           //  wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).Take(10).ToList();
 

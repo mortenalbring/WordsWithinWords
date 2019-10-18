@@ -75,8 +75,10 @@ namespace WordsWithinWords.Analysers
             var biggestClusterWord = "";
             var biggestCluster = new List<string>();
             var alreadyNoted = new HashSet<string>();
-
-            foreach (var word in _wordWithinWords)
+            var sortedWords = _wordWithinWords.OrderByDescending(e => e.Word.Length).ToList();
+            
+            
+            foreach (var word in sortedWords)
             {
                 if (alreadyNoted.Contains(word.Word))
                 {
@@ -98,15 +100,21 @@ namespace WordsWithinWords.Analysers
                 }
             }
 
+            var topClusters = clusterInfo.OrderByDescending(e => e.Value.Count).ToDictionary(e => e.Key, e => e.Value).Take(5);
             var interestingClusters = new List<WordWithinWord>();
-            var topWord = _wordWithinWords.FirstOrDefault(e => e.Word == biggestClusterWord);
-            interestingClusters.Add(topWord);
-            foreach (var bcw in biggestCluster)
+            
+            foreach (var t in topClusters)
             {
-                var w = _wordWithinWords.FirstOrDefault(e => e.Word == bcw);
-                interestingClusters.Add(w);
-            }
+                var topWord2 = _wordWithinWords.FirstOrDefault(e => e.Word == t.Key);
+                interestingClusters.Add(topWord2);
+                var bcws = t.Value;
+                foreach (var bcw in bcws)
+                {
+                    var w = _wordWithinWords.FirstOrDefault(e => e.Word == bcw);
+                    interestingClusters.Add(w);
+                }
 
+            }
             WordNodesAndEdges.Build(_language, interestingClusters, Dictionaries, "ClusterJson");
 
             Console.WriteLine(clusterInfo.Count + " clusters found");
