@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 
 namespace WordsWithinWords.Analysers
@@ -34,14 +35,17 @@ namespace WordsWithinWords.Analysers
                 _wordWithinWords.Add(wwr);
                 Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
             }
-            
+
             Sw.Stop();
             Sw.Restart();
 
             DoRecursiveWords();
-            
-            Console.WriteLine($"Writing output {OutputPath}");
 
+
+            FindClusteredWords();
+
+
+            Console.WriteLine($"Writing output {OutputPath}");
 
             _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
 
@@ -60,8 +64,42 @@ namespace WordsWithinWords.Analysers
                 File.AppendAllText(OutputPath, str, Encoding.UTF8);
             }
 
+
             Console.WriteLine($"Done writing output {OutputPath}");
         }
+
+        private void FindClusteredWords()
+        {
+            Console.WriteLine("Finding clusters");
+            var clusterInfo = new Dictionary<string, List<string>>();
+            var biggestClusterWord = "";
+            var biggestCluster = new List<string>();
+            var alreadyNoted = new HashSet<string>();
+
+            foreach (var word in _wordWithinWords)
+            {
+                if (alreadyNoted.Contains(word.Word))
+                {
+                    continue;
+                }
+
+                var dictKey = word.Word;
+                var cluster = word.GetClusters();
+                clusterInfo.Add(dictKey, cluster);
+                foreach (var c in cluster)
+                {
+                    alreadyNoted.Add(c);
+                }
+                if (cluster.Count > biggestCluster.Count)
+                {
+                    biggestCluster = cluster;
+                    biggestClusterWord = dictKey;
+                }
+            }
+            
+            Console.WriteLine(clusterInfo.Count + " clusters found");
+        }
+
 
         private void DoRecursiveWords()
         {

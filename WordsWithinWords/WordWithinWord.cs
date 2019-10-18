@@ -20,7 +20,7 @@ namespace WordsWithinWords
                     if (!WordsWithinWord.Contains(newWord))
                     {
                         WordsWithinWord.Add(newWord);
-                    }                    
+                    }
                 }
                 else
                 {
@@ -78,6 +78,32 @@ namespace WordsWithinWords
 
         public List<WordWithinWord> WordsWithinWordsRecursive = new List<WordWithinWord>();
 
+
+        public List<string> GetClusters()
+        {
+            var cluster = new List<string>();
+            cluster.Add(this.Word);
+
+            foreach (var w in this.WordsWithinWordsRecursive)
+            {
+                if (!cluster.Contains(w.Word))
+                {
+                    cluster.Add(w.Word);
+                }
+
+                var subcluster = w.GetClusters();
+                foreach (var s in subcluster)
+                {
+                    if (!cluster.Contains(s))
+                    {
+                        cluster.Add(s);
+                    }
+                }
+            }
+
+            return cluster;
+        }
+
         public List<string> GetWordChain()
         {
             var mostDeepWord = this;
@@ -97,6 +123,7 @@ namespace WordsWithinWords
                     {
                         deepWords.Add(wordsWithin);
                     }
+
                     d = 0;
                     break;
                 }
