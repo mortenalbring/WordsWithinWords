@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace WordsWithinWords
+namespace WordsWithinWords.Analysers
 {
     public class AnalyserSwapper : Analyser, IAnalyser
     {

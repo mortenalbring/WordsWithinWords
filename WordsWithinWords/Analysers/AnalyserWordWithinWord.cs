@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace WordsWithinWords
+namespace WordsWithinWords.Analysers
 {
     public class AnalyserWordWithinWord : Analyser, IAnalyser
     {

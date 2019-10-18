@@ -1,4 +1,4 @@
-﻿namespace WordsWithinWords
+﻿namespace WordsWithinWords.Analysers
 {
     public enum AnalysisType
     {

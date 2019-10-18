@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace WordsWithinWords
+namespace WordsWithinWords.Analysers
 {
     public class AnalyserRecursive : Analyser, IAnalyser
     {
@@ -13,8 +13,8 @@ namespace WordsWithinWords
             this._language = language;
         }
 
-        private Language _language;
-        private List<WordWithinWord> WordWithinWords = new List<WordWithinWord>();
+        private readonly Language _language;
+        private List<WordWithinWord> _wordWithinWords = new List<WordWithinWord>();
 
         public void Start()
         {
@@ -31,23 +31,21 @@ namespace WordsWithinWords
                 }
 
                 var wwr = new WordWithinWord(word, WordSet);
-                WordWithinWords.Add(wwr);
+                _wordWithinWords.Add(wwr);
                 Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
             }
-
-
+            
             Sw.Stop();
             Sw.Restart();
 
             DoRecursiveWords();
-
-
+            
             Console.WriteLine($"Writing output {OutputPath}");
 
 
-            WordWithinWords = WordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
+            _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
 
-            foreach (var word in WordWithinWords)
+            foreach (var word in _wordWithinWords)
             {
                 var str = word.Depth + "\t" + word.Word + "\t";
                 var wordChain = word.GetWordChain();
@@ -68,7 +66,7 @@ namespace WordsWithinWords
         private void DoRecursiveWords()
         {
             var wdict = new Dictionary<string, WordWithinWord>();
-            foreach (var w in WordWithinWords)
+            foreach (var w in _wordWithinWords)
             {
                 if (w.HasAny)
                 {
@@ -96,7 +94,7 @@ namespace WordsWithinWords
             }
 
 
-            WordNodesAndEdges.Build(this._language, WordWithinWords, Dictionaries);
+            WordNodesAndEdges.Build(this._language, _wordWithinWords, Dictionaries);
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
             AppendOutput($"{wdepthList.Count:N0} word chains found");
