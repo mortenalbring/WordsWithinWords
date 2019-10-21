@@ -93,14 +93,10 @@ namespace WordsWithinWords.Analysers
                     alreadyNoted.Add(c);
                 }
 
-                if (cluster.Count > biggestCluster.Count)
-                {
-                    biggestCluster = cluster;
-                    biggestClusterWord = dictKey;
-                }
+               
             }
 
-            var topClusters = clusterInfo.OrderByDescending(e => e.Value.Count).ToDictionary(e => e.Key, e => e.Value).Take(5);
+            var topClusters = clusterInfo.OrderByDescending(e => e.Value.Count).ToDictionary(e => e.Key, e => e.Value).Take(10);
             var interestingClusters = new List<WordWithinWord>();
             
             foreach (var t in topClusters)

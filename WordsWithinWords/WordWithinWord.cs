@@ -78,7 +78,6 @@ namespace WordsWithinWords
 
         public List<WordWithinWord> WordsWithinWordsRecursive = new List<WordWithinWord>();
 
-
         public List<string> GetClusters()
         {
             var cluster = new List<string>();
