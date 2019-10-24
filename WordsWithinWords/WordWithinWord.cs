@@ -78,14 +78,14 @@ namespace WordsWithinWords
 
         public List<WordWithinWord> WordsWithinWordsRecursive = new List<WordWithinWord>();
 
-        public List<string> GetWordList(int maxLength)
+        public HashSet<string> GetWordList(int minLength)
         {
-            var cluster = new List<string>();
+            var cluster = new HashSet<string>();
             cluster.Add(Word);
 
             foreach (var w in this.WordsWithinWordsRecursive)
             {
-                if (w.Word.Length < maxLength)
+                if (w.Word.Length < minLength)
                 {
                     continue;
                 }
@@ -95,7 +95,7 @@ namespace WordsWithinWords
                     cluster.Add(w.Word);
                 }
 
-                var subcluster = w.GetWordList(maxLength);
+                var subcluster = w.GetWordList(minLength);
                 foreach (var s in subcluster)
                 {
                     if (!cluster.Contains(s))

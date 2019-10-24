@@ -73,15 +73,17 @@ namespace WordsWithinWords.Analysers
             Console.WriteLine("Finding clusters");
        
        
-            var sortedWords = _wordWithinWords.Where(e => e.WordsWithinWordsRecursive.Count > 0).OrderByDescending(e => e.Word.Length).Take(10000).ToList();
+            var sortedWords = _wordWithinWords.Where(e => e.WordsWithinWordsRecursive.Count > 0).OrderByDescending(e => e.Word.Length).ToList();
 
-            var clusterLists = new List<List<string>>();
-            var i = 0; 
+            //var clusterLists = new List<List<string>>();
+            var i = 0;
+
+            var clusterLists = new HashSet<HashSet<string>>();
             
             foreach (var word in sortedWords)
             {
-                var wordList = word.GetWordList(4);
-                var matchingCluster = new List<string>();
+                var wordList = word.GetWordList(1);
+                var matchingCluster = new HashSet<string>();
 
                 var newCluster = true;
                 
@@ -105,12 +107,9 @@ namespace WordsWithinWords.Analysers
                 
                 if (!newCluster)
                 {
-                    foreach (var w in wordList)
+                    foreach (var w in wordList.Where(w => !matchingCluster.Contains(w)))
                     {
-                        if (!matchingCluster.Contains(w))
-                        {
-                            matchingCluster.Add(w);
-                        }
+                        matchingCluster.Add(w);
                     }
                 }
                 if (newCluster)
@@ -122,18 +121,15 @@ namespace WordsWithinWords.Analysers
                 i++;
 
                 var longestCluster = clusterLists.Max(e => e.Count);
-                if (clusterLists.Count > 10)
-                {
-                    break;
-                }
-                Console.WriteLine($"{longestCluster} longest cluster found, {clusterLists.Count} total clusters");
+                
+                Console.WriteLine($"{i} / {sortedWords.Count} {longestCluster} longest cluster found, {clusterLists.Count} total clusters");
             }
             
             var clusterNum = clusterLists.Count;
 
 
 
-            var topClusters = clusterLists.OrderByDescending(e => e.Count).Take(10).ToList();
+            var topClusters = clusterLists.OrderByDescending(e => e.Count).ToList();
             var interestingClusters = new List<WordWithinWord>();
 
             var g = 0;
