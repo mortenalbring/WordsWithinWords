@@ -19,10 +19,7 @@ namespace WordsWithinWords
             var sw = new Stopwatch();
             sw.Start();
             
-            wordWithinWords = wordWithinWords.Where(e => e.Word.Length > 5).ToList();
-
-          //  wordWithinWords = wordWithinWords.Where(e => e.Depth > 2).OrderByDescending(e => e.Depth).Take(10).ToList();
-
+            
             var nodeDict = new Dictionary<string, WordNode>();
 
             var wordOutput = MakeWordOutput(wordWithinWords, nodeDict, sw);
@@ -107,6 +104,7 @@ namespace WordsWithinWords
                 var word = wordWithinWords[i];
 
                 var node = new WordNode();
+                node.Group = word.Group.ToString();
                 
                 var exists = nodesSet.FirstOrDefault(e => e.id == word.Word);
                 if (exists != null)

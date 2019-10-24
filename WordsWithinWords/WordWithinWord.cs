@@ -78,19 +78,24 @@ namespace WordsWithinWords
 
         public List<WordWithinWord> WordsWithinWordsRecursive = new List<WordWithinWord>();
 
-        public List<string> GetClusters()
+        public List<string> GetWordList(int maxLength)
         {
             var cluster = new List<string>();
             cluster.Add(Word);
 
             foreach (var w in this.WordsWithinWordsRecursive)
             {
+                if (w.Word.Length < maxLength)
+                {
+                    continue;
+                }
+                
                 if (!cluster.Contains(w.Word))
                 {
                     cluster.Add(w.Word);
                 }
 
-                var subcluster = w.GetClusters();
+                var subcluster = w.GetWordList(maxLength);
                 foreach (var s in subcluster)
                 {
                     if (!cluster.Contains(s))
@@ -134,5 +139,7 @@ namespace WordsWithinWords
 
             return deepWords;
         }
+        
+        public int Group { get; set; }
     }
 }
