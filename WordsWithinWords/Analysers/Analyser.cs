@@ -34,7 +34,7 @@ namespace WordsWithinWords.Analysers
 
         protected Dictionaries Dictionaries { get; set; }
 
-        private Language Language { get; }
+        protected Language Language { get; }
         protected string OutputPath { get; }
 
         protected HashSet<string> WordSet { get; set; }

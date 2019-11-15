@@ -475,3 +475,6 @@ MigrationBackup/
 # End of https://www.gitignore.io/api/aspnetcore,visualstudio
 WordsWithinWords/Output/*.json
 WordsWithinWords/Output/*.txt
+WordsWithinWords/Output/*.json
+WordsWithinWords/Output/EnglishSowpodsClusterJsonSerial.xml
+WordsWithinWords/Output/*.xml

@@ -42,28 +42,44 @@ namespace WordsWithinWords.Analysers
             DoRecursiveWords();
 
 
-            FindClusteredWords();
+            //FindClusteredWords();
+
+            var deepest = _wordWithinWords.Select(e => e.Depth).Max();
+            var deepestWords = _wordWithinWords.Where(e => e.Depth == deepest).ToList();
 
 
             Console.WriteLine($"Writing output {OutputPath}");
 
             _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
 
+            var deepWordChain = new List<WordWithinWord>();
+            var g = 1;
             foreach (var word in _wordWithinWords)
             {
                 var str = word.Depth + "\t" + word.Word + "\t";
                 var wordChain = word.GetWordChain();
-
-                foreach (var w in wordChain)
+                var wordHashShet = new HashSet<string>();
+                foreach (var wc in wordChain)
                 {
-                    str = str + w + "\t";
+                    wordHashShet.Add(wc);
                 }
 
-                str += "\n";
+                string parentWord = word.Word;
+                foreach (var wc in wordChain)
+                {
+                    var ww = new WordWithinWord(wc,wordHashShet);
+                    ww.Group = g;
+                    deepWordChain.Add(ww);
+                }
+                
+                word.Group = g;
+                deepWordChain.Add(word);
 
-                File.AppendAllText(OutputPath, str, Encoding.UTF8);
+                g++;
+                // File.AppendAllText(OutputPath, str, Encoding.UTF8);
             }
 
+            WordNodesAndEdges.Build(Language, deepWordChain, Dictionaries, "deepwordchain");
 
             Console.WriteLine($"Done writing output {OutputPath}");
         }
@@ -71,22 +87,22 @@ namespace WordsWithinWords.Analysers
         private void FindClusteredWords()
         {
             Console.WriteLine("Finding clusters");
-       
-       
+
+
             var sortedWords = _wordWithinWords.Where(e => e.WordsWithinWordsRecursive.Count > 0).OrderByDescending(e => e.Word.Length).ToList();
 
             //var clusterLists = new List<List<string>>();
             var i = 0;
 
             var clusterLists = new HashSet<HashSet<string>>();
-            
+
             foreach (var word in sortedWords)
             {
                 var wordList = word.GetWordList(1);
                 var matchingCluster = new HashSet<string>();
 
                 var newCluster = true;
-                
+
                 foreach (var w in wordList)
                 {
                     foreach (var c in clusterLists)
@@ -104,7 +120,7 @@ namespace WordsWithinWords.Analysers
                         break;
                     }
                 }
-                
+
                 if (!newCluster)
                 {
                     foreach (var w in wordList.Where(w => !matchingCluster.Contains(w)))
@@ -112,6 +128,7 @@ namespace WordsWithinWords.Analysers
                         matchingCluster.Add(w);
                     }
                 }
+
                 if (newCluster)
                 {
                     matchingCluster = wordList;
@@ -121,12 +138,11 @@ namespace WordsWithinWords.Analysers
                 i++;
 
                 var longestCluster = clusterLists.Max(e => e.Count);
-                
+
                 Console.WriteLine($"{i} / {sortedWords.Count} {longestCluster} longest cluster found, {clusterLists.Count} total clusters");
             }
-            
-            var clusterNum = clusterLists.Count;
 
+            var clusterNum = clusterLists.Count;
 
 
             var topClusters = clusterLists.OrderByDescending(e => e.Count).ToList();
@@ -144,11 +160,9 @@ namespace WordsWithinWords.Analysers
 
                 g++;
             }
-            
-         
-            WordNodesAndEdges.Build(_language, interestingClusters, Dictionaries, "ClusterJson");
 
-        
+
+            WordNodesAndEdges.Build(_language, interestingClusters, Dictionaries, "ClusterJson");
         }
 
 
@@ -183,7 +197,7 @@ namespace WordsWithinWords.Analysers
             }
 
 
-          //  WordNodesAndEdges.Build(this._language, _wordWithinWords, Dictionaries, "WordNodesRecursiveJson");
+            // WordNodesAndEdges.Build(this._language, _wordWithinWords, Dictionaries, "WordNodesRecursiveJson");
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
             AppendOutput($"{wdepthList.Count:N0} word chains found");

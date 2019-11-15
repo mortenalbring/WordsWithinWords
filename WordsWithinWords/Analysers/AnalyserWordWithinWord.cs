@@ -27,8 +27,17 @@ namespace WordsWithinWords.Analysers
             Console.WriteLine($"Writing output {OutputPath}");
 
             File.WriteAllText(OutputPath, "");
-            _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.WordsWithinWord.Count).ToList();
+            var maxCount = _wordWithinWords.Select(e => e.WordsWithinWord.Count).Max();
+            _wordWithinWords = _wordWithinWords.Where(e => e.WordsWithinWord.Count == maxCount).ToList();
 
+            
+            for (int i = 0; i < _wordWithinWords.Count; i++)
+            {
+                _wordWithinWords[i].Group = i + 1;
+
+            }
+            WordNodesAndEdges.Build(Language, _wordWithinWords, Dictionaries, "simplechain.json");
+            
             WriteTopSummaryText();
 
             WriteTopWordsOutput();

@@ -22,7 +22,7 @@ namespace WordsWithinWords
             
             var nodeDict = new Dictionary<string, WordNode>();
 
-            var wordOutput = MakeWordOutput(wordWithinWords, nodeDict, sw);
+            var wordOutput = MakeWordOutput(wordWithinWords, sw);
 
             var sh = new SerialHelper();
             sh.SerializeObject(wordOutput,xmlOutput);
@@ -94,7 +94,7 @@ namespace WordsWithinWords
             }
         }
 
-        private static WordOutput MakeWordOutput(List<WordWithinWord> wordWithinWords, Dictionary<string, WordNode> nodeDict, Stopwatch sw)
+        private static WordOutput MakeWordOutput(List<WordWithinWord> wordWithinWords, Stopwatch sw)
         {
             var edgeSet = new HashSet<WordEdge>();
             var nodesSet = new HashSet<WordNode>();
@@ -134,7 +134,8 @@ namespace WordsWithinWords
                     }
                     else
                     {
-                        subNode.id = subWord;    
+                        subNode.id = subWord;
+                        subNode.Group = word.Group.ToString();
                     }
 
                     if (!nodesSet.Contains(subNode))
@@ -173,7 +174,7 @@ namespace WordsWithinWords
             {
                 index++;
                 
-                var str = "{ \"id\": \"" + node.id + "\", \"group\":1}";
+                var str = "{ \"id\": \"" + node.id + "\", \"group\":" + node.Group + "}";
 
                 if (index < wordOutput.nodes.Count)
                 {
