@@ -478,3 +478,4 @@ WordsWithinWords/Output/*.txt
 WordsWithinWords/Output/*.json
 WordsWithinWords/Output/EnglishSowpodsClusterJsonSerial.xml
 WordsWithinWords/Output/*.xml
+WordsWithinWords/Output/*.txt
