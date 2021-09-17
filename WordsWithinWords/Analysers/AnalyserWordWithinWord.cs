@@ -28,7 +28,7 @@ namespace WordsWithinWords.Analysers
 
             File.WriteAllText(OutputPath, "");
             var maxCount = _wordWithinWords.Select(e => e.WordsWithinWord.Count).Max();
-            _wordWithinWords = _wordWithinWords.Where(e => e.WordsWithinWord.Count == maxCount).ToList();
+          //  _wordWithinWords = _wordWithinWords.Where(e => e.WordsWithinWord.Count == maxCount).ToList();
 
             
             for (int i = 0; i < _wordWithinWords.Count; i++)
@@ -36,7 +36,7 @@ namespace WordsWithinWords.Analysers
                 _wordWithinWords[i].Group = i + 1;
 
             }
-            WordNodesAndEdges.Build(Language, _wordWithinWords, Dictionaries, "simplechain.json");
+//           WordNodesAndEdges.Build(Language, _wordWithinWords, Dictionaries, "simplechain.json");
             
             WriteTopSummaryText();
 
@@ -111,6 +111,32 @@ namespace WordsWithinWords.Analysers
             outstrs.Add(outstr2);
             outstrs.Add(outstr3);
 
+            var lenDict = new Dictionary<int, int>();
+            foreach (var w in _wordWithinWords)
+            {
+                
+                var lengths = w.WordsWithinWord.Select(e => e.Length).Distinct().ToList();
+
+                foreach (var l in lengths)
+                {
+                    if (lenDict.ContainsKey(l))
+                    {
+                        lenDict[l] = lenDict[l] + 1;
+                    }
+                    else
+                    {
+                        lenDict.Add(l,1);
+                    }
+                }
+                
+                var len = 2;
+            }
+            outstrs.Add("Length of words within words");
+            foreach (var ld in lenDict)
+            {
+                outstrs.Add(ld.Key + "\t" + ld.Value);
+            }
+            
             File.AppendAllLines(OutputPath, outstrs, Encoding.UTF8);
         }
     }

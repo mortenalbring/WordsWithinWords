@@ -26,7 +26,7 @@ namespace WordsWithinWords.Analysers
             foreach (var word in WordSet)
             {
                 index++;
-                if (word.Length <= 4)
+                if (word.Length <= 1)
                 {
                     continue;
                 }
@@ -50,7 +50,7 @@ namespace WordsWithinWords.Analysers
 
             Console.WriteLine($"Writing output {OutputPath}");
 
-            _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
+           // _wordWithinWords = _wordWithinWords.OrderByDescending(e => e.Depth).Take(10).ToList();
 
             var deepWordChain = new List<WordWithinWord>();
             var g = 1;
@@ -197,27 +197,90 @@ namespace WordsWithinWords.Analysers
             }
 
 
+            var hasAll = _wordWithinWords.Where(e => e.HasAll).OrderByDescending(e => e.Word.Length).ToList();
+            var doubleHasAll = new List<WordWithinWord>();
+
+            Dictionary<WordWithinWord,int> GrandChildCount = new Dictionary<WordWithinWord,int>();
+            var mostGrandChildren = 0;
+            WordWithinWord MostgrandWords;
+            
+            foreach (var w in _wordWithinWords)
+            {
+                var grandChildCount = 0;
+                
+                if (w.WordsWithinWordsRecursive.Count == 0)
+                {
+                    continue;
+                }
+                foreach (var ww in w.WordsWithinWordsRecursive)
+                {
+                    grandChildCount = ww.WordsWithinWordsRecursive.Count;
+                }
+
+                GrandChildCount.Add(w,grandChildCount);
+            }
+
+            var mostGrandChildrenKey = GrandChildCount.OrderByDescending(e => e.Value).Select(e => e.Value).First();
+            var mostGrandChildrenVals = GrandChildCount.Where(e => e.Value == mostGrandChildrenKey).Select(e => e.Key).ToList(); 
+
+            var xxx = 42;
+
             // WordNodesAndEdges.Build(this._language, _wordWithinWords, Dictionaries, "WordNodesRecursiveJson");
 
             var wdepthList = wdict.Values.Where(e => e.Depth > 0).Select(e => e).OrderByDescending(e => e.Depth).ToList();
+            
+            
+            
             AppendOutput($"{wdepthList.Count:N0} word chains found");
 
-            wdepthList = wdepthList.Where(e => e.Depth > 2).ToList();
+          //  wdepthList = wdepthList.Where(e => e.Depth == 8).ToList();
 
-            foreach (var word in wdepthList)
+            var wdepthlev9 = wdepthList.Where(e => e.Depth == 9).ToList();
+            var wdepthlev8 = wdepthList.Where(e => e.Depth == 8).ToList();
+            
+            var chainWords9 = new List<WordWithinWord>();
+            var chainWords8 = new List<WordWithinWord>();
+
+            var g = 0;
+            foreach (var word in wdepthlev9)
             {
                 var wordChain = word.GetWordChain();
+                foreach (var c in wordChain)
+                {
+                    var w = _wordWithinWords.FirstOrDefault(e => e.Word == c);
+                    w.Group = g;
+                    chainWords9.Add(w);
+                }
 
+                g++;
+                
                 var wordChainOutput = wordChain.Count + "\t" + word.Word + "\t" + string.Join(",", wordChain) + "\n";
-
-                //File.AppendAllText(OutputPath, word.Word + "\t" + string.Join(",", wordChain) + "\n", Encoding.UTF8);
-
-
-                //AppendOutput(wordChainOutput);
-
-
-                // Console.WriteLine(word.Word + "\t" + string.Join(",", wordChain));
+                AppendOutput(wordChainOutput);
             }
+            WordNodesAndEdges.Build(this._language, chainWords9, Dictionaries, "WordChainEnglishSowpods20210914Depth9");
+            
+            foreach (var word in wdepthlev8)
+            {
+                var wordChain = word.GetWordChain();
+                foreach (var c in wordChain)
+                {
+                    if (chainWords9.Select(e => e.Word).ToList().Contains(c))
+                    {
+                        continue;
+                    }
+                    var w = _wordWithinWords.FirstOrDefault(e => e.Word == c);
+                    w.Group = g;
+                    chainWords8.Add(w);
+                }
+
+                g++;
+                
+                var wordChainOutput = wordChain.Count + "\t" + word.Word + "\t" + string.Join(",", wordChain) + "\n";
+                AppendOutput(wordChainOutput);
+            }
+            WordNodesAndEdges.Build(this._language, chainWords8, Dictionaries, "WordChainEnglishSowpods20210914Depth8");
+
+            
 
 
             Console.WriteLine("Done");

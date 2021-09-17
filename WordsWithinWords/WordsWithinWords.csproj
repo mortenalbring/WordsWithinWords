@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Analysers\Analyser.cs" />
     <Compile Include="Analysers\AnalyserAlphabetical.cs" />
+    <Compile Include="Analysers\AnalyserChildren.cs" />
     <Compile Include="Analysers\AnalyserDistribution.cs" />
     <Compile Include="Analysers\AnalyserRecursive.cs" />
     <Compile Include="Analysers\AnalyserSwapper.cs" />

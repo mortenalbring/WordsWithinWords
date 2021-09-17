@@ -25,9 +25,11 @@ namespace WordsWithinWords
             //Analyser.GetAnalyser(wordLists, AnalysisType.Alphabetical, Language.EnglishGeneral).Start();
             //Analyser.GetAnalyser(wordLists, AnalysisType.WordsWithinWordsRecursive, Language.EnglishSowpods).Start();
             
-            //Analyser.GetAnalyser(wordLists,AnalysisType.WordsWithinWords,Language.Norwegian).Start();
-            Analyser.GetAnalyser(wordLists,AnalysisType.WordsWithinWordsRecursive,Language.EnglishSowpods).Start();
+            //Analyser.GetAnalyser(wordLists,AnalysisType.WordsWithinWordsRecursive,Language.EnglishSowpods).Start();
+            Analyser.GetAnalyser(wordLists,AnalysisType.WordsWithinWordsChildren,Language.EnglishSowpods).Start();
+            //Analyser.GetAnalyser(wordLists,AnalysisType.WordsWithinWordsRecursive,Language.EnglishSowpods).Start();
             
+//            Analyser.GetAnalyser(wordLists,AnalysisType.WordGrid,Language.EnglishSowpods).Start();
 
             Console.WriteLine("All done");
             Console.ReadLine();

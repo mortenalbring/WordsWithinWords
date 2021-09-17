@@ -4,6 +4,7 @@
     {
         WordsWithinWords,
         WordsWithinWordsRecursive,
+        WordsWithinWordsChildren,
         Alphabetical,
         SwappedLetters,
         LengthDistribution

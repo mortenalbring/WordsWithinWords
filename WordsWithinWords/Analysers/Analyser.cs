@@ -49,6 +49,8 @@ namespace WordsWithinWords.Analysers
                     return new AnalyserWordWithinWord(wordLists, language);
                 case AnalysisType.WordsWithinWordsRecursive:
                     return new AnalyserRecursive(wordLists, language);
+                case AnalysisType.WordsWithinWordsChildren:
+                    return new AnalyserChildren(wordLists, language);
                 case AnalysisType.Alphabetical:
                     return new AnalyserAlphabetical(wordLists, language);
                 case AnalysisType.SwappedLetters:
