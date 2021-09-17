@@ -77,16 +77,15 @@ namespace WordsWithinWords.Analysers
             }
 
 
-            var mostNChildren1 = GetMostNChildren(1);
-            var mostNChildren1List = GetSingleNChildrenList(mostNChildren1, 1);
+            for (int j = 1; j < 10; j++)
+            {
+                var mostNChildren1 = GetMostNChildren(j);
+                var mostNChildren1List = GetSingleNChildrenList(mostNChildren1, j);
 
-            WordNodesAndEdges.Build(this._language, mostNChildren1List, Dictionaries, "mostNChildren1");
-
-            var mostNChildren2 = GetMostNChildren(3);
-            var mostNChildren2List = GetSingleNChildrenList(mostNChildren2, 3);
-
-            WordNodesAndEdges.Build(this._language, mostNChildren2List, Dictionaries, "mostNChildren2");
-
+                WordNodesAndEdges.Build(this._language, mostNChildren1List, Dictionaries, "mostNChildren" + j);
+                
+            }
+            
             
             var wordsWithMostChildren = GetMostChildren();
             var wordsWithMostGrandchildren = GetMostGrandchildren();
