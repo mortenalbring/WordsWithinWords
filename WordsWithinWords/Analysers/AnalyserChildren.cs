@@ -40,7 +40,7 @@ namespace WordsWithinWords.Analysers
             Sw.Restart();
 
             FindChildren();
-            
+
 
             Console.WriteLine($"Done writing output {OutputPath}");
         }
@@ -77,21 +77,24 @@ namespace WordsWithinWords.Analysers
             }
 
 
-
-            
             var mostNChildren1 = GetMostNChildren(1);
-            var mostNChildren1List = GetSingleNChildrenList(mostNChildren1);
-            
+            var mostNChildren1List = GetSingleNChildrenList(mostNChildren1, 1);
+
             WordNodesAndEdges.Build(this._language, mostNChildren1List, Dictionaries, "mostNChildren1");
+
+            var mostNChildren2 = GetMostNChildren(3);
+            var mostNChildren2List = GetSingleNChildrenList(mostNChildren2, 3);
+
+            WordNodesAndEdges.Build(this._language, mostNChildren2List, Dictionaries, "mostNChildren2");
+
             
             var wordsWithMostChildren = GetMostChildren();
             var wordsWithMostGrandchildren = GetMostGrandchildren();
             var wordsWithMostGreatGrandchildren = GetMostGreatGrandchildren();
-            
+
             WordNodesAndEdges.Build(this._language, wordsWithMostChildren, Dictionaries, "MostChildren");
             WordNodesAndEdges.Build(this._language, wordsWithMostGrandchildren, Dictionaries, "MostGrandChildren");
             WordNodesAndEdges.Build(this._language, wordsWithMostGreatGrandchildren, Dictionaries, "MostGreatGrandChildren");
-            
         }
 
         private List<WordWithinWord> GetMostChildren()
@@ -102,7 +105,6 @@ namespace WordsWithinWords.Analysers
 
             foreach (var w in _wordWithinWords)
             {
-
                 if (w.WordsWithinWordsRecursive.Count == 0)
                 {
                     continue;
@@ -126,19 +128,17 @@ namespace WordsWithinWords.Analysers
                     builtOutput.Add(ww);
                 }
             }
-            
+
             return builtOutput;
         }
 
-        private List<WordWithinWord> GetSingleNChildrenList(Dictionary<WordWithinWord, List<WordWithinWord>> wordDict)
+        private List<WordWithinWord> GetSingleNChildrenList(Dictionary<WordWithinWord, List<WordWithinWord>> wordDict, int maxDepth)
         {
             var mostDescedents = wordDict.Select(e => e.Value.Count).Max();
-            
-            
 
             var mostList = new List<WordWithinWord>();
             var mostUniqueCount = 0;
-            
+
             foreach (var d in wordDict)
             {
                 var unq = d.Value.Select(e => e.Word).Distinct().ToList().Count;
@@ -154,49 +154,68 @@ namespace WordsWithinWords.Analysers
                 if (unq == mostUniqueCount)
                 {
                     mostList.Add(d.Key);
-                    foreach (var v in d.Value)
-                    {
-                        v.WordsWithinWordsRecursive.Clear();
-                        mostList.Add(v);
-                    }
-                    //mostList.AddRange(d.Value);
                 }
             }
+
+            var outputList = new List<WordWithinWord>();
+            foreach (var m in mostList)
+            {
+                m.Group = 1;
+                outputList.Add(m);
+                var subwords = DoGetList2(m, 0, maxDepth);
+                outputList.AddRange(subwords);
+            }
+
             //var mostList = wordDict.Where(e => e.Value.Count == mostDescedents).Select(e => e.Key).ToList();
 
-            return mostList;
+            return outputList;
         }
+
         private Dictionary<WordWithinWord, List<WordWithinWord>> GetMostNChildren(int maxDepth)
         {
             var output = new List<WordWithinWord>();
             Dictionary<WordWithinWord, List<WordWithinWord>> childCount = new Dictionary<WordWithinWord, List<WordWithinWord>>();
+
+
             foreach (var w in _wordWithinWords)
             {
-         //       var count = DoGet(w, 0, 1);
                 var descendantWords = DoGetList(w, 0, maxDepth);
-                var count2 = descendantWords.Select(e => e.Word).Distinct().ToList().Count;
 
-                childCount.Add(w,descendantWords);
+                childCount.Add(w, descendantWords);
             }
-            
 
-            
+
             return childCount;
         }
 
+        private List<WordWithinWord> DoGetList2(WordWithinWord word, int depth, int maxDepth)
+        {
+            var output = new List<WordWithinWord>();
+            word.Group = depth + 1;
+            if (depth < maxDepth)
+            {
+                foreach (var w in word.WordsWithinWordsRecursive)
+                {
+                    w.Group = depth + 2;
+                    output.Add(w);
+
+                    var subout = DoGetList2(w, depth + 1, maxDepth);
+                    foreach (var s in subout)
+                    {
+                        output.Add(s);
+                    }
+                }
+            }
+
+            return output;
+        }
 
         private List<WordWithinWord> DoGetList(WordWithinWord word, int depth, int maxDepth)
         {
             word.Group = depth;
-            
+
             var output = word.WordsWithinWordsRecursive.ToList();
-            if (depth == maxDepth)
-            {
-                foreach (var o in output)
-                {
-                    o.WordsWithinWord.Clear();
-                }
-            }
+
             if (depth < maxDepth)
             {
                 foreach (var w in word.WordsWithinWordsRecursive)
@@ -210,23 +229,6 @@ namespace WordsWithinWords.Analysers
             return output;
         }
 
-        private int DoGet(WordWithinWord word, int depth, int maxDepth)
-        {
-            var count = 0;
-            count = word.WordsWithinWordsRecursive.Count;
-
-            if (depth < maxDepth)
-            {
-                foreach (var w in word.WordsWithinWordsRecursive)
-                {
-                    var subCount = DoGet(w, depth + 1, maxDepth);
-                        count = count + subCount;
-                }
-            }
-
-            return count;
-        }
-        
         private List<WordWithinWord> GetMostGreatGrandchildren()
         {
             Dictionary<WordWithinWord, int> GrandChildCount = new Dictionary<WordWithinWord, int>();
@@ -238,8 +240,8 @@ namespace WordsWithinWords.Analysers
                 var grandChildCount = 0;
 
                 var grandChildrenNames = new List<string>();
-                
-                
+
+
                 if (w.WordsWithinWordsRecursive.Count == 0)
                 {
                     continue;
@@ -249,12 +251,11 @@ namespace WordsWithinWords.Analysers
                 {
                     foreach (var www in ww.WordsWithinWordsRecursive)
                     {
-
                         foreach (var wwww in www.WordsWithinWordsRecursive)
                         {
                             if (!grandChildrenNames.Contains(wwww.Word))
                             {
-                                grandChildrenNames.Add(wwww.Word);    
+                                grandChildrenNames.Add(wwww.Word);
                             }
                         }
                     }
@@ -264,19 +265,18 @@ namespace WordsWithinWords.Analysers
                 grandChildCount = grandChildrenNames.Count;
                 GrandChildCount.Add(w, grandChildCount);
             }
-            
+
             var mostGrandChildrenKey = GrandChildCount.OrderByDescending(e => e.Value).Select(e => e.Value).First();
 
             for (int i = 0; i <= mostGrandChildrenKey; i++)
             {
                 var countList = GrandChildCount.Where(e => e.Value == i).ToList();
                 Console.WriteLine(i + "\t" + countList.Count);
-
             }
 
             var xx = 42;
-            
-            
+
+
             var mostGrandChildrenVals = GrandChildCount.Where(e => e.Value == mostGrandChildrenKey).Select(e => e.Key).ToList();
 
             var builtOutput = new List<WordWithinWord>();
@@ -302,6 +302,7 @@ namespace WordsWithinWords.Analysers
             var xxx = 42;
             return builtOutput;
         }
+
         private List<WordWithinWord> GetMostGrandchildren()
         {
             Dictionary<WordWithinWord, int> GrandChildCount = new Dictionary<WordWithinWord, int>();
@@ -313,8 +314,8 @@ namespace WordsWithinWords.Analysers
                 var grandChildCount = 0;
 
                 var grandChildrenNames = new List<string>();
-                
-                
+
+
                 if (w.WordsWithinWordsRecursive.Count == 0)
                 {
                     continue;
@@ -326,9 +327,8 @@ namespace WordsWithinWords.Analysers
                     {
                         if (!grandChildrenNames.Contains(www.Word))
                         {
-                            grandChildrenNames.Add(www.Word);    
+                            grandChildrenNames.Add(www.Word);
                         }
-                        
                     }
                     //grandChildCount = grandChildCount + ww.WordsWithinWordsRecursive.Count;
                 }
@@ -337,20 +337,18 @@ namespace WordsWithinWords.Analysers
                 GrandChildCount.Add(w, grandChildCount);
             }
 
-            
-            
+
             var mostGrandChildrenKey = GrandChildCount.OrderByDescending(e => e.Value).Select(e => e.Value).First();
 
             for (int i = 0; i <= mostGrandChildrenKey; i++)
             {
                 var countList = GrandChildCount.Where(e => e.Value == i).ToList();
                 Console.WriteLine(i + "\t" + countList.Count);
-
             }
 
             var xx = 42;
-            
-            
+
+
             var mostGrandChildrenVals = GrandChildCount.Where(e => e.Value == mostGrandChildrenKey).Select(e => e.Key).ToList();
 
             var builtOutput = new List<WordWithinWord>();
