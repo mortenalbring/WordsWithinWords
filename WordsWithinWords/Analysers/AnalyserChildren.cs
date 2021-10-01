@@ -35,19 +35,7 @@ namespace WordsWithinWords.Analysers
                 _wordWithinWords.Add(wwr);
                 Progress.OutputTimeRemaining(index, WordSet.Count, Sw);
             }
-
-            Sw.Stop();
-            Sw.Restart();
-
-            FindChildren();
-
-
-            Console.WriteLine($"Done writing output {OutputPath}");
-        }
-
-
-        private void FindChildren()
-        {
+            
             var wdict = new Dictionary<string, WordWithinWord>();
             foreach (var w in _wordWithinWords)
             {
@@ -77,13 +65,78 @@ namespace WordsWithinWords.Analysers
             }
 
 
-            for (int j = 1; j < 10; j++)
+            Sw.Stop();
+            Sw.Restart();
+
+            FindParents();
+          //  FindChildren();
+
+
+            Console.WriteLine($"Done writing output {OutputPath}");
+        }
+
+
+        private void FindParents()
+        {
+            var output = new List<WordWithinWordParent>();
+
+            var output2 = new Dictionary<string, List<string>>();
+            
+            foreach (var w in _wordWithinWords)
+            {
+                foreach (var www in w.WordsWithinWordsRecursive)
+                {
+                    
+                    var elem = 
+                    
+                    var ww = new WordWithinWordParent(www);
+                    var exists = output.FirstOrDefault(e => e.Word == www.Word);
+                    if (exists != null)
+                    {
+                        var pexists = exists.Parents.FirstOrDefault(e => e.Word == w.Word);
+                        if (pexists != null)
+                        {
+                            exists.Parents.Add(w);    
+                        }
+                    }
+                    else
+                    {
+                        ww.Parents = new List<WordWithinWord>();
+                        ww.Parents.Add(w);
+                        output.Add(ww);
+                    }
+
+                }
+
+            }
+            
+            var mostParents = 0;
+            WordWithinWordParent mostParentsWord;
+            
+            foreach (var o in output)
+            {
+                if (o.Parents.Count > mostParents)
+                {
+                    mostParents = o.Parents.Count;
+                    mostParentsWord = o;
+                }
+            }
+        }
+        
+        private void FindChildren()
+        {
+           
+
+            
+            for (int j = 1; j < 20; j++)
             {
                 var mostNChildren1 = GetMostNChildren(j);
+                var infoDict = new Dictionary<int, int>();
                 var mostNChildren1List = GetSingleNChildrenList(mostNChildren1, j);
-
+                
                 WordNodesAndEdges.Build(this._language, mostNChildren1List, Dictionaries, "mostNChildren" + j);
                 
+                Console.WriteLine(j + "\t" + mostNChildren1List.Count);
             }
             
             
@@ -133,8 +186,6 @@ namespace WordsWithinWords.Analysers
 
         private List<WordWithinWord> GetSingleNChildrenList(Dictionary<WordWithinWord, List<WordWithinWord>> wordDict, int maxDepth)
         {
-            var mostDescedents = wordDict.Select(e => e.Value.Count).Max();
-
             var mostList = new List<WordWithinWord>();
             var mostUniqueCount = 0;
 

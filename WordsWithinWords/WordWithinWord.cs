@@ -5,8 +5,23 @@ using System.Threading;
 
 namespace WordsWithinWords
 {
+    public class WordWithinWordParent : WordWithinWord
+    {
+        private WordWithinWord WordWithinWord;
+        public WordWithinWordParent(WordWithinWord word)
+        {
+            this.WordWithinWord = word;
+        }
+
+        public List<WordWithinWord> Parents = new List<WordWithinWord>();
+    }
+
     public class WordWithinWord
     {
+        protected WordWithinWord()
+        {
+        }
+
         public WordWithinWord(string word, HashSet<string> wordSet)
         {
             Word = word;
@@ -57,9 +72,9 @@ namespace WordsWithinWords
                 // items and groups, so find the maximum depth of any subgroups,
                 // and add 1.
                 return WordsWithinWordsRecursive.OfType<WordWithinWord>()
-                           .Select(x => x.Depth)
-                           .DefaultIfEmpty() // 0 if we have no subgroups
-                           .Max() + 1;
+                    .Select(x => x.Depth)
+                    .DefaultIfEmpty() // 0 if we have no subgroups
+                    .Max() + 1;
             }
         }
 
@@ -89,7 +104,7 @@ namespace WordsWithinWords
                 {
                     continue;
                 }
-                
+
                 if (!cluster.Contains(w.Word))
                 {
                     cluster.Add(w.Word);
@@ -139,7 +154,7 @@ namespace WordsWithinWords
 
             return deepWords;
         }
-        
+
         public int Group { get; set; }
     }
 }
